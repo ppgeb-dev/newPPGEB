@@ -1,0 +1,312 @@
+/* ===== DOCENTES CSS OTIMIZADO ===== */
+
+/* Container principal */
+.docentes-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    padding-top: 120px;
+}
+
+/* Títulos das seções */
+.section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--dark-text);
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid var(--primary-blue);
+}
+
+/* Seções de docentes */
+.docentes-section {
+    margin-bottom: 4rem;
+}
+
+/* Grid dos docentes */
+.docentes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+/* Card moderno com email na parte inferior (ESTILO PRINCIPAL) */
+.docente-card.moderno-com-email {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 16px;
+    padding: 0;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    overflow: visible;
+    border: 1px solid var(--border-light);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+.docente-card.moderno-com-email:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary-blue);
+}
+
+/* Parte superior do card */
+.docente-card-superior {
+    display: flex;
+    align-items: center;
+    padding: 1.1rem 2rem 0.6rem 6rem;
+    position: relative;
+    flex: 1;
+}
+
+/* Wrapper da foto com posicionamento absoluto */
+.docente-card.moderno-com-email .docente-foto-wrapper {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: visible;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #fff;
+    background: #f0f0f0;
+}
+
+/* Foto do docente */
+.docente-card.moderno-com-email .docente-foto-modern {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Badge de status sobre a foto */
+.status-badge {
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.4rem 0.8rem;
+    border-radius: 12px;
+    font-size: 0.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border: 2px solid white;
+    z-index: 10;
+    transition: all 0.3s ease;
+}
+
+.status-badge.coordenador {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.9), rgba(5, 150, 105, 0.5));
+    color: white;
+}
+
+.status-badge.vice-coordenador {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.9), rgba(37, 99, 235, 0.5));
+    color: white;
+}
+
+/* Animação hover no badge */
+.docente-card:hover .status-badge {
+    transform: translateX(-50%) translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Conteúdo do docente */
+.docente-card.moderno-com-email .docente-conteudo {
+    margin-left: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+/* Nome do docente */
+.docente-card.moderno-com-email .docente-nome-modern {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--dark-text);
+    margin: 0;
+    line-height: 1.3;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Botão do Currículo Lattes */
+.docente-card.moderno-com-email .botao-cv-outline {
+    border: 2px solid var(--primary-blue);
+    color: var(--primary-blue);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    align-self: flex-start;
+}
+
+.docente-card.moderno-com-email .botao-cv-outline:hover {
+    background-color: var(--primary-blue);
+    color: white;
+    transform: translateY(-1px);
+}
+
+/* Email na parte inferior */
+.docente-email-inferior {
+    background: var(--primary-blue);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.botao-email-completo-inferior {
+    display: block;
+    width: 100%;
+    background: var(--primary-blue);
+    color: white;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: none;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+/* Loading message */
+.loading-message {
+    text-align: center;
+    padding: 2rem;
+    color: var(--medium-text);
+    font-style: italic;
+}
+
+/* Animações de entrada */
+.docente-card.moderno-com-email {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+.docente-card.moderno-com-email:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.docente-card.moderno-com-email:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.docente-card.moderno-com-email:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===== RESPONSIVIDADE ===== */
+
+/* Tablets */
+@media (max-width: 768px) {
+    .docentes-container {
+        padding: 1rem;
+        padding-top: 100px;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .docentes-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .docente-card.moderno-com-email {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .docente-card-superior {
+        flex-direction: column;
+        padding: 1.5rem 1.5rem 1rem 1.5rem; /* Reduzido o padding superior */
+        align-items: center;
+    }
+    
+    .docente-card.moderno-com-email .docente-foto-wrapper {
+        position: relative; /* Mudança importante para o badge funcionar */
+        margin-bottom: 1rem;
+        width: 120px;
+        height: 120px;
+        top: 0; /* Reset do posicionamento absoluto */
+        left: 0; /* Reset do posicionamento absoluto */
+    }
+    
+    .docente-card.moderno-com-email .docente-conteudo {
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .docente-card.moderno-com-email .botao-cv-outline {
+        align-self: center;
+    }
+    
+    .botao-email-completo-inferior {
+        font-size: 0.85rem;
+        padding: 0.6rem 0.8rem;
+        word-break: break-all;
+    }
+    
+    /* Badge responsivo - mantém posicionamento relativo à foto */
+    .status-badge {
+        font-size: 0.55rem;
+        padding: 0.3rem 0.6rem;
+        bottom: -6px;
+        /* Mantém o posicionamento relativo à foto wrapper */
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .docente-card-superior {
+        padding: 1rem 1rem 1rem 1rem; /* Padding ainda menor no mobile */
+    }
+    
+    .docente-card.moderno-com-email .docente-nome-modern {
+        font-size: 1.1rem;
+    }
+    
+    .docente-card.moderno-com-email .botao-cv-outline {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+    }
+    
+    .botao-email-completo-inferior {
+        font-size: 0.8rem;
+        padding: 0.5rem 0.6rem;
+    }
+    
+    .status-badge {
+        font-size: 0.5rem;
+        padding: 0.25rem 0.5rem;
+        bottom: -5px;
+    }
+}

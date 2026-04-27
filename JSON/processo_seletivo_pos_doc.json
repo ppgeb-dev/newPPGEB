@@ -1,0 +1,46 @@
+{
+  "folder": "pos_doc",
+  "2022-2": {
+    "regulares": [
+      {
+        "arquivo": "prorrogacao_edital_pos_doc_sei_unifesp_1346376_edital.pdf",
+        "titulo": "Prorrogação do Edital",
+        "texto": "Prorrogação do edital de seleção de bolsista de Pós-doutorado Capes - PDPG_PDO"
+      },
+      {
+        "arquivo": "resultado_primeira_fase_1346376_edital.pdf",
+        "titulo": "Resultado da Primeira Fase",
+        "texto": "Candidatos aprovados para a segunda fase"
+      },
+      {
+        "arquivo": "agenda_segunda_fase_1346376_edital.pdf",
+        "titulo": "Agenda da Segunda Fase",
+        "texto": "Agenda para candidatos aprovados para a segunda fase"
+      },
+      {
+        "arquivo": "resultado_1346376_edital.pdf",
+        "titulo": "Resultado Final",
+        "texto": "Candidato aprovado no processo seletivo"
+      }
+    ]
+  },
+  "2024-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_posdoc_2024-01_sei_unifesp_1346376_retificado.pdf",
+        "titulo": "Edital Retificado",
+        "texto": "Emenda de abertura de edital de seleção de bolsista de Pós-doutorado Capes - PDPG_PDO"
+      },
+      {
+        "arquivo": "edital_137_2024_resultado_primeira_fase.pdf",
+        "titulo": "Resultado da Primeira Fase",
+        "texto": "Candidatos aprovados para a segunda fase"
+      },
+      {
+        "arquivo": "edital_137_2024_posdoc_pdpg_2024_resultado_final.pdf",
+        "titulo": "Resultado Final",
+        "texto": "Candidata aprovada no processo seletivo"
+      }
+    ]
+  }
+}

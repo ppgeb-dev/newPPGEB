@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsletter PPG Engenharia Biomédica - UNIFESP</title>
+
+  <!-- Estilos Globais do Site -->
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/nav.css">
+
+  <!-- Estilos Específicos da Newsletter -->
+  <link rel="stylesheet" href="newslatter/styles.css">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Exo:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <style>
+    /* Ajustes para o header específico da newsletter */
+    .header {
+      background: white !important;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .header-nav-right {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .back-home {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+      color: var(--primary-blue-dark);
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+    }
+
+    .back-home:hover {
+      color: var(--primary-blue-light);
+    }
+
+    .arrow-back {
+      font-size: 1.4rem;
+      font-weight: 400;
+      line-height: 1;
+    }
+
+    .menu-pill {
+      display: flex !important;
+      align-items: center;
+      gap: 0.75rem;
+      background: rgba(30, 64, 175, 0.08);
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 100px;
+      color: var(--primary-blue-dark);
+      font-weight: 700;
+      font-size: 1.05rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .menu-pill:hover {
+      background: rgba(30, 64, 175, 0.15);
+      transform: translateY(-1px);
+    }
+
+    .menu-pill .icon-menu {
+      font-size: 1.2rem;
+    }
+
+    /* Ajuste para o conteúdo não ficar sob o header fixo */
+    #newsletter-content {
+      margin-top: 72px; /* Altura padrão do header */
+    }
+
+    .newsletter-header-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .header-top-row {
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+    }
+
+    .header-bottom-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      padding-top: 1.5rem;
+    }
+    
+    .newsletter-title-block {
+      text-align: center;
+      flex: 1;
+    }
+    
+    .newsletter-title-block h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      color: var(--primary-blue-dark);
+      line-height: 1.2;
+    }
+    
+
+
+    .edition-selector-container {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .edition-label {
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: var(--primary-blue-dark);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .newsletter-header-container .custom-select-wrapper {
+      width: 250px;
+    }
+
+    .newsletter-header-container .semester-select {
+      padding: 0.6rem 2.5rem 0.6rem 1rem;
+      font-size: 1.1rem;
+      font-weight: 700;
+      height: auto;
+      border: 2px solid var(--primary-blue-light);
+      border-radius: 12px;
+      background-color: white;
+      color: var(--primary-blue-dark);
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+      transition: all 0.3s ease;
+    }
+
+    .newsletter-header-container .semester-select:hover {
+      border-color: var(--primary-blue);
+      box-shadow: 0 6px 16px rgba(59, 130, 246, 0.25);
+      transform: translateY(-1px);
+    }
+
+    .newsletter-image-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 2.5rem 0;
+      width: 100%;
+    }
+
+    .newsletter-image-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      display: block;
+    }
+
+    .newsletter-image-large {
+      width: 100%;
+    }
+
+    .newsletter-image-medium {
+      width: 70%;
+    }
+
+    .newsletter-image-small {
+      width: 40%;
+    }
+
+    .newsletter-image-caption {
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      color: var(--secondary-gray);
+      font-style: italic;
+      text-align: center;
+      max-width: 80%;
+      line-height: 1.4;
+    }
+
+    @media (max-width: 768px) {
+      .newsletter-image-medium, 
+      .newsletter-image-small {
+        width: 100%;
+      }
+
+      .header-bottom-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+
+      .newsletter-edition-info {
+        text-align: left;
+      }
+
+      .newsletter-title-block h1 {
+        font-size: 1.8rem;
+      }
+    }
+
+    /* Forçar cor branca nos botões CTA */
+    .btn-primary, .btn-secondary {
+      color: white !important;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header Global -->
+  <header class="header">
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="imgs/logo.png" alt="Logo PPGEB" class="logo-img">
+        </a>
+      </div>
+
+      <button class="mobile-menu-btn" id="mobile-menu-btn">
+        <span>☰</span>
+      </button>
+
+      <nav class="nav" id="nav"></nav>
+    </div>
+  </header>
+
+  <main id="newsletter-content" class="container">
+    <!-- O conteúdo será injetado aqui pelo JavaScript -->
+  </main>
+
+  <!-- Scripts -->
+  <script src="JS/newsletter.js"></script>
+  <script src="JS/menu.js"></script>
+  <script src="JS/script.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      // Inicializa o gerenciador da newsletter apontando para a pasta 'newslatter/'
+      const menuManager = new MenuManager('newslatter/');
+      await menuManager.init();
+
+      // Carrega o menu global do site
+      if (typeof carregarMenu === 'function') {
+        carregarMenu("S");
+      }
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="robots" content="noindex">
+    
+    <title>Docentes - PPGEB UNIFESP - Programa de Pós-Graduação em Engenharia Biomédica</title>
+   
+
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/nav.css">    
+    <link rel="stylesheet" href="styles/docentes.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img alt="Logo PPGEB" class="logo-img" src="imgs/logo.png" />
+            </div>
+
+            <nav class="nav" id="nav"></nav>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <span>☰</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+
+    <main class="features-2">
+        <div class="docentes-container">
+            <!-- Header da Página -->
+            <div class="titles mt-0" id="areas">
+                <h1>Docentes do Programa</h1>
+                <p>Conheça o corpo docente do Programa de Pós-Graduação em Engenharia Biomédica da UNIFESP</p>
+            </div>
+
+            <!-- Docentes Permanentes -->
+            <section class="docentes-section">
+                <h2 class="section-title">
+                    Docentes Permanentes
+                </h2>
+
+                <div class="docentes-grid" id="docentes-permanentes-grid">
+                    <div class="loading-message">
+                        <p>Carregando docentes...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Docentes Colaboradores -->
+            <section class="docentes-section">
+                <h2 class="section-title">
+                    Docentes Colaboradores
+                </h2>
+
+                <div class="docentes-grid" id="docentes-colaboradores-grid">
+                    <div class="loading-message">
+                        <p>Carregando docentes...</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <!-- JavaScript -->
+    <script src="JS/docentes.js"></script> <!-- Novo script que mantém a estética -->
+    <script src="JS/menu.js"></script>
+    <script src="JS/script.js"></script>
+
+    <script>
+        carregarMenu("S");    
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+[
+  {
+    "text": "Home",
+    "link": "index.html#inicio",
+    "class": "",
+    "target": "",
+    "tipo": "P"
+  },
+  {
+    "text": "Áreas",
+    "link": "index.html#areas",
+    "class": "",
+    "target": "",
+    "tipo": "P"
+  },
+  {
+    "text": "Linhas",
+    "link": "index.html#linhas",
+    "class": "",
+    "target": "",
+    "tipo": "P"
+  },
+  {
+    "text": "Egresso",
+    "link": "index.html#egresso",
+    "class": "",
+    "target": "",
+    "tipo": "P"
+  },
+  {
+    "text": "Contato",
+    "link": "index.html#contato",
+    "class": "",
+    "target": "",
+    "tipo": "P"
+  },
+  {
+    "text": "<span class='arrow-menu-back'>&#x276E;</span>Voltar para Home",
+    "link": "index.html",
+    "class": "",
+    "target": "",
+    "tipo": "S"
+  },
+  {
+    "text": "<span class='arrow-menu-down'>&#x276E;</span> Menu",
+    "link": "",
+    "class": "link-highlight",
+    "target": "",
+    "tipo": "A",
+    "children": [
+      {
+        "text": "Processos Seletivos",
+        "link": "",
+        "class": "",
+        "target": "",
+        "children": [
+          {
+            "text": "Alunos Regulares/Especiais",
+            "link": "processoSeletivo.html",
+            "class": "",
+            "target": ""
+          },
+          {
+            "text": "Pesquisadores de Pós-Doutorado",
+            "link": "processoSeletivoPosDoc.html",
+            "class": "",
+            "target": ""
+          }
+        ]
+      },
+      {
+        "text": "Disciplinas",
+        "link": "",
+        "class": "",
+        "target": "",
+        "children": [
+          {
+            "text": "Ementas",
+            "link": "disciplinas.html",
+            "class": "",
+            "target": ""
+          },
+          {
+            "text": "Oferta de Disciplinas",
+            "link": "oferta_disciplinas.html",
+            "class": "",
+            "target": ""
+          }
+        ]
+      },
+      {
+        "text": "Calendários",
+        "link": "",
+        "class": "",
+        "target": "",
+        "children": [
+          {
+            "text": "Calendário do Programa",
+            "link": "agenda_ppgeb.html",
+            "class": "",
+            "target": ""
+          },
+          {
+            "text": "Agenda de Defesas",
+            "link": "agenda_defesas.html",
+            "class": "",
+            "target": ""
+          }
+        ]
+      },
+      {
+        "text": "Docentes do Programa",
+        "link": "docentes.html",
+        "class": "",
+        "target": ""
+      },
+      {
+        "text": "Comissão de PG",
+        "link": "comissao.html",
+        "class": "",
+        "target": ""
+      },
+      {
+        "text": "Regimentos e Documentação",
+        "link": "regimentos.html",
+        "class": "",
+        "target": ""
+      },
+      {
+        "text": "Seminarios em EngBio",
+        "link": "seminarios.html",
+        "class": "",
+        "target": ""
+      },
+      {
+        "text": "Auto Avaliação",
+        "link": "autoavaliacao.html",
+        "class": "",
+        "target": ""
+      },
+      {
+        "text": "Repositório de Dissertações",
+        "link": "https://hdl.handle.net/11600/61100",
+        "class": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Newsletter",
+        "link": "newsletter.html",
+        "class": "",
+        "target": ""
+      }
+    ]
+  }
+]

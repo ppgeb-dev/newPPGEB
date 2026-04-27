@@ -1,0 +1,458 @@
+/* Estilos específicos para a página de Agenda de Defesas */
+
+/* Main Content */
+.main-content {
+    padding: 3rem 0 4rem;
+    background: var(--white);
+}
+
+/* Selection Section */
+.selection-section {
+    background: var(--lighter-gray);
+    border-radius: 16px;
+    padding-top: 1rem;   
+    text-align: center;
+}
+
+
+.semester-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.semester-selector label {
+    font-weight: 600;
+    color: var(--dark-text);
+    font-size: 1rem;
+}
+
+
+.semester-select:hover {
+    border-color: var(--primary-blue-light);
+}
+
+/* Defenses Section */
+.defenses-section {
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.semester-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.semester-title h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary-blue);
+    position: relative;
+    display: inline-block;
+}
+
+.semester-title h1::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: var(--primary-blue);
+    border-radius: 2px;
+}
+
+/* Defense Category - REMOVIDO O CONTAINER */
+.defense-category {
+    /* Removido: background, border-radius, box-shadow, etc. */
+    margin-bottom: 2rem;
+}
+
+/* REMOVIDO: category-header styles */
+.category-header {
+    display: none; /* Esconde completamente o cabeçalho */
+}
+
+.header-container-docs {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.icon-docs {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+}
+
+.category-header h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Lista de Defesas - ADICIONADO ESPAÇAMENTO */
+.defenses-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem; /* Espaçamento entre cada defense-item */
+}
+
+
+
+
+.defense-item {
+    background: white;
+    border-radius: 20px;
+    padding: 2.5rem;
+    border: 1px solid var(--border-light);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.defense-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--gradient-blue);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.defense-item:hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px var(--shadow-medium);
+    border-color: var(--primary-blue);
+}
+
+.defense-item:hover::before {
+    transform: translateX(0);
+}
+
+
+
+
+
+
+.defense-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.defense-date {
+    background: var(--primary-blue);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+    min-width: fit-content;
+}
+
+.defense-time {
+    background: var(--accent-cyan);
+    color: var(--white);
+    padding: 0.4rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.defense-content {
+    flex: 1;
+}
+
+.defense-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--dark-text);
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.defense-student {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-blue);
+    margin-bottom: 0.75rem;
+}
+
+.defense-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+.defense-location {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--medium-text);
+    font-weight: 500;
+}
+
+.defense-location::before {
+    content: '📍';
+    font-size: 0.8rem;
+}
+
+.defense-modality {
+    padding: 0.3rem 0.8rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.defense-modality.presencial {
+    background: rgba(5, 150, 105, 0.1);
+    color: var(--primary-green);
+    border: 1px solid rgba(5, 150, 105, 0.3);
+}
+
+.defense-modality.videoconferencia {
+    background: rgba(30, 64, 175, 0.1);
+    color: var(--primary-blue);
+    border: 1px solid rgba(30, 64, 175, 0.3);
+    transition: all 0.3s ease;
+}
+
+.defense-modality.videoconferencia:hover {
+    background: var(--primary-blue);
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 2px 8px rgba(30, 64, 175, 0.3);
+}
+
+.defense-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--primary-blue);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    margin-top: 0.75rem;
+}
+
+.defense-link:hover {
+    background: var(--primary-blue-dark);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
+    color: white;
+}
+
+.defense-link::before {
+    content: '🔗';
+    font-size: 0.8rem;
+}
+
+/* No Defenses - TAMBÉM COMO CARD */
+.no-defenses {
+    background: var(--white);
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    color: var(--medium-text);
+    font-style: italic;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border: 1px solid var(--border-light);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-content {
+        padding: 2rem 0 3rem;
+    }
+    
+    .selection-section {
+        padding: 1.5rem;
+    }
+    
+    .semester-selector {
+        max-width: 100%;
+    }
+    
+    .category-header {
+        padding: 1.25rem 1.5rem;
+    }
+    
+    .defense-item {
+        padding: 1.25rem 1.5rem;
+    }
+    
+    .defense-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+    
+    .defense-date {
+        align-self: flex-start;
+    }
+    
+    .defense-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .defense-link {
+        align-self: flex-start;
+        margin-top: 0.5rem;
+    }
+    
+    /* Reduz o gap entre cards no mobile */
+    .defenses-list {
+        gap: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .semester-title h1 {
+        font-size: 1.5rem;
+    }
+    
+    .category-header h2 {
+        font-size: 1.1rem;
+    }
+    
+    .defense-title {
+        font-size: 1rem;
+    }
+    
+    .defense-date {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+    }
+    
+    .defense-time {
+        font-size: 0.75rem;
+        padding: 0.3rem 0.6rem;
+    }
+    
+    .defense-item {
+        padding: 1rem 1.25rem;
+    }
+}
+
+/* Animações */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.selection-section,
+.defenses-section {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+.selection-section {
+    animation-delay: 0.1s;
+}
+
+.defenses-section {
+    animation-delay: 0.2s;
+}
+
+.defense-item {
+    animation: fadeInUp 0.4s ease-out;
+}
+
+.defense-item:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.defense-item:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.defense-item:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.defense-item:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+/* Melhorias de acessibilidade */
+.defense-item:focus,
+.defense-link:focus {
+    outline: 2px solid var(--primary-blue);
+    outline-offset: 2px;
+}
+
+.defense-item:focus:not(:focus-visible),
+.defense-link:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/* Print styles */
+@media print {
+    .header,
+    .selection-section,
+    .footer {
+        display: none;
+    }
+    
+    .main-content {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .defense-category {
+        box-shadow: none;
+        border: 1px solid #ccc;
+        margin-bottom: 1rem;
+        page-break-inside: avoid;
+    }
+    
+    .defense-item {
+        border-bottom: 1px solid #ddd;
+        page-break-inside: avoid;
+    }
+    
+    .defense-item:hover {
+        background: none !important;
+        transform: none !important;
+    }
+    
+    .defense-link {
+        background: none !important;
+        color: var(--primary-blue) !important;
+        border: 1px solid var(--primary-blue) !important;
+    }
+    
+    .defense-date,
+    .defense-time {
+        background: none !important;
+        color: var(--dark-text) !important;
+        border: 1px solid #ccc !important;
+    }
+}

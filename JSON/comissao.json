@@ -1,0 +1,130 @@
+{"atual": {
+    "titulo": "Comissão de Ensino de Pós-Graduação (CEPG: atual formação)",
+    "membros": [
+      {
+        "nome": "Prof. Dr. Thiago Martini Pereira",
+        "cargo": "Coordenador do Programa"
+      },
+      {
+        "nome": "Prof. Dr. Matheus Cardoso Moraes",
+        "cargo": "Vice-coordenador do Programa"
+      },
+      {
+        "nome": "Prof. Dr. Adenauer Girardi Casali",
+        "cargo": "Representante docente"
+      },
+      {
+        "nome": "Prof. Dr. Henrique Mohallem Paiva",
+        "cargo": "Representante docente"
+      },
+      {
+        "nome": "Isadora Bernardes Sequalini",
+        "cargo": "Representante discente titular (2025 - 2026)"
+      }
+    ]
+  },
+  "2022-2025": {
+    "titulo": "Comissão de Ensino de Pós-Graduação (CEPG: atual formação)",
+    "membros": [
+      {
+        "nome": "Prof. Dr. Thiago Martini Pereira",
+        "cargo": "Coordenador do Programa"
+      },
+      {
+        "nome": "Prof. Dr. Matheus Cardoso Moraes",
+        "cargo": "Vice-coordenador do Programa"
+      },
+      {
+        "nome": "Prof. Dr. Fabio Gava Aoki",
+        "cargo": "Representante docente"
+      },
+      {
+        "nome": "Prof. Dr. Henrique Mohallem Paiva",
+        "cargo": "Representante docente"
+      },
+      {
+        "nome": "Paloma Gonçalves",
+        "cargo": "Representante discente titular (2022 - 2023)"
+      },
+      {
+        "nome": "Prof. Dr. Henrique Alves de Amorim",
+        "cargo": "Primeiro suplente docente"
+      }
+    ]
+  },
+  "2019-2022": {
+    "titulo": "Formação da CEPG no período de 2019 a 2022:",
+    "membros": [
+      {
+        "nome": "Prof. Dr. Adenauer Girardi Casali",
+        "cargo": "Coordenador do Programa"
+      },
+      {
+        "nome": "Prof. Dr. Henrique Alves de Amorim",
+        "cargo": "Vice-coordenador do Programa"
+      },
+      {
+        "nome": "Profa. Dra. Karina Rabello Casali",
+        "cargo": "Representante docente"
+      },
+      {
+        "nome": "Profa. Dra. Regiane Albertini de Carvalho",
+        "cargo": "Representante docente"
+      },
+      {
+        "nome": "Bruno Andry Nascimento Couto",
+        "cargo": "Representante discente titular (2021 - 2022)"
+      },
+      {
+        "nome": "Catarina Cardoso Reis",
+        "cargo": "Representante discente titular (2019 - 2021)"
+      },
+      {
+        "nome": "Profa. Dra. Tatiana Sousa Cunha",
+        "cargo": "Primeiro suplente docente"
+      },
+      {
+        "nome": "Prof. Dr. Thiago Martini Pereira",
+        "cargo": "Segundo suplente docente"
+      },
+      {
+        "nome": "Andre Moreira Cardoso",
+        "cargo": "Representante discente suplente (2021 - 2022)"
+      }
+    ]
+  },
+  "2016-2019": {
+    "titulo": "Formação da CEPG no período de 2016 a 2019:",
+    "membros": [
+      {
+        "nome": "Prof. Dr. Henrique Alves de Amorim",
+        "cargo": "Coordenador do Programa"
+      },
+      {
+        "nome": "Prof. Dr. Jean Faber Ferreira de Abreu",
+        "cargo": "Vice-coordenador do Programa"
+      },
+      {
+        "nome": "Prof. Dr. Matheus Cardoso Moraes",
+        "cargo": "Representante docente"
+      },
+      {
+        "nome": "Prof. Dr. Adenauer Girardi Casali",
+        "cargo": "Representante docente"
+      },
+      {
+        "nome": "Daniel Aparecido Vital",
+        "cargo": "Representante discente"
+      },
+      {
+        "nome": "Prof. Dr. Edson Giuliani Ramos Fernandes",
+        "cargo": "Primeiro suplente docente"
+      },
+      {
+        "nome": "Profa. Dra. Karina Rabello Casali",
+        "cargo": "Segundo suplente docente"
+      }
+    ]
+  }
+}
+

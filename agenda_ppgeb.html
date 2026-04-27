@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="robots" content="noindex">
+    <title>Agenda Acadêmica - PPGEB UNIFESP</title>
+   
+    
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/agenda_ppgeb.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header header-blue-bg">
+        <div class="header-container">
+            <div class="logo">
+                <img alt="Logo PPGEB" class="logo-img" src="imgs/logo.png" />
+            </div>
+
+            <nav class="nav" id="nav"></nav>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <span>☰</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="pt-m features-2" style="margin-top:2rem!important;">
+        <div class="container">
+            <!-- Page Header -->
+            <section class="page-header-section">
+                <div class="selection-header">
+                    <h2>Calendário Acadêmico</h2>
+                    <p>Cronograma de eventos e atividades acadêmicas do programa<br><spna class="text-bold">O calendário será atualizado ao decorrer do ano</spna></p>
+                </div>
+            </section>
+
+            <!-- Calendar Section -->
+            <section class="calendar-section" id="calendarSection">
+                <div class="">
+                    <div class="titles" id="areas" style="margin-top: 1.5rem;">
+                        <h1 id="semesterTitle">2025</h1>
+                    </div>
+                </div>
+
+                <!-- Monthly Events -->
+                <div class="calendar-category">                 
+                    <div class="months-list">
+                        <div class="no-events">
+                            <p>Carregando calendário acadêmico...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+
+    <!-- JavaScript -->
+    <script src="JS/menu.js"></script>
+    <script src="JS/script.js"></script>
+    <script src="JS/agenda_ppgeb.js"></script>
+
+
+    <script>
+        carregarMenu("S");    
+    </script>
+
+
+</body>
+
+</html>

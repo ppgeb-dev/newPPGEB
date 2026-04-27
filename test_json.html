@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teste JSON</title>
+</head>
+<body>
+    <h1>Teste de Carregamento</h1>
+    <div id="resultado"></div>
+    
+    <script>
+        console.log("Iniciando teste...");
+        
+        fetch("JSON/processo_seletivo_pos_doc.json")
+            .then(response => {
+                console.log("Response status:", response.status);
+                console.log("Response ok:", response.ok);
+                return response.json();
+            })
+            .then(data => {
+                console.log("Dados carregados:", data);
+                document.getElementById("resultado").innerHTML = 
+                    "<pre>" + JSON.stringify(data, null, 2) + "</pre>";
+            })
+            .catch(error => {
+                console.error("ERRO ao carregar JSON:", error);
+                document.getElementById("resultado").innerHTML = 
+                    "<p style='color:red'>ERRO: " + error.message + "</p>";
+            });
+    </script>
+</body>
+</html>

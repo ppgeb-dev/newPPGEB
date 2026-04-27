@@ -1,0 +1,349 @@
+/* Estilos específicos para a página de Disciplinas */
+
+
+
+/* Modifica estilo do styles.css */
+.titles{
+    margin-top: 1rem!important;
+}
+
+
+/* Main Content */
+.main-content {
+    padding: 3rem 0 4rem;
+    background: var(--white);
+}
+
+/* Disciplinas Section */
+.disciplinas-section {
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+/* Disciplina Category */
+.disciplina-category {
+    background: var(--white);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px var(--shadow-light);
+    overflow: hidden;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.disciplina-category:hover {
+    /* transform: translateY(-2px); */
+    box-shadow: 0 8px 30px var(--shadow-medium);
+}
+
+/* Category Headers */
+.category-header {
+    background: var(--primary-blue);
+    color: var(--white);
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.category-header-orange {
+    background: var(--accent-orange) !important;
+}
+
+.category-header-green {
+    background: var(--primary-green) !important;
+}
+
+.header-container-docs {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.icon-docs {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+}
+
+.category-header h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Credits Badge */
+.credits-badge {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Category Content */
+.category-content {
+    padding: 2rem;
+}
+
+.category-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--medium-text);
+    margin-bottom: 1.5rem;
+}
+
+/* Link Container */
+.link-container {
+    margin-top: 1.5rem;
+}
+
+.ementa-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--primary-blue-mute);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;    
+}
+
+.ementa-link:hover {
+    background: var(--primary-blue-dark);
+    /* transform: translateY(-2px); */
+    box-shadow: 0 4px 12px rgba(0, 113, 227, 0.3);
+    color: white;
+}
+
+/* Disciplinas List */
+.disciplinas-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.disciplinas-list li {
+    position: relative;
+    padding: 0.75rem 0 0.75rem 2rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-light);
+    color: var(--dark-text);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.disciplinas-list li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.disciplinas-list li::before {
+    content: '▶';
+    position: absolute;
+    left: 0;
+    top: 0.75rem;
+    color: var(--primary-blue);
+    font-size: 0.8rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.disciplinas-list li:hover {
+    /* padding-left: 2.5rem; */
+    color: var(--primary-blue);
+}
+
+
+
+/* Specific Category Colors */
+.general-info .category-header {
+    background: var(--primary-blue);
+}
+
+.obligatory .category-header {
+    background: var(--accent-orange);
+}
+
+.leveling .category-header {
+    background: var(--primary-blue);
+}
+
+.bioengenharia .category-header {
+    background: var(--primary-green);
+}
+
+.instrumentacao .category-header {
+    background: var(--primary-blue);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-content {
+        padding: 2rem 0 3rem;
+    }
+    
+    .category-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1.25rem 1.5rem;
+    }
+    
+    .header-container-docs {
+        gap: 0.5rem;
+    }
+    
+    .category-header h2 {
+        font-size: 1.1rem;
+    }
+    
+    .credits-badge {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+        align-self: flex-end;
+        margin-top: 0.5rem;
+    }
+    
+    .category-content {
+        padding: 1.5rem;
+    }
+    
+    .disciplinas-list li {
+        padding: 0.6rem 0 0.6rem 1.5rem;
+        font-size: 0.95rem;
+    }
+    
+    .disciplinas-list li::before {
+        top: 0.6rem;
+    }
+    
+    .ementa-link {
+        font-size: 0.9rem;
+        padding: 0.6rem 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .category-header {
+        padding: 1rem 1.25rem;
+    }
+    
+    .category-header h2 {
+        font-size: 1rem;
+        line-height: 1.3;
+    }
+    
+    .credits-badge {
+        font-size: 0.75rem;
+        padding: 0.3rem 0.6rem;
+    }
+    
+    .category-content {
+        padding: 1.25rem;
+    }
+    
+    .category-content p {
+        font-size: 0.95rem;
+    }
+    
+    .disciplinas-list li {
+        font-size: 0.9rem;
+        padding: 0.5rem 0 0.5rem 1.25rem;
+    }
+    
+    .disciplinas-list li::before {
+        top: 0.5rem;
+        font-size: 0.7rem;
+    }
+    
+    .ementa-link {
+        font-size: 0.85rem;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+/* Animações */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.disciplina-category:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.disciplina-category:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.disciplina-category:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.disciplina-category:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.disciplina-category:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+/* Melhorias de acessibilidade */
+/* .disciplina-category:focus-within {
+    outline: 2px solid var(--primary-blue);
+    outline-offset: 2px;
+}
+
+.ementa-link:focus {
+    outline: 2px solid var(--primary-blue-light);
+    outline-offset: 2px;
+}
+
+.ementa-link:focus:not(:focus-visible) {
+    outline: none;
+} */
+
+/* Print styles */
+@media print {
+    .header,
+    .footer {
+        display: none;
+    }
+    
+    .main-content {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .disciplina-category {
+        box-shadow: none;
+        border: 1px solid #ccc;
+        margin-bottom: 1rem;
+        page-break-inside: avoid;
+    }
+    
+    .category-header {
+        background: #f5f5f5 !important;
+        color: #333 !important;
+    }
+    
+    .disciplinas-list li:hover {
+        padding-left: 2rem;
+        color: var(--dark-text);
+    }
+}
+
+

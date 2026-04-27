@@ -1,0 +1,589 @@
+{
+  "folder": "processos_seletivos",
+  "2017-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Resultado - Alunos Regulares",
+        "texto": "Resultado final do processo seletivo para Alunos Regulares"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Edital - Alunos Especiais",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Especiais"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Resultado - Alunos Especiais",
+        "texto": "Resultado final do processo seletivo para Alunos Especiais"
+      }
+    ]
+  },
+  "2017-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Resultado - Alunos Regulares",
+        "texto": "Resultado final do processo seletivo para Alunos Regulares"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Edital - Alunos Especiais",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Especiais"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Resultado - Alunos Especiais",
+        "texto": "Resultado final do processo seletivo para Alunos Especiais"
+      }
+    ]
+  },
+  "2018-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Resultado - Alunos Regulares",
+        "texto": "Resultado final do processo seletivo para Alunos Regulares"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Edital - Alunos Especiais",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Especiais"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Resultado - Alunos Especiais",
+        "texto": "Resultado final do processo seletivo para Alunos Especiais"
+      }
+    ]
+  },
+  "2018-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Resultado - Alunos Regulares",
+        "texto": "Resultado final do processo seletivo para Alunos Regulares"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Edital - Alunos Especiais",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Especiais"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Resultado - Alunos Especiais",
+        "texto": "Resultado final do processo seletivo para Alunos Especiais"
+      }
+    ]
+  },
+  "2019-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Resultado - Alunos Regulares",
+        "texto": "Resultado final do processo seletivo para Alunos Regulares"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Edital - Alunos Especiais",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Especiais"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Resultado - Alunos Especiais",
+        "texto": "Resultado final do processo seletivo para Alunos Especiais"
+      }
+    ]
+  },
+  "2019-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Resultado - Alunos Regulares",
+        "texto": "Resultado final do processo seletivo para Alunos Regulares"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Edital - Alunos Especiais",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Especiais"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Resultado - Alunos Especiais",
+        "texto": "Resultado final do processo seletivo para Alunos Especiais"
+      }
+    ]
+  },
+  "2020-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Resultado - Alunos Regulares",
+        "texto": "Resultado final do processo seletivo para Alunos Regulares"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Edital - Alunos Especiais",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Especiais"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Resultado - Alunos Especiais",
+        "texto": "Resultado final do processo seletivo para Alunos Especiais"
+      }
+    ]
+  },
+  "2020-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Resultado - Alunos Regulares",
+        "texto": "Resultado final do processo seletivo para Alunos Regulares"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Edital - Alunos Especiais",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Especiais"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Resultado - Alunos Especiais",
+        "texto": "Resultado final do processo seletivo para Alunos Especiais"
+      }
+    ]
+  },
+  "2021-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Anexos do Edital",
+        "texto": "Anexo ao edital para Alunos Regulares"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Resultado - Alunos Regulares",
+        "texto": "Resultado final do processo seletivo para Alunos Regulares"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Edital - Alunos Especiais",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Especiais"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Resultado - Alunos Especiais",
+        "texto": "Resultado final do processo seletivo para Alunos Especiais"
+      }
+    ]
+  },
+  "2021-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Anexos do Edital",
+        "texto": "Anexo ao edital para Alunos Regulares"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Resultado - Alunos Regulares",
+        "texto": "Resultado final do processo seletivo para Alunos Regulares"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Edital - Alunos Especiais",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Especiais"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Resultado - Alunos Especiais",
+        "texto": "Resultado final do processo seletivo para Alunos Especiais"
+      }
+    ]
+  },
+  "2022-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Anexos do Edital",
+        "texto": "Anexo ao edital para Alunos Regulares"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Resultado - Alunos Regulares",
+        "texto": "Resultado final do processo seletivo para Alunos Regulares"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Edital - Alunos Especiais",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Especiais"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Resultado - Alunos Especiais",
+        "texto": "Resultado final do processo seletivo para Alunos Especiais"
+      }
+    ]
+  },
+  "2022-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Anexos do Edital",
+        "texto": "Anexo ao edital para Alunos Regulares"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Resultado - Alunos Regulares",
+        "texto": "Resultado final do processo seletivo para Alunos Regulares"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Edital - Alunos Especiais",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Especiais"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Resultado - Alunos Especiais",
+        "texto": "Resultado final do processo seletivo para Alunos Especiais"
+      }
+    ]
+  },
+  "2023-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Anexos do Edital",
+        "texto": "Anexo ao edital para Alunos Regulares"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Resultado - Alunos Regulares",
+        "texto": "Resultado final do processo seletivo para Alunos Regulares"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Edital - Alunos Especiais",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Especiais"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Resultado - Alunos Especiais",
+        "texto": "Resultado final do processo seletivo para Alunos Especiais"
+      }
+    ]
+  },
+  "2023-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Anexos do Edital",
+        "texto": "Anexo ao edital para Alunos Regulares"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Resultado - Alunos Regulares",
+        "texto": "Resultado final do processo seletivo para Alunos Regulares"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Edital - Alunos Especiais",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Especiais"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Resultado - Alunos Especiais",
+        "texto": "Resultado final do processo seletivo para Alunos Especiais"
+      }
+    ]
+  },
+  "2023-3": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Anexos do Edital",
+        "texto": "Anexo ao edital para Alunos Regulares"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Resultado - Alunos Regulares",
+        "texto": "Resultado final do processo seletivo para Alunos Regulares"
+      }
+    ],
+    "especiais": []
+  },
+  "2024-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Anexos do Edital",
+        "texto": "Anexo ao edital para Alunos Regulares"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Resultado - Alunos Regulares",
+        "texto": "Resultado final do processo seletivo para Alunos Regulares"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Edital - Alunos Especiais",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Especiais"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Resultado - Alunos Especiais",
+        "texto": "Resultado final do processo seletivo para Alunos Especiais"
+      }
+    ]
+  },
+  "2024-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Anexos do Edital",
+        "texto": "Anexo ao edital para Alunos Regulares"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Resultado - Alunos Regulares",
+        "texto": "Resultado final do processo seletivo para Alunos Regulares"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais_1.pdf",
+        "titulo": "Edital - Alunos Especiais (1)",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Especiais (1)"
+      },
+      {
+        "arquivo": "edital_especiais_2.pdf",
+        "titulo": "Edital - Alunos Especiais (2)",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Especiais (2)"
+      },
+      {
+        "arquivo": "resultado_especiais_1.pdf",
+        "titulo": "Resultado - Alunos Especiais (1)",
+        "texto": "Resultado final do processo seletivo para Alunos Especiais (1)"
+      },
+      {
+        "arquivo": "resultado_especiais_2.pdf",
+        "titulo": "Resultado - Alunos Especiais (2)",
+        "texto": "Resultado final do processo seletivo para Alunos Especiais (2)"
+      }
+    ]
+  },
+  "2025-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Anexos do Edital",
+        "texto": "Anexo ao edital para Alunos Regulares"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Resultado - Alunos Regulares",
+        "texto": "Resultado final do processo seletivo para Alunos Regulares"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Edital - Alunos Especiais",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Especiais"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Resultado - Alunos Especiais",
+        "texto": "Resultado final do processo seletivo para Alunos Especiais"
+      }
+    ]
+  },
+  "2025-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Edital do Processo Seletivo ",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Anexos do Edital",
+        "texto": "Anexo ao edital para Alunos Regulares"
+      },
+      {
+        "arquivo": "lista de aprovados_final_2025-02.pdf",
+        "titulo": "Resultado final",
+        "texto": "Documento contendo o Resultado final do processo seletivo"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_alunos_especiais_02_2025.pdf",
+        "titulo": "Edital do Processo Seletivo ",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "lista de aprovados_alunos_especiais_2025-02.pdf",
+        "titulo": "Resultado final",
+        "texto": "Documento contendo o Resultado final do processo seletivo"
+      }
+    ]
+  },
+  "2025-3": {
+    "regulares": [
+      {
+        "arquivo": "edital_vgs_remanecentes.pdf",
+        "titulo": "Edital do Processo Seletivo ",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "anexos_edital_2025_03.pdf",
+        "titulo": "Anexos do Edital",
+        "texto": "Anexo ao edital para Alunos Regulares"
+      },
+      {
+        "arquivo": "aprovados_final_2025-03.pdf",
+        "titulo": "Resultado final",
+        "texto": "Documento contendo o Resultado final do processo seletivo"
+      }
+    ]
+  },
+  "2026-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares_2026_01.pdf",
+        "titulo": "Edital do Processo Seletivo ",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "anexos_edital_2026-01.pdf",
+        "titulo": "Anexos do Edital",
+        "texto": "Anexo ao edital para Alunos Regulares"
+      },
+      {
+        "arquivo": "aprovados_final_2026-01.pdf",
+        "titulo": "Resultado final",
+        "texto": "Documento contendo o Resultado final do processo seletivo"
+      }
+    ]
+  }
+}

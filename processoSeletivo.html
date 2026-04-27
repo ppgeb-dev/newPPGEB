@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="robots" content="noindex">
+    
+    <title>Processos Seletivos - PPGEB UNIFESP</title>
+   
+
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/processoSeletivo.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header header-blue-bg">
+        <div class="header-container">
+            <div class="logo">
+                <img alt="Logo PPGEB" class="logo-img" src="imgs/logo.png" />
+            </div>
+
+            <nav class="nav" id="nav"></nav>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <span>☰</span>
+            </button>
+        </div>
+    </header>
+
+
+    <!-- Main Content -->
+    <main class="pt-m features-2" style="margin-top:2rem!important;">
+        <div class="container">
+            <!-- Page Header -->
+          
+            <section class="selection-section">
+                <div class="selection-header">
+                    <h2>Alunos Regulares e Epeciais</h2>     
+                </div>
+                <div class="semester-selector">
+                    <label for="semesterSelect">Selecione o semestre:</label>
+                    <div class="custom-select-wrapper">
+                        <select id="semesterSelect" class="semester-select">
+                        <option disabled selected>Carregando semestres...</option>
+                        </select>
+                    </div>
+                </div>
+            </section> 
+
+            <div style="display: flex; justify-content: center; margin-top: 1.5rem;">
+                <a class="feature-link open-modal" href="#" data-modal-id="modal1">
+                    <span style="font-weight: 700; font-size: 1.2rem;">MAIS INFORAÇÕES - CLIQUE AQUI</span>                    
+                </a>               
+            </div>
+
+            <!-- Documents Section -->
+            <section class="documents-section" id="documentsSection">
+                <div class="semester-title">
+                    <div class="titles" id="areas" style="margin-top: 1.5rem;">
+                        <h1 id="semesterTitle">Segundo Semestre de 2025</h1>                
+                    </div>
+                </div>
+
+                <!-- Alunos Regulares -->
+                <div class="document-category">
+                <div class="category-header">
+                    <div class="header-container-docs">
+                    <img src="imgs/icons/students.png" class="icon-docs" alt="">
+                    <h2>Alunos Regulares</h2>
+                    </div>                          
+                </div>
+                <div class="documents-list">
+                    <div class="no-documents">
+                    <p>Carregando documentos...</p>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Alunos Especiais -->
+                <div class="document-category" id="alunosEspeciais">
+                <div class="category-header category-header-especiais">
+                    <div class="header-container-docs">
+                    <img src="imgs/icons/students.png" class ="icon-docs" alt="">
+                    <h2>Alunos Especiais</h2>
+                    </div>  
+                </div>
+                <div class="documents-list">
+                    <div class="no-documents">
+                    <p>Carregando documentos...</p>
+                    </div>
+                </div>
+                </div>
+            </section>      
+        </div>
+    </main>
+
+
+    <div id="modal1" class="custom-modal">
+        <div class="custom-modal-content modern">
+            <span class="custom-close">&times;</span>          
+            <div class="modal-scroll">
+                <p class="mt-m">
+                    <span class="text-bold">O PPG-EB oferta um total de 10 vagas anuais para ingresso de alunos regulares.</span> Estas vagas são preenchidas em processos seletivos realizados antes do início dos semestres letivos e abertos por meio de editais públicos seguindo as normativas institucionais. Todos os editais de processos seletivos para ingresso de alunos regulares já realizados, assim como as listas contendo inscritos e resultados dos processos, podem ser consultados nas abas listadas abaixo.
+                </p>
+                <p class="mt-m">
+                    Semestralmente, o PPG-EB também abre à comunidade edital para inscrições de alunos em disciplinas individuais ofertadas pelo programa (modalidade de alunos especiais). Cabe ressaltar que as inscrições de <span class="text-bold">alunos especiais</span>, quando deferidas, <span class="text-bold">não resultam em vínculo do aluno com o programa</span>, mas apenas possibilitam que alunos sem vínculo com o PPG-EB cursem disciplinas específicas do programa.
+                </p>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="JS/processoSeletivo.js"></script>
+     <script src="JS/menu.js"></script>
+    <script src="JS/script.js"></script>
+
+    <script>
+        carregarMenu("S");    
+    </script>
+
+</body>
+
+</html>
+

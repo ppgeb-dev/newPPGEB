@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="robots" content="noindex">
+    <title>Agenda de Defesas - PPGEB UNIFESP</title>
+  
+
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/agenda_defesas.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header header-blue-bg">
+        <div class="header-container">
+            <div class="logo">
+                <img alt="Logo PPGEB" class="logo-img" src="imgs/logo.png" />
+            </div>
+
+            <nav class="nav" id="nav"></nav>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <span>☰</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="pt-m features-2" style="margin-top:2rem!important;">
+        <div class="container">
+            <!-- Page Header -->
+            <section class="selection-section">
+                <div class="selection-header">
+                    <h2>Agenda de Defesas</h2>
+                    <p>Cronograma de defesas de dissertações do programa</p>
+                </div>
+                <div class="semester-selector">
+                    <label for="semesterSelect">Selecione o semestre:</label>
+                    <div class="custom-select-wrapper">
+                        <select id="semesterSelect" class="semester-select">
+                            <option disabled selected>Carregando semestres...</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Defenses Section -->
+            <section class="defenses-section" id="defensesSection">
+                <div class="">
+                    <div class="titles" id="areas" style="margin-top: 1.5rem;">
+                        <h1 id="semesterTitle">Segundo Semestre de 2024</h1>
+                    </div>
+                </div>
+
+                <!-- Defenses List -->
+                <div class="defense-category">                 
+                    <div class="defenses-list">
+                        <div class="no-defenses">
+                            <p>Carregando agenda de defesas...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="JS/agenda_defesas.js"></script>
+    <script src="JS/menu.js"></script>
+    <script src="JS/script.js"></script>
+
+    <script>
+        carregarMenu("S");    
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,331 @@
+
+/* Navegação */
+.nav {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav > li {
+    position: relative;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: var(--medium-text);
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    position: relative;
+    padding: 0.5rem 0;
+    display: block;
+}
+
+.nav > li > a:hover,
+.nav > li > a.active {
+    color: var(--primary-blue);
+}
+
+.nav > li > a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: var(--primary-blue);
+    transition: width 0.3s ease;
+}
+
+.nav > li > a:hover::after,
+.nav > li > a.active::after {
+    width: 100%;
+}
+
+.nav a.active {
+    color: var(--primary-blue) !important;
+    font-weight: 600;
+}
+
+/* Dropdown Menu */
+.dropdown {
+    position: relative;    
+}
+
+.dropdown > a::after {
+    content: '▼';
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.dropdown:hover > a::after {
+    transform: rotate(180deg);
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    min-width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    padding: 0.75rem 0;
+    z-index: 999;
+    border: 1px solid var(--border-light);
+    margin-top: -0.5rem;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    animation: fadeInDown 0.3s ease;
+}
+
+.dropdown-menu li {
+    list-style: none;
+}
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 0.6rem 1rem;
+    color: var(--dark-text);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border-radius: 0;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: var(--light-gray);
+    color: var(--primary-blue);
+}
+
+/* Submenu */
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > a::after {
+    content: '\276E';
+    float: left;
+    font-size: 1rem;
+    margin-top: 0.1rem;
+    transition: transform 0.3s ease;
+    margin-right: 12px;
+    font-weight: 900;
+}
+
+.dropdown-submenu:hover > a::after {
+    transform: translateX(-3px);
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: -100%;
+    margin-left: 1px;
+    margin-top: -0.75rem;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+    animation: fadeInLeft 0.3s ease;
+}
+
+
+
+.arrow-menu-down {
+    display: inline-block;
+    transform: rotate(270deg);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+.arrow-menu-back {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+/* Menu Mobile */
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--dark-text);
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+
+@media (max-width: 1024px) {
+    .nav {
+        gap: 1.5rem;
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    /* Navegação Mobile */
+    .nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        flex-direction: column;
+        gap: 0;
+        padding: 1rem 0;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 0 0 12px 12px;
+    }
+    
+    .nav.active {
+        display: flex;
+        max-height: calc(100vh - 100px);
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;        
+    }
+    
+    .mobile-menu-btn {
+        display: block;
+    }
+    
+    .nav > li {
+        width: 100%;
+    }
+    
+    .nav > li > a {
+        padding: 0.8rem 2rem;
+        border-bottom: 1px solid var(--border-light);
+    }
+    
+    .nav > li:last-child > a {
+        border-bottom: none;
+        border-radius: 0px;
+    }
+    
+    /* CORREÇÃO: Remove efeitos de linha azul no mobile */
+    .nav > li > a::after {
+        display: none !important;
+    }
+    
+    .nav > li > a:hover::after,
+    .nav > li > a.active::after {
+        width: 0 !important;
+        display: none !important;
+    }
+    
+    /* Remove efeitos hover indesejados no mobile */
+    .dropdown > a:hover,
+    .dropdown > a:focus,
+    .dropdown > a.active {
+        color: var(--medium-text) !important;
+    }
+    
+    /* Estilo específico para o item Menu quando ativo */
+    .dropdown.active > a {
+        color: var(--primary-blue) !important;
+        background: rgba(30, 64, 175, 0.05);
+    }
+    
+    /* Dropdown Mobile - estado padrão (fechado) */
+    .dropdown-menu {
+        display: none !important;
+        position: static;
+        box-shadow: none;
+        border: none;
+        background: var(--light-gray);
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+    }
+    
+    /* Dropdown Mobile - estado ativo (aberto) */
+    .dropdown-menu.active {
+        display: block !important;
+    }
+    
+    /* Indicadores visuais para dropdowns principais */
+    .dropdown > a::after {
+        content: ' +';
+        transform: none;
+        float: right;
+        font-size: 1.2rem;
+        line-height: 1;
+    }
+    
+    .dropdown.active > a::after {
+        content: ' −';
+    }
+    
+    /* Submenus - estado padrão (fechado) */
+    .dropdown-submenu > .dropdown-menu {
+        position: static;
+        left: auto;
+        margin: 0;
+        background: var(--submenu-gray);
+        padding-left: 1rem !important;
+        display: none !important;
+    }
+    
+    /* Submenus - estado ativo (aberto) */
+    .dropdown-submenu > .dropdown-menu.active {
+        display: block !important;
+    }
+    
+    /* Indicadores visuais para submenus */
+    .dropdown-submenu > a::after {
+        content: ' +';
+        float: right;
+        margin-left: auto;
+        font-size: 1.2rem;
+        line-height: 1;
+        margin-right: 0;
+        margin-top: 0;
+        transform: none;
+    }
+    
+    .dropdown-submenu.active > a::after {
+        content: ' −';
+    }
+    
+    /* Estilos dos links dentro dos menus */
+    .dropdown-menu > li > a {
+        padding: 0.8rem 1rem;
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+        font-size: 1rem;
+    }
+    
+    .dropdown-submenu .dropdown-menu > li > a {
+        padding: 0.6rem 1rem;
+        font-size: 1rem;
+        background: transparent;
+    }
+    
+    .dropdown-submenu .dropdown-menu > li > a:hover {
+        background: rgba(0,0,0,0.05);
+    }
+    
+    /* Scrollbar customizada */
+    .nav.active::-webkit-scrollbar {
+        width: 4px;
+    }
+    
+    .nav.active::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    
+    .nav.active::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 2px;
+    }
+    
+    .nav.active::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 0, 0, 0.3);
+    }
+}

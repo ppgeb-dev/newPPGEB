@@ -1,0 +1,67 @@
+{
+  "2025": {
+    "titulo": "Comissão de Autoavaliação (2025-2028)",
+    "membros": [
+      {
+        "nome": "Prof. Dr. Thiago Martini Pereira",
+        "cargo": "Docente permanente do PPG-EB"
+      },
+      {
+        "nome": "Profa. Dra. Tatiana de Sousa da Cunha Uchiyama",
+        "cargo": "Docente permanente do PPG-EB"
+      },
+      {
+        "nome": "Profa. Dra. Eugenia Casella Tavares de Mattos",
+        "cargo": "Docente permanente do PPG-EB"
+      },
+      {
+        "nome": "Prof. Dr. João Loures Salinet",
+        "cargo": "Docente externo (Universidade Federal do ABC)"
+      },
+      {
+        "nome": "Isadora Sequalini",
+        "cargo": "Discente regular do PPG-EB"
+      }
+    ],
+    "documentos": []
+  },
+  "2021-2024": {
+    "titulo": "Comissão de Autoavaliação (2021-2024)",
+    "membros": [
+      {
+        "nome": "Profa. Dra. Karina Rabello Casali",
+        "cargo": "Docente permanente do PPG-EB"
+      },
+      {
+        "nome": "Prof. Dr. Fabio Gava Aoki",
+        "cargo": "Docente permanente do PPG-EB"
+      },
+      {
+        "nome": "Prof. Dr. Henrique Takachi Moriya",
+        "cargo": "Docente externo (POLI-USP)"
+      },
+      {
+        "nome": "Enga. Paloma Gonçalves",
+        "cargo": "Discente regular do PPG-EB"
+      },
+      {
+        "nome": "Dr. Daniel Aparecido Vital",
+        "cargo": "Egresso do PPG-EB"
+      }
+    ],
+    "documentos": [
+      {
+        "titulo": "Portaria de nomeação",
+        "descricao": "Documento oficial de nomeação da Comissão de Autoavaliação",
+        "arquivo": "docs/autoavaliacao/Portaria_de_auto_avaliação_PPGEB_2024.pdf",
+        "ano": "2023"
+      },
+      {
+        "titulo": "Relatório final de autoavaliação",
+        "descricao": "Relatório completo com resultados e análises da autoavaliação do programa",
+        "arquivo": "docs/autoavaliacao/RELATORIO_AUTOAVALIACAO_PPGEB_UNIFESP2024_assinado.pdf",
+        "ano": "2024"
+      }
+    ]
+  }
+}

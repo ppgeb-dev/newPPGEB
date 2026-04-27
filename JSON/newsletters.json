@@ -1,0 +1,34 @@
+{
+  "newsletters": [
+    {
+      "id": "maio",
+      "title": "Maio de 2026",
+      "month": "maio",
+      "year": 2026,
+      "file": "newsletter.md",
+      "edition": 1,
+      "active": true,
+      "imageFolder": "img/2026-05"
+    }
+  ],
+  "usefulLinks": [
+    {
+      "id": "home",
+      "title": "Página Principal",
+      "url": "index.html"
+    },
+    {
+      "id": "about",
+      "title": "Sobre o Programa",
+      "url": "#"
+    },
+    {
+      "id": "contact",
+      "title": "Contato",
+      "url": "#"
+    }
+  ],
+  "commonImages": {
+    "logoFolder": "img/comum"
+  }
+}

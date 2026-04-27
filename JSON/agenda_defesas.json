@@ -1,0 +1,395 @@
+{
+  "2025-2": {
+    "titulo": "Defesas do Segundo Semestre de 2025",
+    "defesas": [
+      {
+        "data": "01 de dezembro de 2025",
+        "aluno": "Thaís Cerqueira Reis Nakamura",
+        "titulo": "ANÁLISE COMPARATIVA DA PERFORMANCE DE SETE ARQUITETURAS DE REDES NEURAIS CONVOLUCIONAIS PARA CLASSIFICAÇÃO DE TUMORES DE GLÂNDULAS SALIVARES EM PATOLOGIA DIGITAL",
+        "modalidade": "Videoconferência",
+        "horario": null,
+        "local": "Google Meet",
+        "link": null
+      }
+    ]
+  },
+  "2025-1": {
+    "titulo": "Defesas do Primeiro Semestre de 2025",
+    "defesas": [
+      {
+        "data": "04 de fevereiro de 2025",
+        "aluno": "Camila Alves Delpasso Ribeiro",
+        "titulo": "AVALIAÇÃO OROFACIAL DE MULHERES PROFISSIONAIS DE SAÚDE COM DESORDEM TEMPOROMANDIBULAR APÓS TERAPIA ILIB: ESTUDO CLÍNICO",
+        "modalidade": "Videoconferência",
+        "horario": null,
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "13 de fevereiro de 2025",
+        "aluno": "Evelyn Rocha Silva",
+        "titulo": "SEGMENTAÇÃO AUTOMÁTICA DE FIBROSE EM IMAGENS HISTOLÓGICAS DE TECIDOS CORADOS COM PICROSIRIUS RED UTILIZANDO ALGORITMOS DE APRENDIZADO DE MÁQUINA SUPERVISIONADO E NÃO SUPERVISIONADO",
+        "modalidade": "Videoconferência",
+        "horario": null,
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "24 de fevereiro de 2025",
+        "aluno": "Luana de Fátima Gago Bittencourt",
+        "titulo": "DESENVOLVIMENTO DE DISPOSITIVO EXOESQUELÉTICO PARA AUXÍLIO EM ATIVIDADES DIÁRIAS E REABILITAÇÃO DE MÃOS",
+        "modalidade": "Videoconferência",
+        "horario": null,
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "27 de março de 2025",
+        "aluno": "Giovanna Calabrese dos Santos",
+        "titulo": "IMPLEMENTAÇÃO E AVALIAÇÃO DE MODELOS DE REDES NEURAIS CONVOLUCIONAIS NA CLASSIFICAÇÃO DE TUMORES DE NERVOS PERIFÉRICOS ORAIS",
+        "modalidade": "Videoconferência",
+        "horario": null,
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "28 de julho de 2025",
+        "aluno": "Túlio Araújo de Medeiros Brito",
+        "titulo": "PROJECT-BASED LEARNING IN BIOMEDICAL ENGINEERING: A CASE STUDY INVOLVING THE DEVELOPMENT OF A SENSORY MAT",
+        "modalidade": "Videoconferência",
+        "horario": null,
+        "local": "Google Meet",
+        "link": null
+      }
+    ]
+  },
+  "2024-2": {
+    "titulo": "Defesas do Segundo Semestre de 2024",
+    "defesas": [
+      {
+        "data": "17 de setembro de 2024",
+        "aluno": "Thalita Garcia Oliveira De Azevedo",
+        "titulo": "ANÁLISE DOS EFEITOS NO PERÍODO DE INTERNAÇÃO SOBRE O SISTEMA RESPIRATÓRIO E CARDÍACO EM PACIENTES COM INSUFICIÊNCIA CARDÍACA AGUDIZADA",
+        "modalidade": "Videoconferência",
+        "horario": "09h00",
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "10 de dezembro de 2024",
+        "aluno": "Frederico José Ribeiro Pelogia",
+        "titulo": "MODELAGEM E PREVISÃO A CURTO PRAZO DO NÚMERO DE LEITOS DE UTI OCUPADOS POR PACIENTES DE COVID-19 EM REGIÕES DA ITÁLIA",
+        "modalidade": "Videoconferência",
+        "horario": "14h00",
+        "local": "Google Meet",
+        "link": null
+      }
+    ]
+  },
+  "2024-1": {
+    "titulo": "Defesas do Primeiro Semestre de 2024",
+    "defesas": [
+      {
+        "data": "06 de fevereiro de 2024",
+        "aluno": "Viviane Mariano Da Silva",
+        "titulo": "IMPLEMENTAÇÃO E AVALIAÇÃO DE PERFORMANCE DE MODELOS DE REDES NEURAIS CONVOLUCIONAIS NA CLASSIFICAÇÃO DE IMAGENS PATOLÓGICAS DE DISPLASIA EPITELIAL ORAL",
+        "modalidade": "Videoconferência",
+        "horario": "14h00",
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "14 de fevereiro de 2024",
+        "aluno": "Jose Roberto Mateus da Silva",
+        "titulo": "EFEITOS FOTOBIOMODULADORES DO LASER DE BAIXA POTÊNCIA NA DIFERENCIAÇÃO CONDROGÊNICA DE CÉLULAS-TRONCO MESENQUIMAIS DA MEDULA ÓSSEA EM SISTEMA DE CULTURA CELULAR EM 3 DIMENSÕES (3D)",
+        "modalidade": "Videoconferência",
+        "horario": "14h00",
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "26 de fevereiro de 2024",
+        "aluno": "Davi Gonçalves Sanches",
+        "titulo": "INFORMATION SYSTEM FOR EPIDEMIC CONTROL: A COMPUTATIONAL SOLUTION ADDRESSING SUCCESSFUL EXPERIENCES AND MAIN CHALLENGES",
+        "modalidade": "Videoconferência",
+        "horario": "14h00",
+        "local": "Google Meet",
+        "link": null
+      }
+    ]
+  },
+  "2023-2": {
+    "titulo": "Defesas do Segundo Semestre de 2023",
+    "defesas": [
+      {
+        "data": "16 de Agosto de 2023",
+        "aluno": "Bruno Andry Nascimento Couto",
+        "titulo": "APLICAÇÃO DE ANÁLISE GRUPAL DE COMPONENTE RELACIONADA A TAREFA EM REGISTROS ELETROENCEFALOGRÁFICOS RELACIONADOS A EVENTOS",
+        "modalidade": "Presencial",
+        "horario": "09h00",
+        "local": "Auditório-Talim",
+        "link": null
+      },
+      {
+        "data": "22 de Agosto de 2023",
+        "aluno": "Gabriella Maria De Faria",
+        "titulo": "DESENVOLVIMENTO DE ESTIMULADOR VAGAL AURICULAR RETROALIMENTADO CONTROLADO POR SINAL RESPIRATÓRIO",
+        "modalidade": "Videoconferência",
+        "horario": "14h00",
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "24 de Agosto de 2023",
+        "aluno": "Claudia Fernanda Silva Guimarães",
+        "titulo": "INFLUÊNCIA DA TÉCNICA ANESTÉSICA NA DOR E QUALIDADE DA RECUPERAÇÃO PÓS-OPERATÓRIA EM COLECISTECTOMIAS LAPAROSCÓPICAS: ESTUDO COMPARATIVO",
+        "modalidade": "Presencial",
+        "horario": "14h00",
+        "local": "Auditório-Talim",
+        "link": null
+      },
+      {
+        "data": "01 de dezembro de 2023",
+        "aluno": "Danila Vieira Pinto",
+        "titulo": "COMPARAÇÃO DOS EFEITOS DA VENTILAÇÃO CONTROLADA E DA ESTIMULAÇÃO VAGAL AURICULAR TRANSCUTÂNEA NO CONTROLE AUTONÔMICO CARDÍACO DE INDIVÍDUOS SAUDÁVEIS",
+        "modalidade": "Videoconferência",
+        "horario": "09h00",
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "11 de dezembro de 2023",
+        "aluno": "Benedito Vital Ribeiro Júnior",
+        "titulo": "AVALIAÇÃO DA CONFORMIDADE METROLÓGICA DE VENTILADORES PULMONARES DURANTE A PANDEMIA DE COVID-19 NO BRASIL",
+        "modalidade": "Videoconferência",
+        "horario": "08h00",
+        "local": "Google Meet",
+        "link": null
+      }
+    ]
+  },
+  "2023-1": {
+    "titulo": "Defesas do Primeiro Semestre de 2023",
+    "defesas": [
+      {
+        "data": "28 de Fevereiro de 2023",
+        "aluno": "Eric Rocha Santos",
+        "titulo": "METODOLOGIA PARA CRIAÇÃO DE MOSAICO DE IMAGENS DE LÂMINAS HISTOLÓGICAS USANDO DESCRITORES DE CARACTERÍSTICAS E HOMOGRAFIA: UMA ABORDAGEM DE BAIXO CUSTO USANDO SMARTPHONE E MICROSCÓPIO ÓPTICO CONVENCIONAL",
+        "modalidade": "Videoconferência",
+        "horario": "14h00",
+        "local": "Google Meet",
+        "link": null
+      }
+    ]
+  },
+  "2022-1": {
+    "titulo": "Defesas do Primeiro Semestre de 2022",
+    "defesas": [
+      {
+        "data": "18 de Fevereiro de 2022",
+        "aluno": "Maíra Suzuka Kudo",
+        "titulo": "AVALIAÇÃO DO POTENCIAL DE REDES NEURAIS CONVOLUCIONAIS EM CLASSIFICAR E GRADUAR SEVERIDADE EM IMAGENS PATOLÓGICAS DE BIÓPSIAS DE PRÓSTATA",
+        "modalidade": "Videoconferência",
+        "horario": "13h30",
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "25 de Março de 2022",
+        "aluno": "Guilherme Melo dos Santos",
+        "titulo": "SIMULADOR CARDÍACO CUSTOMIZÁVEL AOS DADOS BIOMÉDICOS DE PACIENTES",
+        "modalidade": "Videoconferência",
+        "horario": "09h00",
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "10 de Junho de 2022",
+        "aluno": "Aldo Martinazzo",
+        "titulo": "GERENCIAMENTO DE RISCO DE UMA BOMBA DE INFUSÃO DE INSULINA DE BAIXO CUSTO",
+        "modalidade": "Videoconferência",
+        "horario": "14h00",
+        "local": "Google Meet",
+        "link": null
+      }
+    ]
+  },
+  "2021-2": {
+    "titulo": "Defesas do Segundo Semestre de 2021",
+    "defesas": [
+      {
+        "data": "03 de Agosto de 2021",
+        "aluno": "Lidia Ester de Oliveira Cruz",
+        "titulo": "ATIVAÇÃO MUSCULAR DO TRONCO DURANTE TAREFA FUNCIONAL E SUAS RELAÇÕES COM DOR CINESIOFOBIA E INCAPACIDADE FUNCIONAL NA DOR LOMBAR CRÔNICA NÃO ESPECÍFICA",
+        "modalidade": "Videoconferência",
+        "horario": "08h30",
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "11 de Novembro de 2021",
+        "aluno": "Fabiana Mara Scarpelli de Lima Alvarenga Caldeira",
+        "titulo": "COVID-19: USO DE FUNÇÕES SIGMÓIDES PARA REPRESENTAÇÃO DO NÚMERO DE INFECÇÕES E ÓBITOS",
+        "modalidade": "Videoconferência",
+        "horario": "14h00",
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "10 de Dezembro de 2021",
+        "aluno": "Catarina Cardoso Reis",
+        "titulo": "ANÁLISE E CARACTERIZAÇÃO DE POTENCIAIS EVOCADOS PELA ESTIMULAÇÃO MAGNÉTICA TRANSCRANIANA EM PACIENTES QUE APRESENTAM OS PRIMEIROS EPISÓDIOS PSICÓTICOS",
+        "modalidade": "Videoconferência",
+        "horario": "09h00",
+        "local": "Google Meet",
+        "link": null
+      }
+    ]
+  },
+  "2020-2": {
+    "titulo": "Defesas do Segundo Semestre de 2020",
+    "defesas": [
+      {
+        "data": "23 de Setembro de 2020",
+        "aluno": "Andre Luiz Costa de Arruda",
+        "titulo": "MÉTODO DE SEGMENTAÇÃO 3D DE ESCLEROSE MÚLTIPLA USANDO FUZZY CONNECTEDNESS BINARIZAÇÃO E MORFOLOGIA MATEMÁTICA EM IMAGENS DE RESSONÂNCIA MAGNÉTICA",
+        "modalidade": "Videoconferência",
+        "horario": "15h00",
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "13 de Outubro de 2020",
+        "aluno": "Guilherme Luis de Faria",
+        "titulo": "PROPOSTA DE MÉTODO PARA AUXILIAR O DIAGNÓSTICO DOS DISTÚRBIOS DA CONSCIÊNCIA HUMANA: COMPLEXIDADE PERTURBACIONAL COMBINADA À ANÁLISE TEMPO-FREQUÊNCIA DE POTENCIAIS EVOCADOS SOMATOSSENSORIAIS",
+        "modalidade": "Videoconferência",
+        "horario": "14h00",
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "03 de Dezembro de 2020",
+        "aluno": "Cinthia Hermínia Carvalho Nascimento Pereira",
+        "titulo": "AVALIAÇÃO DO EQUILÍBRIO E ATIVIDADE MUSCULAR DE AMPUTADOS DE MEMBRO INFERIOR PROTETIZADOS",
+        "modalidade": "Videoconferência",
+        "horario": "14h00",
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "04 de Dezembro de 2020",
+        "aluno": "Gabriela Colares Ali Ganem",
+        "titulo": "DETERMINAÇÃO DO DESLOCAMENTO DA PAREDE VENTRICULAR ESQUERDA EM IMAGENS ECOCARDIOGRÁFICAS PARA PROVER DADOS FISIOLÓGICOS À ANIMAÇÃO DE MODELO VIRTUAL DO CORAÇÃO",
+        "modalidade": "Videoconferência",
+        "horario": "09h00",
+        "local": "Google Meet",
+        "link": null
+      }
+    ]
+  },
+  "2020-1": {
+    "titulo": "Defesas do Primeiro Semestre de 2020",
+    "defesas": [
+      {
+        "data": "17 de Fevereiro de 2020",
+        "aluno": "Eugênia Gonzales Lopes",
+        "titulo": "DESENVOLVIMENTO DE DISPOSITIVO DE ESTIMULAÇÃO VAGAL TRANSCUTANEA AURICULAR",
+        "modalidade": "Presencial",
+        "horario": "13h30",
+        "local": "Sala 103 (Unidade Talim)",
+        "link": null
+      },
+      {
+        "data": "17 de Abril de 2020",
+        "aluno": "Wagner Souza Keller",
+        "titulo": "CONTROLE DE INFUSÃO DE INSULINA UTILIZANDO CONTROLADOR PID DE ORDEM FRACIONÁRIA",
+        "modalidade": "Videoconferência",
+        "horario": "14h00",
+        "local": "Videoconferência",
+        "link": null
+      }
+    ]
+  },
+  "2019-2": {
+    "titulo": "Defesas do Segundo Semestre de 2019",
+    "defesas": [
+      {
+        "data": "29 de Agosto de 2019",
+        "aluno": "Andreia S. Leal",
+        "titulo": "ADAPTAÇÃO WAVELET PARA REDUÇÃO DE RUÍDO EM IMAGENS DE ULTRASSOM",
+        "modalidade": "Presencial",
+        "horario": "14h00",
+        "local": "Auditório (Unidade Talim)",
+        "link": null
+      },
+      {
+        "data": "10 de Setembro de 2019",
+        "aluno": "Leopoldo Prates",
+        "titulo": "AVALIAÇÃO DA DETECTABILIDADE DE NANOPARTÍCULAS MAGNÉTICAS DE MAGHEMITA POR SENSOR DE BIOSUSCEPTOMETRIA DE CORRENTE ALTERNADA COM SENSORES MAGNETORESISTIVOS",
+        "modalidade": "Presencial",
+        "horario": "10h00",
+        "local": "Sala de Videoconferência (Unidade Talim)",
+        "link": null
+      },
+      {
+        "data": "13 de Setembro de 2019",
+        "aluno": "Marco Antônio Vieira Macedo Grinet",
+        "titulo": "ANÁLISE DE METODOLOGIAS DE PIXEL TRACKING DEDICADAS PARA A CARACTERIZAÇÃO DAS LESÕES ATEROSCLERÓTICAS 2D EM ESTRUTURAS CORONÁRIAS ATRAVÉS DE PHANTOMS COMPUTACIONAIS",
+        "modalidade": "Presencial",
+        "horario": "14h00",
+        "local": "Auditório (Unidade Talim)",
+        "link": null
+      },
+      {
+        "data": "10 de Dezembro de 2019",
+        "aluno": "Bruno Assumpção Gomes da Silva",
+        "titulo": "DESENVOLVIMENTO DE API EM ECLIPSE PARA DELINEAMENTO AUTOMATICO DA CABEÇA FEMORAL",
+        "modalidade": "Presencial",
+        "horario": "14h00",
+        "local": "Sala de Videoconferência (Unidade Talim)",
+        "link": null
+      }
+    ]
+  },
+  "2019-1": {
+    "titulo": "Defesas do Primeiro Semestre de 2019",
+    "defesas": [
+      {
+        "data": "14 de Fevereiro de 2019",
+        "aluno": "Daniel Aparecido Vital",
+        "titulo": "MÉTODO ROBUSTO DE SEGMENTAÇÃO AUTOMÁTICA DO TECIDO PULMONAR EM RADIOGRAFIA DE TÓRAX COMBINANDO TÉCNICAS DE REALCE, MORFOLOGIA E CONTORNOS ATIVOS",
+        "modalidade": "Presencial",
+        "horario": "14h00",
+        "local": "Auditório (Unidade Talim)",
+        "link": null
+      },
+      {
+        "data": "11 de Março de 2019",
+        "aluno": "Bárbara Teixeira Sais",
+        "titulo": "MÉTODO ROBUSTO PARA RECONSTRUÇÃO 3D DOS OSSOS DA CAVIDADE TORÁCICA EM IMAGENS DE TOMOGRAFIA COMPUTADORIZADA, UTILIZANDO CONHECIMENTOS RADIOLÓGICOS, APRENDIZADO DE MÁQUINAS E GRAFOS",
+        "modalidade": "Presencial",
+        "horario": "10h00",
+        "local": "Auditório (Unidade Talim)",
+        "link": null
+      },
+      {
+        "data": "15 de Março de 2019",
+        "aluno": "Catharina Scassola",
+        "titulo": "AVALIAÇÃO DO CONTROLE AUTONÔMICO BASEADA NA ANÁLISE DA VARIABILIDADE DA FREQUÊNCIA CARDÍACA: PROPOSTA DE MÉTODO OTIMIZADO PARA ATIVAÇÃO VAGAL E APLICAÇÃO DA FERRAMENTA PARA ESTIMATIVA DA DOR EM INTERVENÇÕES CLÍNICAS",
+        "modalidade": "Presencial",
+        "horario": "14h00",
+        "local": "Auditório (Unidade Talim)",
+        "link": null
+      },
+      {
+        "data": "03 de Junho de 2019",
+        "aluno": "Renzo Comolatti",
+        "titulo": "DESENVOLVIMENTO DE UM ÍNDICE DE COMPLEXIDADE PERTURBACIONAL GERAL E EFICIENTE PARA O ESTUDO DOS MECANISMOS NEURAIS DA CONSCIÊNCIA",
+        "modalidade": "Presencial",
+        "horario": "10h00",
+        "local": "Sala 305 (Unidade Parque Tecnológico)",
+        "link": null
+      }
+    ]
+  }
+}

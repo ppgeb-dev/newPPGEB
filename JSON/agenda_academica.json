@@ -1,0 +1,170 @@
+{
+  "2026-1": {
+    "titulo": "Calendário Acadêmico - 2026",
+    "semestre": "2026-01",
+    "eventos": [
+      {
+        "mes": "Janeiro",
+        "eventos": [
+          {
+            "periodo": "Até 09",
+            "evento": "Divulgação da lista de disciplinas oferecidas (1° período de 2026)"
+          },
+          {
+            "periodo": "12 a 16",
+            "evento": "Criação do cronograma do semestre e os eventos no SIIU"
+          },
+          {
+            "periodo": "19 a 21",
+            "evento": "Publicação das datas dos eventos: cadastro de disciplina, oferta de disciplina e inscrição de aluno regular no SIIU"
+          },
+          {
+            "periodo": "20",
+            "evento": "Reunião CaPGPq"
+          },
+          {
+            "periodo": "26 a 30",
+            "evento": "Período de cadastro e oferta de disciplinas no sistema SIIU"
+          },
+          {
+            "periodo": "19/01 a 06/02",
+            "evento": "Inscrição em disciplinas de alunos especiais, incluindo alunos de PPGs de outras instituições (1° período de 2026)"
+          }
+        ]
+      },
+      {
+        "mes": "Fevereiro",
+        "eventos": [
+          {
+            "periodo": "02 a 06",
+            "evento": "Matrícula de alunos regulares - Mestrado, Doutorado (alunos novos - 1ª matrícula)"
+          },
+          {
+            "periodo": "09 a 13",
+            "evento": "Inscrição em disciplinas via SIIU de alunos regulares - Mestrado, Doutorado (alunos novos e alunos em curso)"
+          },
+          {
+            "periodo": "11",
+            "evento": "Reunião CaPGPq"
+          },
+          {
+            "periodo": "Até 15",
+            "evento": "Divulgação da lista de candidatos aprovados em disciplinas dos PPGs – Alunos Especiais (1° período de 2026)"
+          },
+          {
+            "periodo": "27",
+            "evento": "Data-limite para apresentação de documentos pendentes para efetivação da matrícula de alunos regulares"
+          }
+        ]
+      },
+      {
+        "mes": "Março",
+        "eventos": [
+          {
+            "periodo": "01 a 14",
+            "evento": "Censo (atividade definida como rematrícula pela ProPGPq) dos Alunos Regulares - 1° semestre e Recadastramento anual de pesquisadores (Pós-doutorado)"
+          },
+          {
+            "periodo": "A partir de 02",
+            "evento": "Início das aulas"
+          }
+        ]
+      },
+      {
+        "mes": "Abril",
+        "eventos": []
+      },
+      {
+        "mes": "Maio",
+        "eventos": [
+          {
+            "periodo": "15",
+            "evento": "Último dia para solicitação de Trancamento de Disciplinas"
+          }
+        ]
+      },
+      {
+        "mes": "Junho",
+        "eventos": [
+          {
+            "periodo": "Até 26",
+            "evento": "Divulgação da lista de candidatos aprovados - Mestrado e Doutorado fluxo regular (2° período de 2026)"
+          },
+          {
+            "periodo": "Até 30",
+            "evento": "Divulgação da lista de disciplinas oferecidas (2° período de 2026)"
+          },
+          {
+            "periodo": "Final do mês",
+            "evento": "Final do semestre 2026-01"
+          }
+        ]
+      },
+      {
+        "mes": "Julho",
+        "eventos": [
+          {
+            "periodo": "29/06 a 03/07",
+            "evento": "Criação do cronograma do semestre e os eventos no SIIU"
+          },
+          {
+            "periodo": "03 a 20",
+            "evento": "Inscrição em disciplinas de alunos especiais, incluindo alunos de PPGs de outras instituições (2° período de 2026)"
+          },
+          {
+            "periodo": "06 a 10",
+            "evento": "Publicação das datas dos eventos: cadastro de disciplina, oferta de disciplina e inscrição de aluno no SIIU"
+          },
+          {
+            "periodo": "13 a 17",
+            "evento": "Período de cadastro e oferta de disciplinas no sistema SIIU"
+          },
+          {
+            "periodo": "Até 14",
+            "evento": "Data limite para os docentes cadastrarem as notas no SIIU referentes às disciplinas do 1° semestre"
+          },
+          {
+            "periodo": "20 a 24",
+            "evento": "Matrícula de alunos regulares - Mestrado, Doutorado (alunos novos - 1ª matrícula)"
+          },
+          {
+            "periodo": "21",
+            "evento": "Reunião CaPGPq"
+          },
+          {
+            "periodo": "27 a 30",
+            "evento": "Inscrição em disciplinas via SIIU de alunos regulares - Mestrado, Doutorado (alunos novos e alunos em curso)"
+          },
+          {
+            "periodo": "Até 31",
+            "evento": "Divulgação da lista de candidatos aprovados - Alunos Especiais (2° período de 2026)"
+          },
+          {
+            "periodo": "31",
+            "evento": "Data-limite para apresentação de documentos pendentes para efetivação da matrícula"
+          }
+        ]
+      },
+      {
+        "mes": "Agosto",
+        "eventos": []
+      },
+      {
+        "mes": "Setembro",
+        "eventos": []
+      },
+      {
+        "mes": "Outubro",
+        "eventos": []
+      },
+      {
+        "mes": "Novembro",
+        "eventos": []
+      },
+      {
+        "mes": "Dezembro",
+        "eventos": []
+      }
+    ]
+  }
+}

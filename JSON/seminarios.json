@@ -1,0 +1,115 @@
+{
+  "2022-2": {
+    "titulo": "Eventos do II Ciclo de Seminários em Engenharia Biomédica- 2022",
+    "seminarios": [
+      {
+		"data": "06 de Dezembro de 2022",
+		"horario": "15:00",
+		"titulo": "AI IN HEALTHCARE: AN OVERVIEW OF METHODS AND APPLICATIONS",
+		"cover": "docs/2022-2/seminarios/covers/12_06_Ripoll.jpeg",
+		"palestrante": "Dr. Vicent Ribas Ripoll (Eurecat Centre Tecnològic de Catalunya, Barcelona)",
+		"link": "http://meet.google.com/raf-wmcz-ups",
+		"linktipo": "Google Meeting",
+		"bio": "docs/2022-2/seminarios/bios/Palestra_Ribas_06_12_22.pdf",
+		"video": "https://youtu.be/JgoDtXwpMpM",
+		"inscricoes": ""
+      },
+      {
+		"data": "06 de Dezembro de 2022",
+		"horario": "13:30",
+		"titulo": "SPACE PHYSIOLOGY AND CARDIOVASCULAR BIOMECHANICS",
+		"cover": "docs/2022-2/seminarios/covers/06_12_Leguy.jpeg",
+		"palestrante": "Dr. Carole Leguy (Ruhr West University of Applied Science, Mülheim an der Ruhr, Germany)",
+		"link": "http://meet.google.com/vkp-uxjx-cvw",
+		"linktipo": "Google Meeting",
+		"bio": "docs/2022-2/seminarios/bios/Palestra_Leguy_06_12_22.pdf",
+		"video": "",
+		"inscricoes": ""
+      },
+      {
+		"data": "30 de Novembro de 2022",
+		"horario": "14:00",
+		"titulo": "WORKING WITH data: COMPUTATIONAL SCIENCE IN MEDICINE AND HEALTH SCIENCE",
+		"cover": "docs/2022-2/seminarios/covers/30_11_Garbey.jpeg",
+		"palestrante": "Dr. Marc Garbey (The George Washington University, Washington, D.C., USA)",
+		"link": "http://meet.google.com/pno-zgfa-jiy",
+		"linktipo": "Google Meeting",
+		"bio": "docs/2022-2/seminarios/bios/Palestra_Garbey_30_11_22.pdf",
+		"video": "",
+		"inscricoes": ""
+      },
+      {
+		"data": "25 de Novembro de 2022",
+		"horario": "13:00",
+		"titulo": "IN SILICO TOOLS FOR CONGENITAL HEART DISEASES: A BIOENGINEERING, TRANSLATIONAL EXPERIENCE",
+		"cover": "docs/2022-2/seminarios/covers/25_11_Capelli.jpeg",
+		"palestrante": "Dr. Claudio Capelli (University College of London - UK)",
+		"link": "http://meet.google.com/hmq-bbjb-bob",
+		"linktipo": "Google Meeting",
+		"bio": "docs/2022-2/seminarios/bios/Palestra_Capelli_25_11_2022.pdf",
+		"video": "",
+		"inscricoes": ""
+      },
+      {
+		"data": "08 de Novembro de 2022",
+		"horario": "18:00",
+		"titulo": "MOLECULAR, VESICULAR AND CELLULAR PROFILING USING A SINGULAR NANOPORE: WHAT INFORMATION IS OBTAINABLE?",
+		"cover": "docs/2022-2/seminarios/covers/11_08_Freedman.png",
+		"palestrante": "Dr. Kevin J. Freedman (University of California Riverside - EUA)",
+		"link": "",
+		"linktipo": "",
+		"bio": "docs/2022-2/seminarios/bios/Palestra_Freedman_08_11_2022.pdf",
+		"video": "https://youtu.be/4ZXXPWMcHnk",
+		"inscricoes": ""
+      },
+      {
+		"data": "01 de Novembro de 2022",
+		"horario": "17:30",
+		"titulo": "REAL TIME PHASE CONTRAST MRI: A NOVEL SCOPE INTO CEREBROVASCULAR FLOWS AND THEIR VARIABILITY",
+		"cover": "docs/2022-2/seminarios/covers/11_01_Baselli2.png",
+		"palestrante": "Prof. Giuseppe Baselli (Politecnico di Milano - Itália)",
+		"link": "",
+		"linktipo": "",
+		"bio": "docs/2022-2/seminarios/bios/Palestra_Baselli_01_11_2022.pdf",
+		"video": "https://youtu.be/JgoDtXwpMpM",
+		"inscricoes": ""
+      },
+      {
+		"data": "28 de Outubro de 2022",
+		"horario": "17:30",
+		"titulo": "ORGANIC NANOPARTICLES FOR DRUG DELIVERY",
+		"cover": "docs/2022-2/seminarios/covers/10_28_Lancelot.png",
+		"palestrante": "Dr. Alexandre Lancelot (Purdue University - EUA; Universidad de Zaragoza - Espanha)",
+		"link": "http://meet.google.com/rne-orip-hfp",
+		"linktipo": "Google Meeting",
+		"bio": "docs/2022-2/seminarios/bios/Palestra_Lancelot_28_10_2022.pdf",
+		"video": "",
+		"inscricoes": ""
+      },
+      {
+		"data": "25 de Outubro de 2022",
+		"horario": "17:00",
+		"titulo": "DETECTING CONSCIOUSNESS IN THE INTENSIVE CARE UNIT WITH TMS-EEG: STATE OF THE ART AND LIMITATIONS",
+		"cover": "docs/2022-2/seminarios/covers/10_25_Fecchio.png",
+		"palestrante": "Dr. Matteo Fecchio (Massachusetts General Hospital, Boston - EUA)",
+		"link": "",
+		"linktipo": "",
+		"bio": "http://phpu.unifesp.br/acad/SiexProjetos/uploads/PDF/22835/Palestra_25outubro2022.pdf",
+		"video": "https://www.youtube.com/watch?v=e2cke1NwwHs",
+		"inscricoes": "https://sistemas.unifesp.br/acad/proec-siex/index.php?page=INS&acao=2&code=22835"
+      },
+      {
+		"data": "11 de Outubro de 2022",
+		"horario": "13:00",
+		"titulo": "THE AUDITORY APPARATUS: FROM PHYSIOLOGY TO MICRO-PROSTHETICS",
+		"cover": "docs/2022-2/seminarios/covers/10_11_MarioMilazzo.jpeg",
+		"palestrante": "Dr. Mario Milazzo (Università di Pisa, Pisa - Itália)",
+		"link": "",
+		"linktipo": "",
+		"bio": "http://phpu.unifesp.br/acad/SiexProjetos/uploads/PDF/22701/Palestra_11102022_Milazzo.pdf",
+		"video": "https://www.youtube.com/watch?v=SSJA1iPG4Qw",
+		"inscricoes": "https://sistemas.unifesp.br/acad/proec-siex/index.php?page=INS&acao=2&code=22701"
+      }
+    ]
+  }
+}

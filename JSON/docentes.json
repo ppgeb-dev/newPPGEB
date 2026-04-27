@@ -1,0 +1,118 @@
+{
+  "permanentes": [
+    {
+      "id": "thiago_martini",
+      "nome": "Dr. Thiago Martini Pereira",
+      "foto": "imgs/docentes/avatares_docentes/thiago_martini_pereira.png",
+      "lattes": "https://lattes.cnpq.br/3291751276972553",
+      "email": "t.pereira@unifesp.br",
+      "status": "coordenador"
+    },
+    {
+      "id": "matheus_cardoso",
+      "nome": "Dr. Matheus Cardoso Moraes",
+      "foto": "imgs/docentes/avatares_docentes/matheus_cardoso_moraes.png",
+      "lattes": "https://lattes.cnpq.br/1854451408004051",
+      "email": "matheus.moraes@unifesp.br",
+      "status": "vice-coordenador"
+    },
+    {
+      "id": "adenauer_casali",
+      "nome": "Dr. Adenauer Girardi Casali",
+      "foto": "imgs/docentes/avatares_docentes/adenauer_girardi_casali.png",
+      "lattes": "https://lattes.cnpq.br/1928873015717140",
+      "email": "casali@unifesp.br",
+      "status": "docente"
+    },
+    {
+      "id": "fabio_aoki",
+      "nome": "Dr. Fabio Gava Aoki",
+      "foto": "imgs/docentes/avatares_docentes/fabio_gava_aoki.png",
+      "lattes": "https://lattes.cnpq.br/6236265885750159",
+      "email": "fgaoki@unifesp.br",
+      "status": "docente"
+    },
+    {
+      "id": "federico_aletti",
+      "nome": "Dr. Federico Aletti",
+      "foto": "imgs/docentes/avatares_docentes/federico_aletti.png",
+      "lattes": "https://lattes.cnpq.br/6713455294008529",
+      "email": "faletti@unifesp.br",
+      "status": "docente"
+    },
+    {
+      "id": "henrique_amorim",
+      "nome": "Dr. Henrique Alves de Amorim",
+      "foto": "imgs/docentes/avatares_docentes/henrique_alves_amorim.png",
+      "lattes": "https://lattes.cnpq.br/2867784853735791",
+      "email": "henrique.amorim@unifesp.br",
+      "status": "docente"
+    },
+    {
+      "id": "henrique_paiva",
+      "nome": "Dr. Henrique Mohallem Paiva",
+      "foto": "imgs/docentes/avatares_docentes/henrique_mohallem_paiva.png",
+      "lattes": "https://lattes.cnpq.br/6901974057937430",
+      "email": "hmpaiva@unifesp.br",
+      "status": "docente"
+    },
+    {
+      "id": "karina_casali",
+      "nome": "Dra. Karina Rabello Casali",
+      "foto": "imgs/docentes/avatares_docentes/karina_rabello_casali.png",
+      "lattes": "https://lattes.cnpq.br/2188710413184266",
+      "email": "rabello.casali@unifesp.br",
+      "status": "docente"
+    },
+    {
+      "id": "luiz_martins",
+      "nome": "Dr. Luiz Eduardo Galvão Martins",
+      "foto": "imgs/docentes/avatares_docentes/luiz_eduardo_galvao_martins.png",
+      "lattes": "https://lattes.cnpq.br/0203910403476737",
+      "email": "legmartins@unifesp.br",
+      "status": "docente"
+    },
+    {
+      "id": "regiane_carvalho",
+      "nome": "Dra. Regiane Albertini",
+      "foto": "imgs/docentes/avatares_docentes/regiane_albertini.png",
+      "lattes": "http://lattes.cnpq.br/2515657728339113",
+      "email": "regiane.albertini@unifesp.br",
+      "status": "docente"
+    },
+    {
+      "id": "roberson_polli",
+      "nome": "Dr. Roberson Saraiva Polli",
+      "foto": "imgs/docentes/avatares_docentes/roberson_saraiva_polli.png",
+      "lattes": "http://lattes.cnpq.br/6933632737044678",
+      "email": "rpolli@unifesp.br",
+      "status": "docente"
+    },
+    {
+      "id": "tatiana_cunha",
+      "nome": "Dra. Tatiana de Sousa da Cunha Uchiyama",
+      "foto": "imgs/docentes/avatares_docentes/tatiana_sousa_cunha_uchiyama.png",
+      "lattes": "https://lattes.cnpq.br/6737487161341934",
+      "email": "ts.cunha@unifesp.br",
+      "status": "docente"
+    }
+  ],
+  "colaboradores": [
+    {
+      "id": "eugenia_mattos",
+      "nome": "Dra. Eugenia Casella Tavares de Mattos",
+      "foto": "imgs/docentes/avatares_docentes/eugenia_casella_tavares_mattos.png",
+      "lattes": "http://lattes.cnpq.br/7865166802385092",
+      "email": "ectmattos@unifesp.br",
+      "status": "colaborador"
+    },
+    {
+      "id": "fernando_porto",
+      "nome": "Dr. Fernando Garcez Porto",
+      "foto": "imgs/docentes/avatares_docentes/fernando_garcez_porto.png",
+      "lattes": "http://lattes.cnpq.br/5180210894075071",
+      "email": "fporto@unifesp.br",
+      "status": "colaborador"
+    }
+  ]
+}
