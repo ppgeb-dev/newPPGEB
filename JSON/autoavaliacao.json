@@ -23,7 +23,15 @@
         "cargo": "Discente regular do PPG-EB"
       }
     ],
-    "documentos": []
+    "documentos": [
+      {
+        "titulo": "Portaria de nomeação",
+        "descricao": "Documento oficial de nomeação da Comissão de Autoavaliação",
+        "arquivo": "docs/autoavaliacao/portaria_de_auto_avaliação_2025.pdf",
+        "ano": "2025"
+      }
+
+    ]
   },
   "2021-2024": {
     "titulo": "Comissão de Autoavaliação (2021-2024)",
