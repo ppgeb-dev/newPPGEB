@@ -130,12 +130,12 @@
 
 .disciplinas-list li {
     position: relative;
-    padding: 0.75rem 0 0.75rem 2rem;
+    padding: 0 0 0 2rem;
     margin-bottom: 0.5rem;
     border-bottom: 1px solid var(--border-light);
     color: var(--dark-text);
     font-weight: 500;
-    transition: all 0.3s ease;
+    transition: color 0.3s ease;
 }
 
 .disciplinas-list li:last-child {
@@ -155,8 +155,115 @@
 }
 
 .disciplinas-list li:hover {
-    /* padding-left: 2.5rem; */
     color: var(--primary-blue);
+}
+
+.disciplina-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.75rem 0;
+}
+
+.disciplina-row span {
+    flex: 1;
+}
+
+/* Ementa accordion */
+.ementa-details {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+
+.ementa-details.open {
+    max-height: 2000px;
+}
+
+.ementa-content {
+    padding: 1rem 1rem 1.25rem 0;
+    border-top: 1px dashed var(--border-light);
+    margin-top: 0;
+}
+
+.ementa-meta-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 0.5rem 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.ementa-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+.meta-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--primary-blue);
+}
+
+.meta-value {
+    font-size: 0.9rem;
+    color: var(--dark-text);
+    font-weight: 500;
+}
+
+.ementa-section {
+    margin-top: 0.85rem;
+}
+
+.ementa-section-label {
+    display: block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--primary-blue);
+    margin-bottom: 0.3rem;
+}
+
+.ementa-section p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--medium-text);
+    margin: 0;
+}
+
+.ementa-unavailable {
+    font-size: 0.9rem;
+    color: var(--medium-text);
+    padding: 0.75rem 0;
+    margin: 0;
+}
+
+.ementa-btn {
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+    background: var(--primary-blue);
+    color: white;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease, box-shadow 0.2s ease;
+    white-space: nowrap;
+}
+
+.ementa-btn:hover,
+.ementa-btn.active {
+    background: var(--primary-blue-dark);
+    box-shadow: 0 3px 10px rgba(0, 113, 227, 0.3);
+    color: white;
 }
 
 

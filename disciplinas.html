@@ -61,90 +61,11 @@
                     </div>
                     <div class="category-content">
                         <p>Os alunos do curso de Mestrado Acadêmico deverão integralizar um total de 48 créditos para obter o título de Mestre junto ao Programa de Engenharia Biomédica. <strong>Cada crédito equivale a 15 horas</strong> de atividades planejadas no Programa, o que significa que o aluno deverá totalizar 720 horas de atividades, destes, no mínimo 16 créditos em disciplinas obrigatórias e eletivas.</p>
-                        <div class="link-container">
-                            <a href="docs/ementas/ementas2022.pdf" target="_blank" class="ementa-link">
-                                Clique aqui para visualizar as ementas
-                            </a>
-                        </div>
                     </div>
                 </div>
 
-                <!-- Disciplinas Obrigatórias -->
-                <div class="disciplina-category obligatory">
-                    <div class="category-header category-header-orange">
-                        <div class="header-container-docs">
-                            <h2>Disciplinas Obrigatórias</h2>
-                        </div>
-                        <span class="credits-badge">60 horas aula - 4 créditos por disciplina</span>
-                    </div>
-                    <div class="category-content">
-                        <ul class="disciplinas-list">
-                            <li>Seminários em Engenharia Biomédica</li>
-                            <li>Bioestatística</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Disciplinas Niveladoras -->
-                <div class="disciplina-category leveling">
-                    <div class="category-header">
-                        <div class="header-container-docs">
-                            <h2>Disciplinas Niveladoras</h2>
-                        </div>
-                        <span class="credits-badge">60 horas aula - 4 créditos por disciplina</span>
-                    </div>
-                    <div class="category-content">
-                        <ul class="disciplinas-list">
-                            <li>Transdução de Grandezas Biomédicas</li>
-                            <li>Fisiologia para Engenharia Biomédica</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Disciplinas Eletivas - Bioengenharia -->
-                <div class="disciplina-category elective bioengenharia">
-                    <div class="category-header category-header-green">
-                        <div class="header-container-docs">
-                            <h2>Disciplinas Eletivas - Área: Bioengenharia</h2>
-                        </div>
-                        <span class="credits-badge">60 horas aula - 4 créditos por disciplina</span>
-                    </div>
-                    <div class="category-content">
-                        <ul class="disciplinas-list">
-                            <li>Bioética e Metodologia Científica</li>
-                            <li>Modelagem Fisiológica para a Terapia Intensiva</li>
-                            <li>Princípios e Métodos da Neurociência Cognitiva</li>
-                            <li>Programação em Python Aplicada à Engenharia Biomédica</li>
-                            <li>Sistemas Críticos</li>
-                            <li>Tecnologias Aplicadas à Biomecânica da Reabilitação</li>
-                            <li>Tópicos Avançados em Análise de Sinais e Imagens</li>
-                            <li>Tópicos Avançados em Bioengenharia</li>
-                            <li>Tópicos Avançados em Ótica Biomédica</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Disciplinas Eletivas - Instrumentação Biomédica -->
-                <div class="disciplina-category elective instrumentacao">
-                    <div class="category-header">
-                        <div class="header-container-docs">
-                            <h2>Disciplinas Eletivas - Área: Instrumentação Biomédica</h2>
-                        </div>
-                        <span class="credits-badge">60 horas aula - 4 créditos por disciplina</span>
-                    </div>
-                    <div class="category-content">
-                        <ul class="disciplinas-list">
-                            <li>Análise e Processamento de Imagens Biomédica</li>
-                            <li>Aprendizado de Máquina Aplicado a Sinais e Imagens Médicas</li>
-                            <li>Controle Digital</li>
-                            <li>Desenvolvimento Web Aplicado à Telemedicina</li>
-                            <li>Instrumentação Biomédica e Médico-Hospitalar</li>
-                            <li>Introdução ao Processamento de Sinais Biomédicos</li>
-                            <li>Redes Neurais de Aprendizado Profundo Aplicadas a Sinais e Imagens Médicas</li>
-                            <li>Sistemas de Controle Aplicados em Engenharia Biomédica</li>
-                        </ul>
-                    </div>
-                </div>
+                <!-- Disciplinas geradas dinamicamente pelo JS a partir do ementas.json -->
+                <div id="disciplinas-container"></div>
             </section>
         </div>
     </main>
