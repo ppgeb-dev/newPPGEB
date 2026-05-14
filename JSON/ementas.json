@@ -215,6 +215,24 @@
         "carga_horaria": "60",
         "tipo": "eletiva"
     },
+    "NEUROCIÊNCIA E COMPORTAMENTO": {
+        "sigla": "NCO",
+        "creditos": 4,
+        "ementa": "Este curso teórico-prático explora a aplicação da neurociência para o aprimoramento de habilidades essenciais tanto para o desenvolvimento pessoal quanto para o sucesso profissional. Com base em princípios da neurociência, o curso oferece estratégias práticas para otimizar a aprendizagem, incluindo técnicas para melhorar o estudo, a memória e a atenção, além de promover o bem-estar e o desenvolvimento da inteligência emocional. No âmbito profissional, o curso foca no desenvolvimento de competências altamente valorizadas pelo mercado de trabalho, como trabalho em equipe, comunicação eficaz, inteligência emocional e resolução de conflitos. Os participantes aprenderão e praticarão estratégias de gestão e regulação emocional, com o objetivo de desenvolver e acompanhar projetos individuais de aprimoramento de habilidades socioemocionais (soft skills), integrando os conhecimentos adquiridos para aplicação em contextos sociais e profissionais. Tópicos: Conceitos e Fundamentos da Neurociência; Neuroplasticidade; Tipos de Mentalidade e suas Implicações; Aprendizagem e Memória; Neurociência e Bem-Estar; Emoções e Regulação Emocional; Neurociência e Tecnologias; Competências Socioemocionais Exigidas na Atualidade; Fundamentos da Neurociência para o Desenvolvimento de Soft Skills; Soft Skills: Características Pessoais/Individuais e Habilidades Interpessoais; Neurociência da Tomada de Decisão/Habilidades Cognitivas; Competências de um Líder; Neurociência da mudança.",
+        "bibliografia": "1. COSENZA, R. M. Fundamentos de Neuroanatomia. Rio de Janeiro: Guanabara Koogan, 2013. 2. BEAR, M. F.; CONNORS, B. W.; PARADISO, M. A. Neurociências: desvendando o sistema nervoso. Porto Alegre: Artmed, 2006. 3. DWECK, C. S. Mindset: a nova psicologia do sucesso. Rio de Janeiro: Objetiva, 2017. 4. GOLEMAN, D. Inteligência Emocional. 82. ed. Rio de Janeiro: Objetiva, 1995. 5. KAHNEMAN, D. Rápido e devagar: duas formas de pensar. São Paulo: Objetiva, 2012. 6. KANDEL, E. R.; SCHWARTZ, J. H.; JESSELL, T. M. Principles of Neural Science. New York: McGraw-Hill, 2000. 7. OAKLEY, B. Aprendendo a Aprender. Ponta Grossa: Ed. Athena, 2017. 8. FIRMINO, L. C. S.; BRAZ, M. N. S. Neurociência: Uma Revisão Bibliográfica de como o Cérebro Aprende. Id on Line Rev. Mult. Psic., v.14, n.53, p. 999-1009, 2020. 9. DRAGANSKI, B. et al. Neuroplasticity: changes in grey matter induced by training. Nature, 427(6972):311-2, 2004.",
+        "area_concentracao": "Bioengenharia",
+        "carga_horaria": "60",
+        "tipo": "eletiva"
+    },
+    "TÓPICOS AVANÇADOS EM BIOSSENSORES": {
+        "sigla": "TAB",
+        "creditos": 4,
+        "ementa": "Introdução aos biossensores, biorreceptores e bioafinidade, métodos de imobilização, propriedades físicas e químicas do meio analítico, sistemas de transdução, técnicas de microfabricação, nanotecnologia: vantagens e desvantagens do mundo nano, introdução à análise de sinais em biossensores, técnicas de caracterização físico-química de superfícies, integração com eletrônica e sistemas embarcados, validação analítica e normas regulatórias, aprendizado de máquina aplicado à análise de dados de biossensores, inovação em biossensores: patentes e transferência de tecnologia.",
+        "bibliografia": "1. EGGINS, Brian R. Chemical sensors and biosensors. John Wiley & Sons, 2002. 2. EGGINS, Brian R. Biosensors: an introduction. Springer-Verlag, 2013. 3. BANICA, Florinel-Gabriel. Chemical sensors and biosensors: fundamentals and applications. John Wiley & Sons, 2012. 4. KARUNAKARAN, Chandran; RAJKUMAR, Raju; BHARGAVA, Kalpana. Introduction to biosensors. In: Biosensors and bioelectronics. Elsevier, 2015. p. 1-68. 5. MATHEW, Ribu; AJAYAN, J. (Ed.). Biosensors: Developments, Challenges and Perspectives. Springer, 2024. 6. VASHIST, Sandeep K.; LUONG, John HT (Ed.). Handbook of immunoassay technologies: approaches, performances, and applications. Elsevier, 2025.",
+        "area_concentracao": "Bioengenharia",
+        "carga_horaria": "60",
+        "tipo": "eletiva"
+    },
     "TRANSDUÇÃO DE GRANDEZAS BIOMÉDICAS": {
         "sigla": "TGB",
         "creditos": 4,
