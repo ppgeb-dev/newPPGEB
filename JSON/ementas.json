@@ -44,6 +44,15 @@
         "carga_horaria": "60",
         "tipo": "eletiva"
     },
+    "BIOMECÂNICA CARDIOVASCULAR E RESPIRATÓRIA": {
+        "sigla": "BCR",
+        "creditos": 4,
+        "ementa": "Introdução à abordagem mecânica dos Sistemas Cardiovascular e Respiratório. Mecânica cardiovascular – bombeamento cardíaco e hemodinâmica. Mecânica respiratória – principais modelos matemáticos da mecânica respiratória e ventilação mecânica pulmonar. Representação de sistemas biológicos como elementos mecânicos e elétricos.",
+        "bibliografia": "Básica: 1. Pappano, A. J., & Wier, W. G. (2013). Cardiovascular Physiology. 10th ed. Elsevier Health Sciences. 2. Labrosse, M. R. (Ed.). (2018). Cardiovascular mechanics. CRC press. 3. Devasahayam, S. R. (2012). Signals and systems in biomedical engineering: signal processing and physiological systems modeling. Springer Science & Business Media. 4. Bates, J. H. (2009). Lung mechanics: an inverse modeling approach. Cambridge University Press. Complementar: 1. Mohrman, D. E., & Heller, L. J. (2014). Cardiovascular physiology. 8th ed. McGraw-Hill. 2. Cobelli, C., & Carson, E. (2019). Introduction to modeling in physiology and medicine. Academic Press. 3. Carson, E., & Cobelli, C. (2001). Modelling methodology for physiology and medicine. Newnes.",
+        "area_concentracao": "Bioengenharia",
+        "carga_horaria": "60",
+        "tipo": "eletiva"
+    },
     "COMUNICAÇÃO CIENTÍFICA": {
         "sigla": "CC",
         "creditos": 4,
