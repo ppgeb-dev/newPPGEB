@@ -29,6 +29,12 @@
         "descricao": "Documento oficial de nomeação da Comissão de Autoavaliação",
         "arquivo": "docs/autoavaliacao/portaria_de_auto_avaliação_2025.pdf",
         "ano": "2025"
+      },
+      {
+        "titulo": "Relatório final de autoavaliação",
+        "descricao": "Relatório completo com resultados e análises da autoavaliação do programa",
+        "arquivo": "docs/autoavaliacao/relatorio_autoavaliacao_2025.pdf",
+        "ano": "2025"
       }
 
     ]
