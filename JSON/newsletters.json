@@ -5,10 +5,20 @@
       "title": "Maio de 2026",
       "month": "maio",
       "year": 2026,
-      "file": "newsletter.md",
+      "file": "2026_05_newsletter.md",
       "edition": 1,
       "active": true,
       "imageFolder": "img/2026-05"
+    },
+    {
+      "id": "junho",
+      "title": "Junho de 2026",
+      "month": "junho",
+      "year": 2026,
+      "file": "2026_06_newsletter.md",
+      "edition": 2,
+      "active": true,
+      "imageFolder": "img/2026-06"
     }
   ],
   "usefulLinks": [

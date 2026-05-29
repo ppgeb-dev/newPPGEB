@@ -131,7 +131,7 @@ class NewsletterRenderer {
     return content.replace(/\[CTA\|(.*?)\|(.*?)\|(.*?)\]/g, (match, style, url, text) => {
       const btnClass = style === 'primary' ? 'btn btn-primary' : 'btn btn-secondary';
       return `<div class="cta-buttons" style="justify-content: center; margin-top: 2rem;">
-        <a href="${url}" target="_blank" class="${btnClass}">
+        <a href="${url}" target="_blank" class="${btnClass}" style="color: #ffffff !important;">
           ${text}
         </a>
       </div>`;
@@ -230,6 +230,11 @@ class NewsletterRenderer {
         if (currentParagraph.length > 0) {
           html += `<p>${currentParagraph.join(' ')}</p>`;
           currentParagraph = [];
+        }
+
+        if (!inFeatureCard) {
+          html += '<div class="feature-card mt-m">';
+          inFeatureCard = true;
         }
         
         // Extrair emoji se estiver no início
@@ -366,7 +371,9 @@ class MenuManager {
 
     selector.innerHTML = '';
     
-    this.menuData.newsletters.forEach(newsletter => {
+    const sortedNewsletters = [...this.menuData.newsletters].sort((a, b) => b.edition - a.edition);
+
+    sortedNewsletters.forEach(newsletter => {
       const option = document.createElement('option');
       option.value = newsletter.file;
       option.textContent = newsletter.title;
@@ -394,7 +401,8 @@ class MenuManager {
       html += '<div class="menu-section">';
       html += '<h3>📅 Edições Disponíveis</h3>';
       
-      this.menuData.newsletters.forEach(newsletter => {
+      const sortedNewsletters = [...this.menuData.newsletters].sort((a, b) => b.edition - a.edition);
+      sortedNewsletters.forEach(newsletter => {
         const activeClass = newsletter.file === this.currentFilePath ? 'active' : '';
         html += `
           <button class="menu-item ${activeClass}" 
@@ -490,8 +498,9 @@ class MenuManager {
   async init() {
     const data = await this.loadMenuData();
     
-    // Carregar a newsletter ativa inicialmente
-    const activeNewsletter = data.newsletters.find(n => n.active) || data.newsletters[0];
+    // Carregar a newsletter com a edição mais recente inicialmente
+    const activeNewsletters = data.newsletters.filter(n => n.active);
+    const activeNewsletter = activeNewsletters.sort((a, b) => b.edition - a.edition)[0] || data.newsletters[0];
     if (activeNewsletter) {
       await this.loadNewsletter(activeNewsletter.file);
     }

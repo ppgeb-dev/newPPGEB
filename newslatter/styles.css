@@ -335,18 +335,19 @@ section[id] {
 
 .btn-primary {
     background: var(--gradient-blue);
-    color: white;
+    color: #ffffff !important;
     border: none;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
+    color: #ffffff !important;
     box-shadow: 0 8px 30px rgba(6, 182, 212, 0.5);
 }
 
 .btn-secondary {
     background: linear-gradient(90deg, #7219c2bd, #a84fe9bd);
-    color: white;
+    color: #ffffff !important;
     border-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
 }
