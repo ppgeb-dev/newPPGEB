@@ -127,17 +127,17 @@ A contemplação de dois docentes em uma única chamada é uma conquista express
 
 A **48ª Conferência Internacional Anual da IEEE Engineering in Medicine and Biology Society (EMBC 2026\)** acontece de **26 a 30 de julho de 2026** no Metro Toronto Convention Centre, em Toronto, Canadá. Com o tema *"Engineering Sustainable and Equitable Healthcare"*, o evento reúne pesquisadores de mais de **80 países** e é o principal fórum mundial em engenharia biomédica.
 
-O PPGEB estará representado com a apresentação do artigo **"Investigating Subliminal Muscle Activity for Motor Imagery Classification Using EEG–EMG Fusion"**, de autoria de **Yan**, sob orientação do **Prof. Adenauer Girardi Casali**.
+O PPGEB estará representado com a apresentação do artigo **"Investigating Subliminal Muscle Activity for Motor Imagery Classification Using EEG–EMG Fusion"**, de autoria de **Yan Victor Mazer Bueno**, sob orientação do **Prof. Adenauer Girardi Casali**.
 
 Imagine tentar mover a mão — mas sem de fato movê-la. Apenas o pensamento do movimento. Para a maioria das pessoas, isso não parece gerar atividade muscular visível. Mas e se, na prática, os músculos ainda "sussurrassem" uma resposta — tão sutil que não causa movimento, mas presente o suficiente para ser captada por eletrodos? É exatamente essa hipótese que o trabalho investiga.
 
 ### A Pesquisa
 
-O ponto de partida é uma pergunta pouco explorada: em tarefas de *imagética motora* (onde o voluntário *imagina* movimentos sem executá-los), há informação subliminar na atividade muscular captada por EMG capaz de melhorar interfaces humano-computador? Para testá-la, os pesquisadores compararam três abordagens de classificação dos movimentos imaginados — usando exclusivamente EEG, exclusivamente EMG, e a fusão dos dois sinais (EEG+EMG) — com uma rede neural convolucional (CNN) baseada na arquitetura *Shallow ConvNet* e validação rigorosa *leave-one-subject-out* (LOSO). Experimentos de ablação e análises com sinais *surrogate* do EMG foram usados para investigar a origem dos ganhos.
+O ponto de partida é uma pergunta pouco explorada: em tarefas de *imagética motora* (onde o voluntário *imagina* movimentos sem executá-los), há informação subliminar na atividade muscular captada por EMG capaz de melhorar interfaces humano-computador? Para testá-la, os pesquisadores compararam três abordagens de classificação dos movimentos imaginados — usando exclusivamente EEG, exclusivamente EMG, e a fusão dos dois sinais (EEG+EMG) — com uma rede neural convolucional (CNN) baseada na arquitetura *Shallow ConvNet* e validação rigorosa *leave-one-subject-out* (LOSO). Experimentos de ablação e análises com sinais *surrogados* do EMG foram usados para investigar a origem dos ganhos.
 
 ### O que Encontraram
 
-O EMG isolado performou em nível de acaso (confirmando a ausência de movimento visível); o EEG isolado ficou acima do acaso (como esperado); mas a combinação **EEG+EMG produziu melhorias consistentes e significativas** em relação ao EEG sozinho. As análises com sinais *surrogate* confirmaram que esse ganho dependia da correspondência fisiológica real entre as modalidades EEG e EMG — e não de efeitos aleatórios ou do simples aumento da dimensionalidade da entrada da CNN.
+O EMG isolado performou em nível de acaso (confirmando a ausência de movimento visível); o EEG isolado ficou acima do acaso (como esperado); mas a combinação **EEG+EMG produziu melhorias consistentes e significativas** em relação ao EEG sozinho. As análises com sinais *surrogados* confirmaram que esse ganho dependia da correspondência fisiológica real entre as modalidades EEG e EMG — e não de efeitos aleatórios ou do simples aumento da dimensionalidade da entrada da CNN.
 [BLOCKQUOTE] "A fusão EEG-EMG pode aprimorar a performance de classificação humano-máquina mesmo na ausência de movimento, por capturar correlatos musculares residuais de intenção motora que permanecem abaixo do limiar motor." [/BLOCKQUOTE]
 
 ### Por que isso importa?
