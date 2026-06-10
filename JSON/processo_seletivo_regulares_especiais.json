@@ -585,5 +585,18 @@
         "texto": "Documento contendo o Resultado final do processo seletivo"
       }
     ]
+  },  "2026-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares_2026_02.pdf",
+        "titulo": "Edital do Processo Seletivo ",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      },
+      {
+        "arquivo": "anexos_edital_2026-01.pdf",
+        "titulo": "Anexos do Edital",
+        "texto": "Anexo ao edital para Alunos Regulares"
+      }
+    ]
   }
 }
