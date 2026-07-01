@@ -1,4 +1,45 @@
 {
+  "2026-2": {
+    "titulo": "Disciplinas oferecidas no Segundo semestre de 2026",
+    "disciplinas": [
+      {
+        "nome": "Aprendizado de Máquina Aplicado a Sinais e Imagens Médicas",
+        "docente": "Prof. Dr. Adenauer Girardi Casali",
+        "unidade": "Unidade Parque Tecnológico — UNIFESP-SJC",
+        "local": "",
+        "horario": "Segundas e Quartas-feiras, 19h–21h",
+        "creditos": "4",
+        "ementa_link": "docs/ementas/ementas2022.pdf"
+      },
+      {
+        "nome": "Redes Neurais de Aprendizado Profundo Aplicadas a Sinais e Imagens Médicas",
+        "docente": "Prof. Dr. Matheus Cardoso Moraes",
+        "unidade": "Unidade Parque Tecnológico — UNIFESP-SJC",
+        "local": "",
+        "horario": "Sextas-feiras, 19h–23h",
+        "creditos": "4",
+        "ementa_link": "docs/ementas/ementas2022.pdf"
+      },
+      {
+        "nome": "Fisiologia Integrativa: Percepção, Raciocínio e Sistemas Biológicos",
+        "docente": "Prof. Dr. Vinicius Guzzoni",
+        "unidade": "Unidade Parque Tecnológico — UNIFESP-SJC",
+        "local": "",
+        "horario": "Terças e Quintas-feiras, 19h–21h",
+        "creditos": "4",
+        "ementa_link": "docs/ementas/ementas2022.pdf"
+      },
+      {
+        "nome": "Seminários em Engenharia Biomédica",
+        "docente": "Prof. Dr. Thiago Martini Pereira",
+        "unidade": "Unidade Parque Tecnológico — UNIFESP-SJC",
+        "local": "",
+        "horario": "Quartas-feiras, 18h–21h",
+        "creditos": "4",
+        "ementa_link": "docs/ementas/ementas2022.pdf"
+      }
+    ]
+  },
   "2026-1": {
     "titulo": "Disciplinas oferecidas no Primeiro semestre de 2026",
     "disciplinas": [

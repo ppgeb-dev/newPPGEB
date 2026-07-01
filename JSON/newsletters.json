@@ -19,6 +19,16 @@
       "edition": 2,
       "active": true,
       "imageFolder": "img/2026-06"
+    },
+    {
+      "id": "julho",
+      "title": "Julho de 2026",
+      "month": "julho",
+      "year": 2026,
+      "file": "2026_07_newsletter.md",
+      "edition": 3,
+      "active": true,
+      "imageFolder": "img/2026-06"
     }
   ],
   "usefulLinks": [

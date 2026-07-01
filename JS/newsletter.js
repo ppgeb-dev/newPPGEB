@@ -118,11 +118,12 @@ class NewsletterRenderer {
 
   processAlerts(content) {
     return content.replace(/\[ALERT\|(.*?)\]([\s\S]*?)\[\/ALERT\]/g, (match, type, text) => {
+      const lines = text.trim().split('\n');
       return `<div style="background: linear-gradient(135deg, #fff3cd, #ffeaa7); border-left: 5px solid #ea580c; padding: 1.5rem; margin: 2rem 0; border-radius: 12px; box-shadow: 0 4px 15px rgba(234, 88, 12, 0.2);">
         <p style="margin: 0; font-size: 1.1rem; color: #856404; text-align: center;">
-          <strong>${text.trim().split('\n')[0]}</strong>
+          <strong>${this.processInlineMarkdown(lines[0])}</strong>
         </p>
-        ${text.trim().split('\n').slice(1).map(line => `<p style="margin: 0.5rem 0 0 0; font-size: 1rem; color: #856404; text-align: center;">${line.trim()}</p>`).join('')}
+        ${lines.slice(1).map(line => `<p style="margin: 0.5rem 0 0 0; font-size: 1rem; color: #856404; text-align: center;">${this.processInlineMarkdown(line.trim())}</p>`).join('')}
       </div>`;
     });
   }
@@ -283,6 +284,23 @@ class NewsletterRenderer {
         continue;
       }
 
+      // Tabelas Markdown (linhas que começam com |)
+      if (line.trim().startsWith('|')) {
+        if (currentParagraph.length > 0) {
+          html += `<p>${currentParagraph.join(' ')}</p>`;
+          currentParagraph = [];
+        }
+        // Coletar todas as linhas da tabela
+        const tableLines = [];
+        while (i < lines.length && lines[i].trim().startsWith('|')) {
+          tableLines.push(lines[i]);
+          i++;
+        }
+        i--; // Ajustar índice pois o loop externo também incrementa
+        html += this.parseTable(tableLines);
+        continue;
+      }
+
       // Processar linhas de parágrafo
       if (line.trim()) {
         // Processar markdown inline
@@ -304,6 +322,35 @@ class NewsletterRenderer {
       html += '<hr>';
     }
 
+    return html;
+  }
+
+  parseTable(lines) {
+    const isSeparator = line => /^\|[\s\-:|]+\|/.test(line.trim());
+    const parseCells = line =>
+      line.trim().replace(/^\||\|$/g, '').split('|').map(c => this.processInlineMarkdown(c.trim()));
+
+    let html = '<div class="newsletter-table-wrapper"><table class="newsletter-table"><thead>';
+    let headerDone = false;
+
+    for (const line of lines) {
+      if (isSeparator(line)) {
+        if (!headerDone) {
+          html += '</thead><tbody>';
+          headerDone = true;
+        }
+        continue;
+      }
+      const cells = parseCells(line);
+      if (!headerDone) {
+        html += '<tr>' + cells.map(c => `<th>${c}</th>`).join('') + '</tr>';
+      } else {
+        html += '<tr>' + cells.map(c => `<td>${c}</td>`).join('') + '</tr>';
+      }
+    }
+
+    if (!headerDone) html += '</thead><tbody>'; // tabela sem separador
+    html += '</tbody></table></div>';
     return html;
   }
 

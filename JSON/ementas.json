@@ -53,6 +53,15 @@
         "carga_horaria": "60",
         "tipo": "eletiva"
     },
+    "FISIOLOGIA INTEGRATIVA: PERCEPÇÃO, RACIOCÍNIO E SISTEMAS BIOLÓGICOS": {
+        "sigla": "FIPRSB",
+        "creditos": 4,
+        "ementa": "Estudo avançado da fisiologia humana com ênfase na integração entre sistemas orgânicos (cardiovascular, renal, neural e musculoesquelético) e nas adaptações ao exercício físico. A disciplina explora os mecanismos de regulação homeostática e alostática a partir de uma abordagem que integra raciocínio lógico, análise crítica e processos de percepção. Estratégias pedagógicas inovadoras não convencionais serão empregadas e incluem a observação sistemática de padrões na natureza, análise de expressões artísticas e construção simbólica, como instrumentos para a modelagem conceitual de fenômenos fisiológicos complexos. O enfoque está na formação de pensamento científico integrado, na formulação de hipóteses e na interpretação de sistemas biológicos dinâmicos.",
+        "bibliografia": "1. SILVERTHORN, Dee Unglaub. Fisiologia humana: uma abordagem integrada. 7. ed. Porto Alegre: Artmed, 2017. 2. GUYTON, A.C.; HALL, J.E. Tratado de Fisiologia Médica. 12ª ed. Rio de Janeiro, Ed. Elsevier, 2011. 3. KENNEY, W. Larry; WILMORE, Jack H.; COSTILL, David L. Fisiologia do esporte e do exercício. 5. ed. Barueri, SP: Manole, 2013. 4. Artigos científicos atualizados referentes aos temas da ementa.",
+        "area_concentracao": "Bioengenharia",
+        "carga_horaria": "60",
+        "tipo": "eletiva"
+    },
     "COMUNICAÇÃO CIENTÍFICA": {
         "sigla": "CC",
         "creditos": 4,

@@ -1629,3 +1629,38 @@ blockquote p,
 .faq-title {
     text-align: center !important;
 }
+
+/* ── Tabelas da Newsletter ────────────────────────────────── */
+.newsletter-table-wrapper {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.newsletter-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  text-align: left;
+}
+
+.newsletter-table th,
+.newsletter-table td {
+  padding: 0.65rem 1rem;
+  border: 1px solid #d1d5db;
+  text-align: left !important;
+}
+
+.newsletter-table thead th {
+  background-color: var(--primary-blue-dark, #1e3a8a);
+  color: #ffffff;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.newsletter-table tbody tr:nth-child(even) {
+  background-color: #f1f5f9;
+}
+
+.newsletter-table tbody tr:hover {
+  background-color: #e2e8f0;
+}
