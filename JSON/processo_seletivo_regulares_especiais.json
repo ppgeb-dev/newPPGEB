@@ -602,6 +602,13 @@
         "titulo": "Lista de alunos deferidos",
         "texto": "Lista dos alunos deferidos no processo seletivo"
       }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais_2026_02.pdf",
+        "titulo": "Edital do Processo Seletivo ",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
+      }
     ]
   }
 }
