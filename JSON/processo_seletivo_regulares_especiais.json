@@ -601,6 +601,11 @@
         "arquivo": "lista_deferidos_regulares_2026_02.pdf",
         "titulo": "Lista de alunos deferidos",
         "texto": "Lista dos alunos deferidos no processo seletivo"
+      },
+      {
+        "arquivo": "Lista_aprovados_1_fase.pdf",
+        "titulo": "Lista de alunos aprovados na 1ª fase",
+        "texto": "Lista dos alunos aprovados na 1ª fase do processo seletivo"
       }
     ],
     "especiais": [
