@@ -606,6 +606,11 @@
         "arquivo": "Lista_aprovados_1_fase.pdf",
         "titulo": "Lista de alunos aprovados na 1ª fase",
         "texto": "Lista dos alunos aprovados na 1ª fase do processo seletivo"
+      },
+      {
+        "arquivo": "Lista_aprovados_final.pdf",
+        "titulo": "Lista final de alunos aprovados no processo seletivo 2026-02",
+        "texto": "Lista dos alunos aprovados no processo seletivo"
       }
     ],
     "especiais": [
