@@ -158,6 +158,10 @@
         "mes": "Setembro",
         "eventos": [
           {
+            "periodo": "08",
+            "evento": "Reunião ordinária da Comissão de Ensino do PPG EB – 14h"
+          },
+          {
             "periodo": "28",
             "evento": "Data limite para trancamento das disciplinas"
           }
@@ -167,6 +171,10 @@
         "mes": "Outubro",
         "eventos": [
           {
+            "periodo": "13",
+            "evento": "Reunião ordinária da Comissão de Ensino do PPG EB – 14h"
+          },
+          {
             "periodo": "28",
             "evento": "Dia do servidor público / dia não letivo"
           }
@@ -174,7 +182,12 @@
       },
       {
         "mes": "Novembro",
-        "eventos": []
+        "eventos": [
+          {
+            "periodo": "10",
+            "evento": "Reunião ordinária da Comissão de Ensino do PPG EB – 14h"
+          }
+        ]
       },
       {
         "mes": "Dezembro",
