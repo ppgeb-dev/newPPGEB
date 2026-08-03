@@ -44,7 +44,7 @@
             "evento": "Inscrição em disciplinas via SIIU de alunos regulares - Mestrado, Doutorado (alunos novos e alunos em curso)"
           },
           {
-            "periodo": "11",
+            "periodo": "17",
             "evento": "Reunião CaPGPq"
           },
           {
@@ -147,15 +147,30 @@
       },
       {
         "mes": "Agosto",
-        "eventos": []
+        "eventos": [
+          {
+            "periodo": "10",
+            "evento": "Início do 2° semestre letivo"
+          }
+        ]
       },
       {
         "mes": "Setembro",
-        "eventos": []
+        "eventos": [
+          {
+            "periodo": "28",
+            "evento": "Data limite para trancamento das disciplinas"
+          }
+        ]
       },
       {
         "mes": "Outubro",
-        "eventos": []
+        "eventos": [
+          {
+            "periodo": "28",
+            "evento": "Dia do servidor público / dia não letivo"
+          }
+        ]
       },
       {
         "mes": "Novembro",
@@ -163,7 +178,20 @@
       },
       {
         "mes": "Dezembro",
-        "eventos": []
+        "eventos": [
+          {
+            "periodo": "15",
+            "evento": "Reunião CaPGPq"
+          },
+          {
+            "periodo": "Até 18",
+            "evento": "Data limite para os docentes cadastrarem as notas no SIIU referentes às disciplinas do 2° semestre"
+          },
+          {
+            "periodo": "Até 20",
+            "evento": "Divulgação da lista de candidatos aceitos para Mestrado e Doutorado fluxo regular (1° período de 2027)"
+          }
+        ]
       }
     ]
   }
