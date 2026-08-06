@@ -28,7 +28,17 @@
       "file": "2026_07_newsletter.md",
       "edition": 3,
       "active": true,
-      "imageFolder": "img/2026-06"
+      "imageFolder": "img/2026-07"
+    },
+    {
+      "id": "Agosto",
+      "title": "Agosto de 2026",
+      "month": "agosto",
+      "year": 2026,
+      "file": "2026_08_newsletter.md",
+      "edition": 4,
+      "active": true,
+      "imageFolder": "img/2026-08"
     }
   ],
   "usefulLinks": [
