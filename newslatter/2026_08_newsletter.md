@@ -25,9 +25,7 @@ Nossos pós-doutorandos criaram, praticamente do zero, uma estrutura completa pa
 
 A conquista também é uma vitória para a formação de recursos humanos do programa. Os três pós-doutorandos vinculados ao projeto — **Dr. Fernando Garcez Porto**, **Dra. Fernanda da Silva Tenório** e **Dr. Rodrigo Lantyer Dantas** — se envolveram diretamente na orientação de alunos de graduação e pós-graduação em Engenharia Biomédica. O Dr. Fernando, primeiro bolsista do projeto, tornou-se posteriormente professor substituto nos cursos de graduação do ICT-UNIFESP, enquanto a Dra. Fernanda segue como colaboradora credenciada ao PPG-EB, hoje orientando dissertação de mestrado financiada pela CAPES. É justamente o aluno dessa dissertação, **Guilherme Henrique Antunes da Luz**, quem figura como coinventor discente da patente — o coração desta conquista inédita.
 
-[IMAGE_LARGE|newslatter/img/2026-08/infraestrutura_eletrofisiologia.jpg|Infraestrutura de eletrofisiologia experimental in vivo implantada no biotério do ICT-UNIFESP]
-Nova infraestrutura de eletrofisiologia experimental in vivo consolidada no ICT-UNIFESP ao longo do projeto
-[/IMAGE_LARGE]
+
 
 Nossos parabéns a toda a equipe envolvida por consolidar, além da tecnologia patenteada, uma nova e duradoura linha de pesquisa para o programa!
 
