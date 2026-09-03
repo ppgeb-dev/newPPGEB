@@ -111,11 +111,11 @@ A participação no SEFI coloca em evidência duas frentes importantes para o pr
 
 [CTA|primary|https://www.sefi.be/activities/events/annual-conference/|Site oficial do SEFI 2026]
 
-## Dois estudos orientados no PPG-EB seguem para a IEEE FIE 2026, em Chipre
+## Dois estudos de um docente do PPG-EB seguem para a IEEE FIE 2026, em Chipre
 
 🎯
 
-Dois estudos orientados pelo **Prof. Henrique Mohallem Paiva** serão apresentados na **IEEE Frontiers in Education Conference (FIE) 2026**, que acontece de **11 a 14 de outubro de 2026, em Paphos, no Chipre**, sob o tema *"Engineering and Computing Education in the Large Language Model Era"*. A conferência, realizada desde 1971 e copatrocinada pela IEEE Education Society, pela IEEE Computer Society e pela ASEE ERM Division, é um dos principais fóruns internacionais para pesquisas sobre educação em Engenharia e Computação, reunindo trabalhos voltados a métodos de ensino, aprendizagem, inclusão e formação profissional.
+Dois estudos do **Prof. Henrique Mohallem Paiva** serão apresentados na **IEEE Frontiers in Education Conference (FIE) 2026**, que acontece de **11 a 14 de outubro de 2026, em Paphos, no Chipre**, sob o tema *"Engineering and Computing Education in the Large Language Model Era"*. A conferência, realizada desde 1971 e copatrocinada pela IEEE Education Society, pela IEEE Computer Society e pela ASEE ERM Division, é um dos principais fóruns internacionais para pesquisas sobre educação em Engenharia e Computação, reunindo trabalhos voltados a métodos de ensino, aprendizagem, inclusão e formação profissional.
 
 O artigo **"Female Undergraduates in Active Learning STEM Environments: A Systematic Review"** examina os efeitos da aprendizagem ativa sobre mulheres em cursos de graduação nas áreas de STEM. A revisão reúne **60 estudos** e identifica um cenário de avanços e desafios: essas metodologias estão associadas a ganhos de desempenho, engajamento e retenção, mas diferenças relacionadas à autoconfiança, à participação em sala e aos papéis assumidos em trabalhos de grupo ainda podem permanecer.
 
