@@ -37,7 +37,7 @@ Toda a rotina experimental foi aprovada pelo **Comitê de Ética no Uso de Anima
 
 
 
-### Um neuroestimulador desenvolvido no programa — e uma patente depositada
+### Um neuroestimulador desenvolvido no programa — petição de deposito de patente no INPI
 
 O eixo tecnológico do projeto foi o desenvolvimento de um **neuroestimulador de padrões dinâmicos configuráveis para experimentação animal**. Os sistemas convencionais de estimulação elétrica trabalham com trens periódicos de pulsos, com frequência, amplitude e duração fixas — adequados para protocolos básicos, mas limitados para investigar como a *estrutura temporal* do estímulo modula a dinâmica das redes neurais. Essa investigação está no centro da hipótese do grupo: a de que padrões caóticos de estimulação, por combinarem determinismo e irregularidade temporal, podem interferir de modo mais eficaz na sincronização neural patológica associada à atividade epileptiforme.
 
@@ -46,7 +46,7 @@ O equipamento evoluiu de um protótipo artesanal, dependente de software externo
 O resultado foi protegido antes da divulgação pública dos detalhes técnicos:
 
 [ALERT|deadline]
-📄 PATENTE DEPOSITADA NO INPI
+📄 PETIÇÃO DE DEPÓSITO DE PATENTE NO INPI
 **Título:** Neuroestimulador de padrões dinâmicos configuráveis para experimentação animal
 **Petição de depósito:** BR1020260163635 (2026)
 **Inventores:** A. G. Casali, J. F. F. Abreu, T. S. Cunha, F. G. Porto, F. S. Tenório, R. L. M. Dantas e G. H. A. Luz
@@ -56,10 +56,7 @@ Vale destacar que **Guilherme Henrique Antunes da Luz, mestrando do PPG-EB, é u
 
 ### Produção científica e revisão sistemática
 
-Com o depósito da patente efetivado, iniciou-se a etapa de submissão dos manuscritos derivados do projeto. Estão em preparação dois artigos:
-
-- *"Efficacy of deep brain stimulation on the suppression of seizures in rodent models of epilepsy: a meta-analysis"* — Tenório F, Porto F, Brogin J, Luz G, Dantas RLM, Pereira TM, Cunha TS, Cavalheiro E, Faber J, Casali A;
-- *"Effects of Chaotic Stimulation on Cortical and Hippocampal Electrophysiological Activity in the PTZ Model of Epilepsy"* — Dantas RLM, Luz G, Tenório F, Porto F, Pereira TM, Cunha TS, Faber J, Casali A.
+Com o depósito da patente efetivado, iniciou-se etapa de preparação e submissão de manuscritos derivados do projeto e que envolvem os efeitos da estimulação não periódica em modelos de epilepsia testados no biotério do ICT e uma revisão sistemática com metanálise sobre neuromodulaçãoem modelos experimentais de epilepsia.
 
 A metanálise deriva de uma **revisão sistemática registrada no PROSPERO (CRD420251016205)** e estruturada conforme as diretrizes PRISMA, sobre a eficácia da estimulação cerebral profunda (DBS) na supressão de crises epilépticas em modelos roedores. A busca, sem restrição de data, em PubMed, ScienceDirect, Embase, Scopus e Web of Science, recuperou **3.425 registros**; após a remoção de duplicatas, 1.760 foram triados por título e resumo, 188 avaliados em texto completo, **130 incluídos na revisão** e 68 com dados adequados para a metanálise.
 
@@ -69,7 +66,7 @@ O projeto também rendeu apresentações em congressos nacionais e internacionai
 
 O PDPG tem como um de seus objetivos explícitos oportunizar o aperfeiçoamento de jovens doutores por meio da atuação em ensino e pesquisa. O projeto integrou **três pós-doutores** às atividades de pesquisa, ensino e orientação do PPG-EB — e dois deles permanecem hoje vinculados ao programa como docentes:
 
-- **Dr. Fernando Garcez Porto**, primeiro bolsista, ministrou a disciplina de Fisiologia Humana nos cursos do ICT, coorientou o mestrando Haniel Nunes Pereira Pinheiro nos primeiros protótipos do neuroestimulador e, imediatamente após o término da bolsa, foi **aprovado em concurso para professor nos cursos de graduação do ICT-UNIFESP**, onde ministra disciplinas como Fundamentos da Biologia Moderna, Anatomia Humana, Biologia Molecular do Gene, Fisiopatologia e Microbiologia, seguindo vinculado ao PPG-EB e orientando projetos de iniciação científica;
+- **Dr. Fernando Garcez Porto**, primeiro bolsista, ministrou a disciplina de Fisiologia Humana nos cursos do ICT e  após o término da bolsa, foi **aprovado em concurso para professor nos cursos de graduação do ICT-UNIFESP**, onde ministra disciplinas como Fundamentos da Biologia Moderna, Anatomia Humana, Biologia Molecular do Gene, Fisiopatologia e Microbiologia, seguindo vinculado ao PPG-EB e orientando projetos de iniciação científica;
 - **Dra. Fernanda da Silva Tenório**, segunda bolsista, teve atuação decisiva no desenvolvimento e teste do neuroestimulador e, a partir desse trabalho, foi **credenciada junto ao PPG-EB**, onde orienta atualmente a dissertação de mestrado de Guilherme Henrique Antunes da Luz (bolsa CAPES) e a iniciação científica de Nicolas Elias dos Santos (bolsa PIBITI), além de liderar a revisão sistemática em preparação final para submissão;
 - **Dr. Rodrigo Lantyer Marques Dantas**, terceiro pós-doutor do projeto, conduziu, entre setembro de 2025 e junho de 2026, todas as adaptações e experimentos da fase de teste *in vivo* do protótipo — registros eletrofisiológicos e estimulação nos animais — orientando alunos de graduação em projetos que vão da verificação histológica do posicionamento dos eletrodos à análise imuno-histoquímica de marcadores de neuroinflamação.
 
