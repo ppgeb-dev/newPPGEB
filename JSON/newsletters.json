@@ -39,6 +39,16 @@
       "edition": 4,
       "active": true,
       "imageFolder": "img/2026-08"
+    },
+    {
+      "id": "Setembro",
+      "title": "Setembro de 2026",
+      "month": "setembro",
+      "year": 2026,
+      "file": "2026_09_newsletter.md",
+      "edition": 5,
+      "active": true,
+      "imageFolder": "img/2026-09"
     }
   ],
   "usefulLinks": [
