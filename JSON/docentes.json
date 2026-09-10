@@ -73,6 +73,14 @@
       "status": "docente"
     },
     {
+      "id": "nirton_cristi",
+      "nome": "Dr. Nirton Cristi Silva Vieira",
+      "foto": "imgs/docentes/avatares_docentes/nirton_cristi_Silva_Vieira.jpg",
+      "lattes": "http://lattes.cnpq.br/9497699863290144",
+      "email": "ncsvieira@unifesp.br",
+      "status": "docente"
+    },
+    {
       "id": "regiane_carvalho",
       "nome": "Dra. Regiane Albertini",
       "foto": "imgs/docentes/avatares_docentes/regiane_albertini.png",
