@@ -49,6 +49,16 @@
       "edition": 5,
       "active": true,
       "imageFolder": "img/2026-09"
+    },
+    {
+      "id": "Outubro",
+      "title": "Outubro de 2026",
+      "month": "outubro",
+      "year": 2026,
+      "file": "2026_10_newsletter.md",
+      "edition": 6,
+      "active": true,
+      "imageFolder": "img/2026-10"
     }
   ],
   "usefulLinks": [
