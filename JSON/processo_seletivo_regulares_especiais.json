@@ -620,5 +620,24 @@
         "texto": "Documento oficial com todas as informações sobre o processo seletivo para Alunos Regulares"
       }
     ]
+  },
+  "2026-3": {
+    "regulares": [
+      {
+        "arquivo": "edital_vagas_remanescentes_2027-01.pdf",
+        "titulo": "Edital de Vagas Remanescentes",
+        "texto": "Documento oficial com todas as informações sobre o processo seletivo de vagas remanescentes para Alunos Regulares - 2027/01"
+      },
+      {
+        "arquivo": "anexos_edital_2026-01.pdf",
+        "titulo": "Anexos do Edital",
+        "texto": "Anexo ao edital para Alunos Regulares"
+      },
+      {
+        "arquivo": "carta_recomendacao_ICT.doc",
+        "titulo": "Carta de Recomendação (ICT)",
+        "texto": "Modelo de carta de recomendação para candidatos ao processo seletivo"
+      }
+    ]
   }
 }
