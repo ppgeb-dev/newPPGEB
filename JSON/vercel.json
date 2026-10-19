@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/dados",
+      "destination": "https://dashboard-ppgeb.vercel.app/",
+      "permanent": false
+    }
+  ]
+}
