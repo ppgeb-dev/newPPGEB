@@ -160,10 +160,90 @@
     padding: 0.5rem;
 }
 
+/* Seletor de idioma PT | EN */
+.lang-switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-left: 1rem;
+    padding: 0.35rem 0.75rem;
+    background: none;
+    border: 1px solid var(--border-light);
+    border-radius: 999px;
+    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--medium-text);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+.lang-switch:hover,
+.lang-switch:focus-visible {
+    border-color: var(--primary-blue);
+    color: var(--primary-blue);
+}
+
+.lang-switch:focus-visible {
+    outline: 2px solid var(--primary-blue);
+    outline-offset: 2px;
+}
+
+.lang-switch .lang-opt.active {
+    color: var(--primary-blue);
+    font-weight: 800;
+}
+
+.lang-switch .lang-sep {
+    opacity: 0.5;
+}
+
+/* Evita o "flash" de português ao abrir em inglês */
+html.i18n-loading main,
+html.i18n-loading body > section {
+    visibility: hidden;
+}
 
 @media (max-width: 1024px) {
     .nav {
         gap: 1.5rem;
+    }
+}
+
+/* Tablets em paisagem: compacta o header para caber o seletor de idioma */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .logo-img {
+        height: 38px;
+    }
+
+    .nav {
+        gap: 1rem;
+    }
+
+    .nav > li > a {
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+
+    .lang-switch {
+        margin-left: 0.5rem;
+        padding: 0.25rem 0.5rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 960px) {
+    .logo-img {
+        height: 32px;
+    }
+
+    .nav {
+        gap: 0.7rem;
+    }
+
+    .nav > li > a {
+        font-size: 0.9rem;
     }
 }
 
@@ -193,6 +273,12 @@
     
     .mobile-menu-btn {
         display: block;
+    }
+
+    /* Seletor de idioma fica ao lado do hambúrguer, fora do menu */
+    .lang-switch {
+        margin-left: auto;
+        margin-right: 0.25rem;
     }
     
     .nav > li {

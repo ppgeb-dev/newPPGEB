@@ -1,3 +1,7 @@
+function textoMenu(item) {
+    return (i18n.lang === 'en' && item.text_en) ? item.text_en : item.text;
+}
+
 function criarItemSubmenu(item) {
     const li = document.createElement('li');
     const hasChildren = Array.isArray(item.children) && item.children.length > 0;
@@ -7,7 +11,7 @@ function criarItemSubmenu(item) {
     const a = document.createElement('a');
     a.href = item.link || "#";
     a.className = item.class || "";
-    a.innerHTML = item.text;
+    a.innerHTML = textoMenu(item);
     if (item.target && item.target !== "") {
         a.target = item.target;
     }
@@ -30,7 +34,7 @@ function criarItemSubmenu(item) {
             const subA = document.createElement('a');
             subA.href = grandchild.link || "#";
             subA.className = grandchild.class || "";
-            subA.innerHTML = grandchild.text;
+            subA.innerHTML = textoMenu(grandchild);
             if (grandchild.target && grandchild.target !== "") {
                 subA.target = grandchild.target;
             }
@@ -53,7 +57,7 @@ function criarItemPrincipal(item) {
     const a = document.createElement('a');
     a.href = item.link || "#";
     a.className = item.class || "";
-    a.innerHTML = item.text;
+    a.innerHTML = textoMenu(item);
     if (item.target && item.target !== "") {
         a.target = item.target;
     }
@@ -182,7 +186,8 @@ function setupMobileDropdownsAfterLoad() {
 function carregarMenu(tipoMenu) {
     const caminho = `JSON/menu.json`;
 
-    fetch(caminho)
+    i18n.ready
+        .then(() => fetch(caminho))
         .then(response => {
             if (!response.ok) throw new Error("Erro ao carregar o arquivo JSON: " + caminho);
             return response.json();

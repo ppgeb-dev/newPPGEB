@@ -1,6 +1,7 @@
 [
   {
     "text": "Home",
+    "text_en": "Home",
     "link": "index.html#inicio",
     "class": "",
     "target": "",
@@ -8,6 +9,7 @@
   },
   {
     "text": "Áreas",
+    "text_en": "Areas",
     "link": "index.html#areas",
     "class": "",
     "target": "",
@@ -15,6 +17,7 @@
   },
   {
     "text": "Linhas",
+    "text_en": "Research Lines",
     "link": "index.html#linhas",
     "class": "",
     "target": "",
@@ -22,6 +25,7 @@
   },
   {
     "text": "Egresso",
+    "text_en": "Alumni",
     "link": "index.html#egresso",
     "class": "",
     "target": "",
@@ -29,6 +33,7 @@
   },
   {
     "text": "Contato",
+    "text_en": "Contact",
     "link": "index.html#contato",
     "class": "",
     "target": "",
@@ -36,6 +41,7 @@
   },
   {
     "text": "<span class='arrow-menu-back'>&#x276E;</span>Voltar para Home",
+    "text_en": "<span class='arrow-menu-back'>&#x276E;</span>Back to Home",
     "link": "index.html",
     "class": "",
     "target": "",
@@ -43,6 +49,7 @@
   },
   {
     "text": "<span class='arrow-menu-down'>&#x276E;</span> Menu",
+    "text_en": "<span class='arrow-menu-down'>&#x276E;</span> Menu",
     "link": "",
     "class": "link-highlight",
     "target": "",
@@ -50,18 +57,21 @@
     "children": [
       {
         "text": "Processos Seletivos",
+        "text_en": "Admissions",
         "link": "",
         "class": "",
         "target": "",
         "children": [
           {
             "text": "Alunos Regulares/Especiais",
+            "text_en": "Regular / Special Students",
             "link": "processoSeletivo.html",
             "class": "",
             "target": ""
           },
           {
             "text": "Pesquisadores de Pós-Doutorado",
+            "text_en": "Postdoctoral Researchers",
             "link": "processoSeletivoPosDoc.html",
             "class": "",
             "target": ""
@@ -70,18 +80,21 @@
       },
       {
         "text": "Disciplinas",
+        "text_en": "Courses",
         "link": "",
         "class": "",
         "target": "",
         "children": [
           {
             "text": "Ementas",
+            "text_en": "Course Syllabi",
             "link": "disciplinas.html",
             "class": "",
             "target": ""
           },
           {
             "text": "Oferta de Disciplinas",
+            "text_en": "Course Offerings",
             "link": "oferta_disciplinas.html",
             "class": "",
             "target": ""
@@ -90,18 +103,21 @@
       },
       {
         "text": "Calendários",
+        "text_en": "Calendars",
         "link": "",
         "class": "",
         "target": "",
         "children": [
           {
             "text": "Calendário do Programa",
+            "text_en": "Academic Calendar",
             "link": "agenda_ppgeb.html",
             "class": "",
             "target": ""
           },
           {
             "text": "Agenda de Defesas",
+            "text_en": "Defense Schedule",
             "link": "agenda_defesas.html",
             "class": "",
             "target": ""
@@ -110,42 +126,49 @@
       },
       {
         "text": "Docentes do Programa",
+        "text_en": "Program Faculty",
         "link": "docentes.html",
         "class": "",
         "target": ""
       },
       {
         "text": "Comissão de PG",
+        "text_en": "Graduate Committee",
         "link": "comissao.html",
         "class": "",
         "target": ""
       },
       {
         "text": "Regimentos e Documentação",
+        "text_en": "Regulations and Documents",
         "link": "regimentos.html",
         "class": "",
         "target": ""
       },
       {
         "text": "Seminarios em EngBio",
+        "text_en": "Seminars in Biomedical Engineering",
         "link": "seminarios.html",
         "class": "",
         "target": ""
       },
       {
         "text": "Auto Avaliação",
+        "text_en": "Self-Assessment",
         "link": "autoavaliacao.html",
         "class": "",
         "target": ""
       },
       {
         "text": "Repositório de Dissertações",
+        "text_en": "Dissertation Repository",
         "link": "https://hdl.handle.net/11600/61100",
         "class": "",
         "target": "_blank"
       },
       {
         "text": "Newsletter",
+        "text_en": "Newsletter (in Portuguese)",
         "link": "newsletter.html",
         "class": "",
         "target": ""

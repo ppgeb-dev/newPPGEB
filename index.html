@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>PPGEB UNIFESP - Programa de Pós-Graduação em Engenharia Biomédica</title>
+    <title data-i18n="index.titulo">PPGEB UNIFESP - Programa de Pós-Graduação em Engenharia Biomédica</title>
 
 
 
@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/nav.css">
 
+    <!-- i18n (deve vir antes dos demais scripts) -->
+    <script src="JS/i18n.js"></script>
 </head>
 
 <body>
@@ -29,7 +31,7 @@
     <header class="header">
         <div class="header-container">
             <div class="logo">
-                <img alt="Logo PPGEB" class="logo-img" src="imgs/logo.png" />
+                <img alt="Logo PPGEB" class="logo-img" src="imgs/logo.png" data-i18n-attr="alt:comum.logo_ppgeb" />
             </div>
 
             <nav class="nav" id="nav"></nav>
@@ -43,26 +45,26 @@
     <section class="hero" id="inicio">
         <div class="hero-container">
             <div class="hero-content">
-                <h1>
+                <h1 data-i18n="index.hero.titulo">
                     Programa de Pós-Graduação em Engenharia Biomédica
                 </h1>
                 <div class="hero-badges">
-                    <div class="hero-badge-institution hero-badge">
+                    <div class="hero-badge-institution hero-badge" data-i18n="index.hero.instituicao">
                         Universidade Federal de São Paulo - UNIFESP
                     </div>
 
-                    <div class="hero-badge-department hero-badge">
+                    <div class="hero-badge-department hero-badge" data-i18n="index.hero.departamento">
                         Instituto de Ciência e Tecnologia - ICT
                     </div>
                 </div>
                 <div class="cta-buttons">
-                    <a class="btn btn-primary" href="docentes.html">
+                    <a class="btn btn-primary" href="docentes.html" data-i18n="index.hero.docentes">
                         Corpo Docente
                     </a>
-                    <a class="btn btn-primary" href="processoSeletivo.html">
+                    <a class="btn btn-primary" href="processoSeletivo.html" data-i18n="index.hero.processo_seletivo">
                         Processo Seletivo
                     </a>
-                    <a class="btn btn-secondary btn-newsletter" href="newsletter.html" style="margin-left: auto;">
+                    <a class="btn btn-secondary btn-newsletter" href="newsletter.html" style="margin-left: auto;" data-i18n="index.hero.newsletter">
                         Newsletter
                     </a>
                 </div>
@@ -78,9 +80,9 @@
                 <div class="missao-box">
                     <div class="missao-box-header">
                         <img alt="" class="icons icon-m" src="imgs/icons/icon1.png" />
-                        <h1>Missão</h1>
+                        <h1 data-i18n="index.missao.titulo">Missão</h1>
                     </div>
-                    <p>
+                    <p data-i18n="index.missao.texto">
                         O Programa de Pós-Graduação em Engenharia Biomédica do ICT-Unifesp (PPGEB UNIFESP) tem como
                         principal
                         missão a formação de recursos humanos altamente qualificados para o desenvolvimento e
@@ -97,9 +99,9 @@
                 <div class="missao-box">
                     <div class="missao-box-header">
                         <img alt="" class="icons icon-m" src="imgs/icons/icon2.png" />
-                        <h1>Sobre</h1>
+                        <h1 data-i18n="index.sobre.titulo">Sobre</h1>
                     </div>
-                    <p>
+                    <p data-i18n-html="index.sobre.texto">
                         Contando com duas áreas de concentração - <strong>Bioengenharia</strong> e
                         <strong>Instrumentação Biomédica</strong> - o programa
                         possibilita a pesquisa e o desenvolvimento de soluções em um amplo espectro de temas, que
@@ -118,14 +120,14 @@
         <div class="container">
 
             <div class="titles" id="areas">
-                <h1>Áreas de Concentração</h1>
-                <p>Conheça mais sobre as nossa áreas de atuação</p>
+                <h1 data-i18n="index.areas.titulo">Áreas de Concentração</h1>
+                <p data-i18n="index.areas.subtitulo">Conheça mais sobre as nossa áreas de atuação</p>
             </div>
             <div class="features-grid">
                 <div class="feature-card fade-in">
                     <img alt="" class="icons icon-g" src="imgs/icons/icon3.png" />
-                    <h3>Bioengenharia</h3>
-                    <p>Estudo dos fenômenos e sistemas biológicos por meio de técnicas e métodos quantitativos. Com o
+                    <h3 data-i18n="index.areas.bioeng.titulo">Bioengenharia</h3>
+                    <p data-i18n="index.areas.bioeng.texto">Estudo dos fenômenos e sistemas biológicos por meio de técnicas e métodos quantitativos. Com o
                         foco no sistema biológico, a área integra ramos das Engenharias e da Ciência básica, como a
                         Física, Química e Matemática, no desenvolvimento de técnicas, protocolos, modelos matemáticos e
                         dispositivos que possam contribuir para aprimorar a compreensão de mecanismos fisiológicos e
@@ -134,8 +136,8 @@
                 </div>
                 <div class="feature-card fade-in">
                     <img alt="" class="icons icon-g" src="imgs/icons/icon4.png" />
-                    <h3>Instrumentação Biomédica</h3>
-                    <p>Estudo e desenvolvimento de técnicas matemático-computacionais e instrumentos, hardwares e
+                    <h3 data-i18n="index.areas.instr.titulo">Instrumentação Biomédica</h3>
+                    <p data-i18n="index.areas.instr.texto">Estudo e desenvolvimento de técnicas matemático-computacionais e instrumentos, hardwares e
                         softwares, voltados para aplicações na área da saúde. Com o foco na técnica ou no instrumento a
                         ser desenvolvido, a área tem como objetivo principal a produção de inovações tecnológicas para
                         apoiar o diagnóstico médico, aprimorar o monitoramento clínico-hospitalar e desenvolver novos
@@ -148,34 +150,34 @@
     <section class="features" id="linhas">
         <div class="container">
             <div class="titles" id="linhas">
-                <h1>Linhas de Pesquisa</h1>
-                <p>Conheça nossas linhas de pesquisa</p>
+                <h1 data-i18n="index.linhas.titulo">Linhas de Pesquisa</h1>
+                <p data-i18n="index.linhas.subtitulo">Conheça nossas linhas de pesquisa</p>
             </div>
             <div class="features-grid">
                 <div class="feature-card fade-in">
                     <img alt="" class="icons icon-g" src="imgs/icons/icon6.png" />
-                    <h3>Estudo de biossistemas a partir de modelos e técnicas quantitativas</h3>
-                    <h4>Área: Bioengenharia</h4>
+                    <h3 data-i18n="index.linhas.l1.titulo">Estudo de biossistemas a partir de modelos e técnicas quantitativas</h3>
+                    <h4 data-i18n="index.linhas.area_bioeng">Área: Bioengenharia</h4>
                     <!-- <p>Tem como objetivo a integração das áreas básicas da ciência, como a Física, Química, Matemática e Biologia, a partir de princípios de engenharia e computação para o estudo de problemas em Saúde e avanço do entendimento de sistemas biológicos...</p> -->
-                    <a class="feature-link open-modal" href="#" data-modal-id="modal1">
+                    <a class="feature-link open-modal" href="#" data-modal-id="modal1" data-i18n="index.linhas.saiba_mais">
                         Saiba mais
                     </a>
                 </div>
                 <div class="feature-card fade-in">
                     <img alt="" class="icons icon-g" src="imgs/icons/icon7.png" />
-                    <h3>Análise de sinais e imagens biomédicas</h3>
-                    <h4>Área: Instrumentação Biomédica</h4>
+                    <h3 data-i18n="index.linhas.l2.titulo">Análise de sinais e imagens biomédicas</h3>
+                    <h4 data-i18n="index.linhas.area_instr">Área: Instrumentação Biomédica</h4>
                     <!-- <p>Tem como objetivo o desenvolvimento de técnicas de análise, modelos computacionais e softwares (em plataformas específicas) para criar sistemas de medição, avaliação e descrição de sistemas biomédicos, clínicos ou biológicos...</p> -->
-                    <a class="feature-link open-modal" href="#" data-modal-id="modal2">
+                    <a class="feature-link open-modal" href="#" data-modal-id="modal2" data-i18n="index.linhas.saiba_mais">
                         Saiba mais
                     </a>
                 </div>
                 <div class="feature-card fade-in">
                     <img alt="" class="icons icon-g" src="imgs/icons/icon8.png" />
-                    <h3>Desenvolvimento de instrumentos biomédicos</h3>
-                    <h4>Área: Instrumentação Biomédica</h4>
+                    <h3 data-i18n="index.linhas.l3.titulo">Desenvolvimento de instrumentos biomédicos</h3>
+                    <h4 data-i18n="index.linhas.area_instr">Área: Instrumentação Biomédica</h4>
                     <!-- <p>Tem como objetivo realizar investigações teóricas e experimentais focadas tanto no aprimoramento, quanto no desenvolvimento de novos dispositivos e técnicas na área de instrumentação biomédica. O Desenvolvimento de Instrumentos Biomédicos...</p> -->
-                    <a class="feature-link open-modal" href="#" data-modal-id="modal3">
+                    <a class="feature-link open-modal" href="#" data-modal-id="modal3" data-i18n="index.linhas.saiba_mais">
                         Saiba mais
                     </a>
                 </div>
@@ -187,14 +189,14 @@
     <section class="features" id="egresso">
         <div class="container">
             <div class="titles" id="linhas">
-                <h1>Perfil de Egresso</h1>
-                <p>Visão Geral da Formação Profissional no PPGEB – UNIFESP</p>
+                <h1 data-i18n="index.egresso.titulo">Perfil de Egresso</h1>
+                <p data-i18n="index.egresso.subtitulo">Visão Geral da Formação Profissional no PPGEB – UNIFESP</p>
             </div>
             <div class="features-grid">
                 <div class="feature-card fade-in">
                     <img alt="" class="icons icon-g" src="imgs/icons/icon5.png" />
-                    <h3>Competências Acadêmicas e Profissionais do Aluno do Programa</h3>
-                    <p>
+                    <h3 data-i18n="index.egresso.card_titulo">Competências Acadêmicas e Profissionais do Aluno do Programa</h3>
+                    <p data-i18n="index.egresso.texto">
                         O perfil de egresso no programa de pós-graduação em Engenharia Biomédica da UNIFESP consiste de
                         um
                         profissional com capacidade de utilizar técnicas e conhecimentos das áreas de exatas, integradas
@@ -204,11 +206,11 @@
                     </p>
 
 
-                    <p class="text-bold text-dark">Neste contexto, listamos as principais características direcionadas
+                    <p class="text-bold text-dark" data-i18n="index.egresso.caracteristicas">Neste contexto, listamos as principais características direcionadas
                         ao curso:</p>
 
                     <ul>
-                        <li>Profissionais com formação sólida e integrada em ciência básica e aplicada, com capacidade
+                        <li data-i18n="index.egresso.item1">Profissionais com formação sólida e integrada em ciência básica e aplicada, com capacidade
                             de
                             atuar na
                             docência,
@@ -219,15 +221,15 @@
                             da
                             saúde;
                         </li>
-                        <li>Profissionais com maturidade para conduzir trabalhos em pesquisa, desenvolvimento e
+                        <li data-i18n="index.egresso.item2">Profissionais com maturidade para conduzir trabalhos em pesquisa, desenvolvimento e
                             docência;
                         </li>
-                        <li>Profissionais capacitados a elaborar e implementar projetos em ciência e tecnologia com
+                        <li data-i18n="index.egresso.item3">Profissionais capacitados a elaborar e implementar projetos em ciência e tecnologia com
                             independência e
                             maturidade;</li>
-                        <li>Profissionais capacitados a trabalhar em equipes inter e multidisciplinares em cooperação
+                        <li data-i18n="index.egresso.item4">Profissionais capacitados a trabalhar em equipes inter e multidisciplinares em cooperação
                             nacional/internacional; e</li>
-                        <li>Profissionais empreendedores, capazes de identificar e viabilizar interações entre o setor
+                        <li data-i18n="index.egresso.item5">Profissionais empreendedores, capazes de identificar e viabilizar interações entre o setor
                             produtivo e a
                             universidade, de modo a transformar conhecimento em benefícios para a sociedade.</li>
                     </ul>
@@ -417,7 +419,7 @@
         <div class="custom-modal-content modern">
             <span class="custom-close">&times;</span>
             <div class="modal-scroll">
-                <p>
+                <p data-i18n="index.modal1.texto">
                     Esta linha de pesquisa tem como objetivo a integração das áreas básicas da ciência, como a Física,
                     Química, Matemática e Biologia, a partir de princípios de engenharia e computação para o estudo de
                     problemas em Saúde e avanço do entendimento de sistemas biológicos. O uso e o desenvolvimento de
@@ -441,7 +443,7 @@
         <div class="custom-modal-content modern">
             <span class="custom-close">&times;</span>
             <div class="modal-scroll">
-                <p>
+                <p data-i18n="index.modal2.texto">
                     Esta linha de pesquisa tem como objetivo o desenvolvimento de técnicas de análise, modelos
                     computacionais e softwares (em plataformas específicas) para criar sistemas de medição, avaliação e
                     descrição de sistemas biomédicos, clínicos ou biológicos. A partir do desenvolvimento das
@@ -467,7 +469,7 @@
         <div class="custom-modal-content modern">
             <span class="custom-close">&times;</span>
             <div class="modal-scroll">
-                <p>
+                <p data-i18n="index.modal3.texto">
                     Esta linha de pesquisa tem como objetivo realizar investigações teóricas e experimentais focadas
                     tanto no aprimoramento, quanto no desenvolvimento de novos dispositivos e técnicas na área de
                     instrumentação biomédica. O Desenvolvimento de Instrumentos Biomédicos busca a criação, manutenção e

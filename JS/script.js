@@ -110,8 +110,10 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // ===== SCROLL TO TOP BUTTON =====
-    createScrollToTopButton();
-    adjustScrollButtonForMobile();
+    i18n.ready.then(() => {
+        createScrollToTopButton();
+        adjustScrollButtonForMobile();
+    });
     window.addEventListener('resize', adjustScrollButtonForMobile);
 
     // ===== MODAL DE AVISOS IMPORTANTES =====
@@ -139,6 +141,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     // Se não encontrar placeholder, adiciona antes do final do body
                     document.body.insertAdjacentHTML('beforeend', html);
                 }
+
+                // Traduz o rodapé recém-inserido (em PT não altera nada)
+                i18n.ready.then(() => i18n.apply(document.querySelector('footer.footer')));
             })
             .catch(error => {
                 console.error('Erro ao carregar footer:', error);
@@ -159,8 +164,8 @@ function createScrollToTopButton() {
     const scrollButton = document.createElement('button');
     scrollButton.id = 'scrollToTopBtn';
     scrollButton.innerHTML = '↑';
-    scrollButton.setAttribute('aria-label', 'Voltar ao topo');
-    scrollButton.setAttribute('title', 'Voltar ao topo');
+    scrollButton.setAttribute('aria-label', i18n.t('comum.voltar_topo', 'Voltar ao topo'));
+    scrollButton.setAttribute('title', i18n.t('comum.voltar_topo', 'Voltar ao topo'));
     
     // Adicionar estilos inline (para não depender de CSS externo)
     scrollButton.style.cssText = `
@@ -309,7 +314,7 @@ function createAnnouncementModal() {
     
     modal.innerHTML = `
         <div class="announcement-content">
-            <button class="announcement-close" onclick="closeAnnouncementModal()" aria-label="Fechar aviso">
+            <button class="announcement-close" onclick="closeAnnouncementModal()" aria-label="${i18n.t('comum.fechar_aviso', 'Fechar aviso')}">
                 ×
             </button>
             
@@ -343,7 +348,7 @@ function createAnnouncementModal() {
                 
                 <button class="announcement-btn announcement-btn-secondary" 
                         onclick="closeAnnouncementModal()">
-                    Fechar
+                    ${i18n.t('comum.fechar', 'Fechar')}
                 </button>
             </div>
         </div>

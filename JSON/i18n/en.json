@@ -1,0 +1,65 @@
+{
+  "comum.logo_ppgeb": "PPGEB logo",
+  "comum.logo_unifesp": "UNIFESP logo",
+  "comum.voltar_topo": "Back to top",
+  "comum.fechar": "Close",
+  "comum.fechar_aviso": "Close notice",
+
+  "footer.contato": "Contact",
+  "footer.email_coordenacao": "Program Office email:",
+  "footer.email_secretaria": "Graduate Office email:",
+  "footer.links_uteis": "Useful Links",
+  "footer.portal_unifesp": "UNIFESP Portal",
+  "footer.secretaria_pos": "Graduate Office",
+  "footer.dados_restrito": "PPGEB data (restricted access)",
+  "footer.instagram": "Follow us on Instagram",
+  "footer.youtube": "Visit our YouTube channel",
+  "footer.desenvolvido": "Developed with care",
+  "footer.por": "by Prof. Henrique Amorim (",
+
+  "index.titulo": "PPGEB UNIFESP - Graduate Program in Biomedical Engineering",
+
+  "index.hero.titulo": "Graduate Program in Biomedical Engineering",
+  "index.hero.instituicao": "Federal University of São Paulo - UNIFESP",
+  "index.hero.departamento": "Institute of Science and Technology - ICT",
+  "index.hero.docentes": "Faculty Members",
+  "index.hero.processo_seletivo": "Admissions",
+  "index.hero.newsletter": "Newsletter (in Portuguese)",
+
+  "index.missao.titulo": "Mission",
+  "index.missao.texto": "The Graduate Program in Biomedical Engineering of ICT-Unifesp (PPGEB UNIFESP) has as its main mission the training of highly qualified professionals for the development and application of technological tools in the health fields. Building on a foundation in the Exact Sciences and Engineering, the program's master's students are trained from an interdisciplinary perspective, integrated with the Biological Sciences and Medicine, to solve health problems through the use of technology.",
+
+  "index.sobre.titulo": "About",
+  "index.sobre.texto": "With two areas of concentration - <strong>Bioengineering</strong> and <strong>Biomedical Instrumentation</strong> - the program enables research and the development of solutions across a broad spectrum of topics, ranging from quantitative and instrumented methods for a better understanding of human physiology to software and new equipment that can be used to improve the diagnosis, prognosis, intervention and treatment of different pathological conditions.",
+
+  "index.areas.titulo": "Areas of Concentration",
+  "index.areas.subtitulo": "Learn more about our areas of expertise",
+  "index.areas.bioeng.titulo": "Bioengineering",
+  "index.areas.bioeng.texto": "Study of biological phenomena and systems through quantitative techniques and methods. With a focus on the biological system, the area integrates branches of Engineering and basic Science, such as Physics, Chemistry and Mathematics, in the development of techniques, protocols, mathematical models and devices that can help improve the understanding of physiological and pathophysiological mechanisms, with possible applications in clinical diagnosis, monitoring and intervention. Research line: Study of Biosystems Using Quantitative Models and Techniques.",
+  "index.areas.instr.titulo": "Biomedical Instrumentation",
+  "index.areas.instr.texto": "Study and development of mathematical-computational techniques and instruments, hardware and software, aimed at healthcare applications. With a focus on the technique or instrument being developed, the area's main goal is the production of technological innovations to support medical diagnosis, improve clinical and hospital monitoring, and develop new intervention methods for improving human health. Research lines: Biomedical Signal and Image Analysis; Biomedical Instruments.",
+
+  "index.linhas.titulo": "Research Lines",
+  "index.linhas.subtitulo": "Learn about our research lines",
+  "index.linhas.area_bioeng": "Area: Bioengineering",
+  "index.linhas.area_instr": "Area: Biomedical Instrumentation",
+  "index.linhas.saiba_mais": "Learn more",
+  "index.linhas.l1.titulo": "Study of biosystems using quantitative models and techniques",
+  "index.linhas.l2.titulo": "Biomedical signal and image analysis",
+  "index.linhas.l3.titulo": "Development of biomedical instruments",
+
+  "index.egresso.titulo": "Alumni Profile",
+  "index.egresso.subtitulo": "Overview of Professional Training in PPGEB – UNIFESP",
+  "index.egresso.card_titulo": "Academic and Professional Skills of Program Students",
+  "index.egresso.texto": "The alumni profile of the UNIFESP Graduate Program in Biomedical Engineering is that of a professional able to use techniques and knowledge from the exact sciences, integrated with the biological context, to solve problems and to improve and develop knowledge and technological innovations, working in basic and/or applied research as well as in teaching.",
+  "index.egresso.caracteristicas": "In this context, we list the main characteristics targeted by the program:",
+  "index.egresso.item1": "Professionals with a solid, integrated education in basic and applied science, able to teach, conduct research and interact with areas related to Engineering, Biology, Medicine and Computing, with a critical attitude and an open mind toward technological innovation and the production of knowledge in the health field;",
+  "index.egresso.item2": "Professionals mature enough to lead work in research, development and teaching;",
+  "index.egresso.item3": "Professionals able to design and implement science and technology projects with independence and maturity;",
+  "index.egresso.item4": "Professionals able to work in inter- and multidisciplinary teams in national/international cooperation; and",
+  "index.egresso.item5": "Entrepreneurial professionals, able to identify and enable interactions between the productive sector and the university, so as to turn knowledge into benefits for society.",
+
+  "index.modal1.texto": "This research line aims to integrate the basic sciences, such as Physics, Chemistry, Mathematics and Biology, using engineering and computing principles to study health problems and advance the understanding of biological systems. The use and development of techniques and devices that measure, evaluate, model or describe the different domains of biological systems provide a new paradigm for studying and understanding these systems, helping to validate diagnostic and life-support protocols and tools. From this perspective, the goal is to understand biological systems with an approach grounded in the exact sciences, enabling not only the description of new relationships and characteristics in biosystems but also, at the same time, the proposal of new protocols and devices that assess, process or model different levels of biological interaction. Topics of interest to the line include the study and modeling of cardiorespiratory systems, the study and analysis of physiological relationships in gastrointestinal systems, and the study, analysis and modeling of neurophysiological and behavioral relationships in rats and humans through the development of mathematical-computational techniques, processes, devices and models.",
+  "index.modal2.texto": "This research line aims to develop analysis techniques, computational models and software (on specific platforms) to create systems for measuring, evaluating and describing biomedical, clinical or biological systems. Through the development of computational platforms, in hardware and software, the Biomedical Signal and Image Analysis line is a fundamental ingredient of biomedical instrumentation, since it allows signals and images to be evaluated and processed in multiple parallel measurements integrated with direct, real-time measurement, while also contributing to the modeling of processes, relationships and interactions in biosystems, to the visualization and graphical processing of images, and to the development of interfaces that are more accessible to non-programmers and/or non-specialists. With virtual instruments built from techniques and models for biomedical signal and image analysis and processing, engineers and researchers build systems that can adapt to each protocol while keeping an open structure for modification and for coupling to other virtual instruments, protocols or physical devices (hardware, actuators, integrated robots, etc.). This field provides an important means for the development of Biomedicine in all research and application sectors.",
+  "index.modal3.texto": "This research line aims to carry out theoretical and experimental investigations focused both on improving existing devices and techniques and on developing new ones in the field of biomedical instrumentation. The Development of Biomedical Instruments line seeks the creation, maintenance and extension of devices to monitor body signals and functions, such as the electrocardiogram, respiration, temperature, pH, and enzyme and protein concentrations, among others, in addition to enabling the improvement of various biomedical treatment strategies, such as pacemakers and stimulators. Biomedical device instrumentation is fundamental for clinical diagnosis, treatment and prognosis. Developing biomedical instruments requires a solid background in electrical circuits, electronics, logic design, and signal analysis and processing, as well as knowledge of quantitative physiology and computational modeling. Solutions in biomedical instrumentation involve the design and application of devices to measure chemical and physical phenomena relevant to medicine and biology, as well as the design of devices useful to the medical community in applications such as diagnosis and clinical intervention."
+}
