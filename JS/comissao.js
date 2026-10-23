@@ -4,15 +4,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function formatPeriod(key) {
         if (key === 'atual') {
-            return 'Atual Formação';
+            return i18n.t('comissao.atual', 'Atual Formação');
         }
-        return key.replace('-', ' a ');
+        return key.replace('-', ` ${i18n.t('comissao.periodo_a', 'a')} `);
     }
 
     const select = document.getElementById("periodSelect");
 
-    fetch("JSON/comissao.json")
-        .then(response => response.json())
+    i18n.ready
+        .then(() => i18n.fetchJSON("JSON/comissao.json"))
         .then(data => {
             comissaoData = data;
             select.innerHTML = "";
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 listaMembros.appendChild(memberItem);
             });
         } else {
-            listaMembros.innerHTML = `<div class="no-members"><p>Não há informações de membros disponíveis para este período.</p></div>`;
+            listaMembros.innerHTML = `<div class="no-members"><p>${i18n.t('comissao.sem_membros', 'Não há informações de membros disponíveis para este período.')}</p></div>`;
         }        
     }
 });

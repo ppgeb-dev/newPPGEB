@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Carregar JSON
-    fetch("JSON/autoavaliacao.json")
-        .then(response => response.json())
+    i18n.ready
+        .then(() => i18n.fetchJSON("JSON/autoavaliacao.json"))
         .then(data => {
             autoavaliacaoData = data;
             select.innerHTML = "";
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .catch(error => {
             console.error("Erro ao carregar JSON:", error);
-            container.innerHTML = `<div class="error-message"><p>Erro ao carregar dados da comissão.</p></div>`;
+            container.innerHTML = `<div class="error-message"><p>${i18n.t('autoavaliacao.erro', 'Erro ao carregar dados da comissão.')}</p></div>`;
         });
 
     // Atualizar quando mudar seleção
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <div class="category-header">
                     <div class="header-container-docs">
                         <img src="imgs/icons/docs.png" class="icon-docs" alt="">
-                        <h2>Documentos</h2>
+                        <h2>${i18n.t('autoavaliacao.documentos', 'Documentos')}</h2>
                     </div>
                 </div>
                 <div class="documents-list">
