@@ -19,6 +19,16 @@
         "tipo": "eletiva",
         "nome": "Quantitative Analysis of the Cardiovascular System"
     },
+    "APLICAÇÕES DE IA GENERATIVA EM PESQUISA CIENTÍFICA E TECNOLÓGICA": {
+        "sigla": "AIGPCT",
+        "creditos": 4,
+        "ementa": "Fundamentals and applications of Generative Artificial Intelligence (AI) in scientific and technological research activities. Responsible use of Generative AI, its limitations, risks and implications for research integrity and quality. Techniques for interacting with AI and formulating queries to support scientific tasks, the survey and analysis of technical information, and the preparation of academic documents. AI-assisted programming: generation, comprehension, debugging, testing and validation of computer code. AI-supported data analysis: exploration, processing, interpretation and verification of results in scientific computing environments. Application of generative models to problem solving involving mathematical, statistical, computational and optimization methods. Critical evaluation of results produced with the aid of AI, including the identification of hallucinations, comparison with reference methods and analysis of limitations. Reproducibility, traceability and documentation of the use of AI in research processes. Strategies for methodological validation and the integration of generative tools into the scientific method. Development of applied scientific or technological research projects using Generative AI.",
+        "bibliografia": "1. MOLLICK, Ethan. Co-intelligence: Living and working with AI. Penguin, 2024. 2. PHOENIX, James; TAYLOR, Mike. Prompt engineering for generative AI. O'Reilly Media, Inc., 2024. 3. RUSSELL, Stuart; NORVIG, Peter. Inteligência Artificial: uma abordagem moderna. GEN LTC, 2022. 4. TRUMMER, Immanuel. Data Analysis with LLMs. Manning Publications, 2025. 5. DHAMANI, Numa; ENGLER, Maggie. Introduction to generative AI. Simon and Schuster, 2026. 6. GÉRON, Aurélien. Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. O'Reilly Media, Inc., 2022. 7. VANDERPLAS, Jake. Python data science handbook: Essential tools for working with data. O'Reilly Media, Inc., 2016. 8. KNAFLIC, Cole Nussbaumer. Storytelling with data: A data visualization guide for business professionals. John Wiley & Sons, 2025. 9. Artigos científicos atualizados referentes aos temas da ementa.",
+        "area_concentracao": "Biomedical Instrumentation",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Generative AI Applications in Scientific and Technological Research"
+    },
     "APRENDIZADO DE MÁQUINA APLICADO A SINAIS E IMAGENS MÉDICAS": {
         "sigla": "AMSIM",
         "creditos": 4,

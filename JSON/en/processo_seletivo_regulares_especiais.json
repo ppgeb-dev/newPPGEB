@@ -621,5 +621,24 @@
         "texto": "Official document with all the information about the selection process for Regular Students"
       }
     ]
+  },
+  "2026-3": {
+    "regulares": [
+      {
+        "arquivo": "edital_vagas_remanescentes_2027-01.pdf",
+        "titulo": "Call for Applications - Remaining Openings",
+        "texto": "Official document with all the information about the selection process for remaining openings for Regular Students - 2027/01"
+      },
+      {
+        "arquivo": "anexos_edital_2026-01.pdf",
+        "titulo": "Call for Applications Annexes",
+        "texto": "Annex to the call for applications for Regular Students"
+      },
+      {
+        "arquivo": "carta_recomendacao_ICT.doc",
+        "titulo": "Recommendation Letter (ICT)",
+        "texto": "Recommendation letter template for applicants to the selection process"
+      }
+    ]
   }
 }
