@@ -17,6 +17,15 @@
         "carga_horaria": "60",
         "tipo": "eletiva"
     },
+    "APLICAÇÕES DE IA GENERATIVA EM PESQUISA CIENTÍFICA E TECNOLÓGICA": {
+        "sigla": "AIGPCT",
+        "creditos": 4,
+        "ementa": "Fundamentos e aplicações de Inteligência Artificial (IA) Generativa em atividades de pesquisa científica e tecnológica. Uso responsável de IA Generativa, suas limitações, riscos e implicações para a integridade e a qualidade da pesquisa. Técnicas de interação e formulação de consultas para apoio a tarefas científicas, levantamento e análise de informações técnicas e elaboração de documentos acadêmicos. Programação assistida por IA: geração, compreensão, depuração, teste e validação de códigos computacionais. Análise de dados apoiada por IA: exploração, processamento, interpretação e verificação de resultados em ambientes de computação científica. Aplicação de modelos generativos na resolução de problemas envolvendo métodos matemáticos, estatísticos, computacionais e de otimização. Avaliação crítica de resultados produzidos com auxílio de IA, incluindo identificação de alucinações, comparação com métodos de referência e análise de limitações. Reprodutibilidade, rastreabilidade e documentação do uso de IA em processos de pesquisa. Estratégias de validação metodológica e integração de ferramentas generativas ao método científico. Desenvolvimento de projetos aplicados de pesquisa científica ou tecnológica com uso de IA Generativa.",
+        "bibliografia": "1. MOLLICK, Ethan. Co-intelligence: Living and working with AI. Penguin, 2024. 2. PHOENIX, James; TAYLOR, Mike. Prompt engineering for generative AI. O'Reilly Media, Inc., 2024. 3. RUSSELL, Stuart; NORVIG, Peter. Inteligência Artificial: uma abordagem moderna. GEN LTC, 2022. 4. TRUMMER, Immanuel. Data Analysis with LLMs. Manning Publications, 2025. 5. DHAMANI, Numa; ENGLER, Maggie. Introduction to generative AI. Simon and Schuster, 2026. 6. GÉRON, Aurélien. Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. O'Reilly Media, Inc., 2022. 7. VANDERPLAS, Jake. Python data science handbook: Essential tools for working with data. O'Reilly Media, Inc., 2016. 8. KNAFLIC, Cole Nussbaumer. Storytelling with data: A data visualization guide for business professionals. John Wiley & Sons, 2025. 9. Artigos científicos atualizados referentes aos temas da ementa.",
+        "area_concentracao": "Instrumentação Biomédica",
+        "carga_horaria": "60",
+        "tipo": "eletiva"
+    },
     "APRENDIZADO DE MÁQUINA APLICADO A SINAIS E IMAGENS MÉDICAS": {
         "sigla": "AMSIM",
         "creditos": 4,
