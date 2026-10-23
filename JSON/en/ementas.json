@@ -1,0 +1,292 @@
+{
+    "ANÁLISE E PROCESSAMENTO DE IMAGENS BIOMÉDICAS": {
+        "sigla": "APPI",
+        "creditos": 4,
+        "ementa": "Introduction to image processing. Introduction to the computational environment used to implement the techniques. Image preprocessing: 2D convolution, spatial filtering, 2D Fourier transform, frequency-domain filtering. Introduction to numerical operators for image processing: gradient, Laplacian, segmentation, thresholding, binary mathematical morphology. DICOM and PACS. Physical principles of image formation and characteristics of the main modalities (X-ray, Computed Tomography, Ultrasonography, Nuclear Medicine, Nuclear Magnetic Resonance).",
+        "bibliografia": "1. Gonzalez, Rafael C.; Woods, Richard Processamento Digital De Imagens. 3ª Ed. ¿ 2011: Pearson Education - Br 2. Geoff Dougherty. Digital Image Processing for Medical Applications 2009: Cambridge University Press 3. Paul Suetens. Fundamentals of Medical Imaging 2ª Ed, 2009.: Cambridge University Press 4. Kayvan Najarian, Robert Splinter. Biomedical Signal and Image Processing, 2ª Ed, 2012.: Taylor & Francis Group, LLC 5. Jerry L. Prince, Jonathan. Medical Imaging Signals and Systems: International Edition, 2012: Editora: Pearson 6. PARKER, J.R. Algorithms for image processing and computer vision. New York: wiley Computer Publishaing, 1996. 417 p ISBN 0/471-14056-2. 7. Artigos científicos atualizados acerca dos temas da ementa.",
+        "area_concentracao": "Biomedical Instrumentation",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Biomedical Image Analysis and Processing"
+    },
+    "ANÁLISE QUANTITATIVA DO SISTEMA CARDIOVASCULAR": {
+        "sigla": "AQSC",
+        "creditos": 4,
+        "ementa": "The role of circulation in the body; the circulation; the heart and the vascular bed and their relationships with other organs; functional anatomy of the heart and coronary circulation. Bioelectrogenesis in cardiac cells; genesis and conduction of the heart's electrical activity. Excitation-contraction coupling in the cardiac cell. The origin of the electrocardiogram (ECG) and its leads. ECG interpretation. Qualitative and quantitative aspects of the cardiac cycle and cardiac output; oxygen and energy consumption; microcirculation and lymphatic circulation. Circulation from the point of view of fluid mechanics. Modulating agents of the cardiovascular system. Cardiovascular models for assessing the pressure-volume relationship; cardiac work and power. Cardiac electrostimulation: pacing and cardioversion.",
+        "bibliografia": "1 Burton, A.C. “Physiology and Biophysics of the Circulation”, 2nd Edit., Year Book Publ., New York, 1973. ISBN-10: 0815113641; ISBN-13: 978-0815113645. 2. Shepperd, J.T.; Vanhoutte, “The Human Cardiovascular System: Facts and Concepts”, Raven Press, New York, 1979. ISBN: 0890043671 9780890043677 3. Ellenbogenm Kenneth A; Wood, Mark A. Cardiac pacing and ICDs. 5 ed. Hoboken: Blackwell, 2008. 558 p. ISBN 978-1-4051-6350-7. 4. Wood, A. W. Physiology, Biophysics, and Biomedical Engineering. Textbook - 782 Pages, 2012 by CRC Press. ISBN 9781420065138. 5. Artigos científicos atualizados acerca dos temas da ementa.",
+        "area_concentracao": "Bioengineering",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Quantitative Analysis of the Cardiovascular System"
+    },
+    "APRENDIZADO DE MÁQUINA APLICADO A SINAIS E IMAGENS MÉDICAS": {
+        "sigla": "AMSIM",
+        "creditos": 4,
+        "ementa": "Fundamentals of pattern recognition applied to biomedical signals and images. Feature selection for signals and images: main techniques in the time and frequency domains; statistical and information-theory-based features. Main machine learning techniques applied to Biomedical Engineering. Principal Component Analysis (PCA). Independent Component Analysis (ICA). Linear Regression. Principal Component Regression (PCR). Partial Least Squares Regression (PLS). Linear Discriminant Analysis (LDA). Perceptron and introduction to neural networks. Support Vector Machines (SVM). Bayesian classification strategies. Bayesian networks. Classifier fusion. Testing and validation of classifiers in medical applications. Cross-validation.",
+        "bibliografia": "1. Bishop, C. “Pattern Recognition and Machine Learning”, Springer, 2006. 2. Theodoridis, S. and Koutroumbas, K., \"Pattern Recognition\", 4th Edition, Academic Press, 2009. 3. Mohri, M., Rostamizadeh, A., Talwalkar, A.. “Foundations of Machine Learning”, The MIT Press, 2012. 4. Mitchell, T. “Machine Learning”, McGraw Hill, 1997. 5. Mueller, A., Guido, S., “Introduction to Machine Learning with Python: A Guide for Data Scientists”, OReilly, 2016. 6. Artigos científicos atualizados acerca dos temas da ementa.",
+        "area_concentracao": "Biomedical Instrumentation",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Machine Learning Applied to Medical Signals and Images"
+    },
+    "BIOESTATÍSTICA": {
+        "sigla": "BE",
+        "creditos": 4,
+        "ementa": "The course aims to stimulate critical thinking in statistical analyses applied to Biomedical Engineering and Medicine. Using fundamental mathematical concepts and rigor, the course focuses on the demonstration and practical use of hypothesis tests and p-value calculation, without the use of statistical software or packages. In this way, students better assimilate the mathematical notation most frequently used in scientific articles and develop a stronger critical sense about the main problems involved in the inappropriate use of statistical tools and concepts. Syllabus: Descriptive statistics: measures of central tendency; measures of dispersion and histogram. Concepts of probability. One-dimensional discrete random variables. Probability distributions. Expectation and variance. Probability distributions (theoretical and empirical): main concepts. Probability distributions: Gaussian. Sampling and estimation. Confidence intervals. Concepts in hypothesis testing. Z and T tests for one variable. Joint and conditional probability. Hypothesis testing for two variables (paired and unpaired tests). Type I and Type II errors in hypothesis testing. Correlation analysis and Pearson coefficient. Applications to problems in Biomedical Engineering and Medicine.",
+        "bibliografia": "1. Jean Faber. Conceitos sobre significância estatística em Biociências: um guia para a interpretação do valor-p. Editora Appris. 1ª Edição (2020). 2. Luiz Gonzaga Morettin. Estatística Básica: Probabilidade e Inferência, volume único, Pearson. São Paulo. 2011. 3. Sidia M. Callegari-Jacques. Bioestatística – Princípios e Aplicações (2007). Artmed. 4. Sônia Vieira. Introdução à Bioestatística (2008). Elsevier. 5. Nonparametric statistics for the behavioral sciences. Siegel S e Castellan Jr NJ. 2a Ed, New York, McGraw-Hill, 1988. 6. Horner B. Fundamentals of Biostatistics. 5a Ed, Pacific Grove, Duxbury, 2000. 7. Daniel W. W. Biostatistics: a foundation for analysis in the health sciences. 7a Ed, New York: John Wiley, 1999",
+        "area_concentracao": "Bioengineering",
+        "carga_horaria": "60",
+        "tipo": "obrigatoria",
+        "nome": "Biostatistics"
+    },
+    "BIOÉTICA E METODOLOGIA CIENTÍFICA": {
+        "sigla": "BMC",
+        "creditos": 4,
+        "ementa": "Principles of bioethics in the technoscientific field; ethics and morality; legal aspects of bioethics in Brazil and worldwide. Good academic practices and combating plagiarism. Ethics committees and methodological assessment; rules of conduct in animal and human experimentation. Protocols in clinical medicine; use of sample banks and biological information. Social responsibility. Ethics and the environment. Principles, historical aspects and application of the scientific method in the investigation and solution of scientific problems; systematic approach to a literature review; study design and experimental design.",
+        "bibliografia": "1. Aginam, Obijiofor. Global Health Governance: International Law and Public Health in a Divided World. Toronto: University of Toronto Press, 2005. 2. Almond, Barbara., ed. AIDS: A Moral Issue—The Ethical, Legal and Social Aspects. London: Macmillan, 2nd ed., 1996. 3. Anders, G. Health against Wealth: HMOs and the Breakdown of Medical Trust. New York: Houghton Mifflin, 1996. 4. Griin, M.. Ética e Educação Ambiental, PAPIRUS, 3. ed. Campinas: Papirus, 2000. 5. Köche JC. Fundamentos de Metodologia Científica. Teoria da ciência e prática da pesquisa. Petrópolis-RJ: Ed Vozes: 1997 6. Vieira S, Hossne WS. A ética e a metodologia. São Paulo-SP: Ed Pioneira :1998.",
+        "area_concentracao": "Biomedical Instrumentation; Bioengineering",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Bioethics and Scientific Methodology"
+    },
+    "BIOMECÂNICA CARDIOVASCULAR E RESPIRATÓRIA": {
+        "sigla": "BCR",
+        "creditos": 4,
+        "ementa": "Introduction to the mechanical approach to the Cardiovascular and Respiratory Systems. Cardiovascular mechanics - cardiac pumping and hemodynamics. Respiratory mechanics - main mathematical models of respiratory mechanics and pulmonary mechanical ventilation. Representation of biological systems as mechanical and electrical elements.",
+        "bibliografia": "Básica: 1. Pappano, A. J., & Wier, W. G. (2013). Cardiovascular Physiology. 10th ed. Elsevier Health Sciences. 2. Labrosse, M. R. (Ed.). (2018). Cardiovascular mechanics. CRC press. 3. Devasahayam, S. R. (2012). Signals and systems in biomedical engineering: signal processing and physiological systems modeling. Springer Science & Business Media. 4. Bates, J. H. (2009). Lung mechanics: an inverse modeling approach. Cambridge University Press. Complementar: 1. Mohrman, D. E., & Heller, L. J. (2014). Cardiovascular physiology. 8th ed. McGraw-Hill. 2. Cobelli, C., & Carson, E. (2019). Introduction to modeling in physiology and medicine. Academic Press. 3. Carson, E., & Cobelli, C. (2001). Modelling methodology for physiology and medicine. Newnes.",
+        "area_concentracao": "Bioengineering",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Cardiovascular and Respiratory Biomechanics"
+    },
+    "FISIOLOGIA INTEGRATIVA: PERCEPÇÃO, RACIOCÍNIO E SISTEMAS BIOLÓGICOS": {
+        "sigla": "FIPRSB",
+        "creditos": 4,
+        "ementa": "Advanced study of human physiology with emphasis on the integration among organ systems (cardiovascular, renal, neural and musculoskeletal) and on adaptations to physical exercise. The course explores the mechanisms of homeostatic and allostatic regulation through an approach that integrates logical reasoning, critical analysis and perception processes. Innovative, unconventional teaching strategies are employed, including the systematic observation of patterns in nature, the analysis of artistic expressions and symbolic construction, as tools for the conceptual modeling of complex physiological phenomena. The focus is on developing integrated scientific thinking, formulating hypotheses and interpreting dynamic biological systems.",
+        "bibliografia": "1. SILVERTHORN, Dee Unglaub. Fisiologia humana: uma abordagem integrada. 7. ed. Porto Alegre: Artmed, 2017. 2. GUYTON, A.C.; HALL, J.E. Tratado de Fisiologia Médica. 12ª ed. Rio de Janeiro, Ed. Elsevier, 2011. 3. KENNEY, W. Larry; WILMORE, Jack H.; COSTILL, David L. Fisiologia do esporte e do exercício. 5. ed. Barueri, SP: Manole, 2013. 4. Artigos científicos atualizados referentes aos temas da ementa.",
+        "area_concentracao": "Bioengineering",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Integrative Physiology: Perception, Reasoning and Biological Systems"
+    },
+    "COMUNICAÇÃO CIENTÍFICA": {
+        "sigla": "CC",
+        "creditos": 4,
+        "ementa": "Introduction to Scientific Communication; plagiarism and good academic practices; overall structure of a scientific article. Specific structures: Title, Abstract, Keywords, Introduction, Materials and Methods, Results, Discussion and Conclusion; characteristics and language of each section. Design of the information flow; verb tense options; sentence structures and types (topic sentences, hooks, emphatic and minimizing sentences); formatting and basic rules for including and using elements (Figures, Tables, Equations, References); oral presentations (structure and information flow); introduction to aspects of communication (visual, auditory and kinesthetic); poster (distribution of information and trade-off between text and images).",
+        "bibliografia": "1. Hilary Glasman-Deal; Science Research Writing for Non-Native Speakers of English; World Scientific, 2010 2. João Bosco Medeiros, Carolina Tomasi; Redação de Artigos Científicos; Atlas, 2016 3. Tomasi C., Medeiros J. B. Comunicação Científica; Atlas, 2008. 4. Ampieri R. H. ;Metodologia De Pesquisa; McGraw Hill - Artmed - 5° Ed, 2006. 5. Popper, Karl; A Lógica da Pesquisa Científica; Cultrix, 1972. 6. Fachin O; Fundamentos de metodologia; Saraiva - 5° Ed, 2006.",
+        "area_concentracao": "Biomedical Instrumentation; Bioengineering",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Scientific Communication"
+    },
+    "CONTROLE DIGITAL": {
+        "sigla": "CD",
+        "creditos": 4,
+        "ementa": "Introduction to digitally controlled systems. Relationship between continuous time and discrete time with sampling and signal reconstruction. Z-transform. Stability analysis in the discrete domain. Conversion of continuous controllers to discrete. Discrete-time system identification. Controller design using the root locus method, frequency response and state-space representation.",
+        "bibliografia": "1 – Ogata, Katsuhiko. Discrete-time Control Systems. 2nd ed. Prentice-Hall, 1995. 745 p. ISBN 0133286428. 2. – Franklin, Gene F., Powell, J. David, and Workman, Michael L. Digital Control of Dynamic Systems, 3rd ed. Prentice Hall, 1997.ISBN 0201820544 3. – Aguirre, Luis Antonio. Controle de Sistemas Amostrados, 1a ed. Editora E-papers, 2020. 404 páginas. ISBN 978-65-8706-505-2. 4. – Artigos científicos atualizados acerca dos temas da ementa",
+        "area_concentracao": "Biomedical Instrumentation",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Digital Control"
+    },
+    "DESENVOLVIMENTO WEB APLICADO À TELEMEDICINA": {
+        "sigla": "DWT",
+        "creditos": 4,
+        "ementa": "The Web Development Applied to Telemedicine course aims to introduce the fundamentals of web-based (client/server) programming, focusing on the design of Telediagnosis and Teleconsultation systems and platforms for managing medical information. Course topics: basic elements of markup language (HTML), style sheets (CSS) and front-end frameworks (emphasis on Bootstrap), structured interpreted programming language (JavaScript and the jQuery library), hosting providers and website management, server-side programming (emphasis on the PHP language), database integration (emphasis on SQL), data authentication mechanisms, introduction to PACS and RIS systems, coding and communication of digital medical images (DICOM), integration of videoconferencing systems, ethical and legal aspects of telemedicine.",
+        "bibliografia": "1. Wootton R,. Craig J, Patterson V, eds. Introduction to Telemedicine. 2nd ed. London: Royal Society, 2006 2. Ebooks de acesso livre disponíveis em: [www.intechopen.com/subjects/telemedicine](http://www.intechopen.com/subjects/telemedicine) 3. Eric A. Meyer; Transforms in CSS; O'Reilly; 2015 (free ebook) 4. Terrence Dorsey; Web Page Size, Speed, and Performance; O'Reilly; 2014 (free ebook) 5. Jon Duckett, Web Design with HTML, CSS, JavaScript and jQuery Set, Wiley, 2014 6. Natan Souza; Bootstrap 4; 2019 7. Sérgio Lopes, Lucas Mazza, Tárcio Zemel; Coleção Web Design; 2019 8. Alan Forbes; The Joy of PHP Programming: A Beginner’s Guide to Programming Interactive Web Applications with PHP and MySQL, 2017 9. Miguel Grinberg; Desenvolvimento web com Flask: Desenvolvendo Aplicações web com Python; 2018",
+        "area_concentracao": "Biomedical Instrumentation",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Web Development Applied to Telemedicine"
+    },
+    "FISIOLOGIA PARA ENGENHARIA BIOMÉDICA": {
+        "sigla": "FEB",
+        "creditos": 4,
+        "ementa": "Basic concepts of cellular physiology, membrane physiology and electrophysiology. Approach to the main topics in Human Physiology with emphasis on the musculoskeletal, cardiovascular, respiratory, renal, endocrine and nervous (central and peripheral) systems.",
+        "bibliografia": "1. Silverthorn DU. Fisiologia Humana – Uma Abordagem Integrada. 7. ed. São Paulo: Artmed, 2017. 2. Hall JE, Hall ME. GUYTON & HALL - TRATADO DE FISIOLOGIA MÉDICA. 14. ed. Rio de Janeiro: Guanabara Koogan, 2021. 3. Constanzo LS. Fisiologia. 6. ed. Rio de Janeiro: Guanabara Koogan, 2018.",
+        "area_concentracao": "Biomedical Instrumentation; Bioengineering",
+        "carga_horaria": "60",
+        "tipo": "niveladora",
+        "nome": "Physiology for Biomedical Engineering"
+    },
+    "INSTRUMENTAÇÃO BIOMÉDICA E MÉDICO-HOSPITALAR": {
+        "sigla": "IBMH",
+        "creditos": 4,
+        "ementa": "Approach to the clinical applications, basic architecture structures and physical operating principles of the main biomedical devices, including imaging, monitoring and clinical and hospital intervention equipment.",
+        "bibliografia": "1. BRONZINO, J.D. Biomedical Engineering Handbook. New York: CRC Press, 1999. 2. WEBSTER, J.G. Medical Instrumentation: application and design. New York: John Wiley & Sons, 1998. 3. BAURA, G. Medical Device Technologies. Oxford: Academic Press of Elsevier, 2012. 4. JOHNS, H. E.; CUNNINGHAN, J. R. The physics of radiology. 4. ed. Springfield, IL: Charles C. Thomas, 1983. 5. CHERRY S.R, SORENSON J.A, Phelps M.E; Physics in Nuclear Medicine. Philadelphia: Saunders, 2003. 6. HILL, C.R., Physical Principles of Medical Ultrasonic. Ellis Horwood Limited- England, 1986. 7. HAACKE, E.M. Magnetic resonance imaging: physical principles and sequence design. New York, Wiley, 1999. 8. PEREZ, R. Design of Medical Electronic Devices. New York: Academic Press, 2002. 9. HaroldWeinstock.SQUID sensors:fundamentals,fabrication,and applications. Dordrecht, Boston: Kluwer Academic Publishers, 1996.",
+        "area_concentracao": "Biomedical Instrumentation",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Biomedical and Medical-Hospital Instrumentation"
+    },
+    "INTRODUÇÃO AO PROCESSAMENTO DE SINAIS BIOMÉDICOS": {
+        "sigla": "IPSB",
+        "creditos": 4,
+        "ementa": "Characterization of biological signals. Acquisition and recording of biological signals (digitization, sampling and aliasing, signal-to-noise ratio). Biological signals as stochastic processes (stationarity, ergodicity). Decomposition of signals in the frequency domain (spectrum, phase, Fourier transform and introduction to the Wavelet transform). Notions of filters and autoregressive modeling. Covariance, spectral coherence and phase coherence between signals. Applications to biomedical signals: EEG rhythms, evoked potentials, ECG analysis and heart rate variability, EMG analysis.",
+        "bibliografia": "1\\) Lyons, R. “Understanding Digital Signal Processing”, 3rd edição, Pearson, 2011. 2) Sornmo, L. and Laguna, P., “Bioelectrical Signal Processing in Cardiac and Neurological Applications”, Elsevier, 2005. 3) Semmlow, J., “Signals and Systems for Bioengineers - A Matlab based introduction”, 2nd Edition, Academic Press, 2009. 4) Oppenheim, A. Verghese-Signals, G., “Signals, Systems and Inference” Pearson, 2016. 5) Blinowska, K. and Zygierewicz, J. “Practical Biomedical Signal Analysis using Matlab”, CRC Press, 2012.",
+        "area_concentracao": "Biomedical Instrumentation",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Introduction to Biomedical Signal Processing"
+    },
+    "MODELAGEM FISIOLÓGICA PARA A TERAPIA INTENSIVA": {
+        "sigla": "MFTP",
+        "creditos": 4,
+        "ementa": "1) Introduction to cardiovascular pathophysiology and autonomic control; definition of acute illness, sepsis, circulatory shock. 2) Examples of open problems in intensive care and solutions based on bioengineering approaches: hemodynamic monitoring, response to pharmacological therapies, prediction of critical events, identification of therapeutic targets and biomarkers; 3) Cardiovascular system modeling: electrical analogy, Ohm's laws applied to fluid dynamics; distributed-parameter and lumped-parameter models; Windkessel-type models of the arterial circulation; pressure-volume relationship and cardiac contractility; cardiopulmonary circulation; fluid dynamic properties of blood; 4) Multiscale modeling and applications to the pathophysiology of intensive care; 5) Analysis of measurements and data in intensive care.",
+        "bibliografia": "1)M.C.K. Khoo, “Physiological Control Systems – Analysis, Simulation and Estimation”, 2nd edition, IEEE Press Series in Biomedical Engineering, John Wiley & Sons, 2018 2) Pinsky M, Teboul JL, Vincent JL, “Hemodynamic monitoring”, Springer International Publishing, 2019 3) Coveney PV, Díaz-Zuccarini V, Hunter P, Viceconti M, “Computational Biomedicine: Modelling the Human Body”, Oxford and New York: Oxford University Press, 2014. 4) Apostilas preparadas pelo docente responsável; 5) Artigos científicos atualizados acerca dos temas da ementa",
+        "area_concentracao": "Bioengineering",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Physiological Modeling for Intensive Care"
+    },
+    "PRINCÍPIOS E MÉTODOS DA NEUROCIÊNCIA COGNITIVA": {
+        "sigla": "PMNC",
+        "creditos": 4,
+        "ementa": "This course aims to introduce the main concepts and quantitative methods of cognitive neuroscience through critical discussions of the various approaches and their applications to basic and clinical problems. 1) Introduction to cognitive neuroscience: perception, cognition and consciousness. 2) Plasticity, learning and memory; 3) Emotion, depression and schizophrenia. 4) Sleep, anesthesia and coma; 5) Measuring brain activity: invasive and non-invasive techniques; spontaneous, evoked and event-related recordings. 6) Spectral analysis and brain rhythms. 7) Information processing in the brain: signaling, information theory, measures of functional and effective connectivity. 8) Neural networks and brain complexity",
+        "bibliografia": "1. KANDEL, E.R; SCHWARTZ,J.H., JESSELL, T. M., “Principles of neural science”, 4 ed , McGraw-Hill, 2000 2. CARLSON, N. R., “Physiology of Behavior”, 11. ed. Pearson, 2013. 3. GAZZANIGA, M., IVRY, R. e MANGUN, G. “Cognitive Neuroscience: the biology of the mind”. W. W. Norton & Company; 5 edição, 2018. 4. NUNES, P. e SRINIVASAN, R., “Electric Fields of the Brain: The Neurophysics of EEG”, Oxford University Press, 2 edição, 2005. 5. COHEN, M. “Analyzing Neural Time Series Data: Theory and Practice”, MIT 2014. 6. TONG, S., THAKOR, N.“Quantitative EEG Analysis -Methods and Clinical Applications”, Artech House, 2009. 7.SPORNS, O. “Discovering the Human Connectome”, MIT 2012. 8. ILMONIEMI, R. e SARVAS, J. “Brain Signals: Physics and Mathematics of MEG and EEG”, MIT, 2019. 9. Artigos atualizados na área",
+        "area_concentracao": "Bioengineering; Biomedical Instrumentation",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Principles and Methods of Cognitive Neuroscience"
+    },
+    "PROGRAMAÇÃO EM PYTHON APLICADA À ENGENHARIA BIOMÉDICA": {
+        "sigla": "PPEB",
+        "creditos": 4,
+        "ementa": "Introduction to Python. Introduction to the Anaconda package and Google Colab. Introduction to the GitHub platform. Simple variables (int, float and string), low-level data input, reading .json files. Conditional structures, repetition loops (while and for). Compound variables (tuples, lists and dictionaries). Functions. Introduction to programming with classes and objects. Introduction to the use of SQL databases, integration of SQL databases with Python (sqlite); Introduction to the numpy, matplotlib, seaborn and pandas libraries. Applications of Python to Biomedical Engineering problems.",
+        "bibliografia": "1. Muller, J. P. e Massaron, L. “Python para Data science para leigos”, Alta Books, 2020. 2. Lutz, M., “Learning Python “, O'Reilly, 2007. 3. Langtangen, H. P.,“Python scripting for computational science”, New York: Springer, 2009. 4. Menezes, N. N. C., “Introdução à Programação com Python: Algoritmos e Lógica de Programação Para Iniciantes”, Novatec, 2019. 5. Artigos científicos atualizados acerca dos temas da ementa.",
+        "area_concentracao": "Bioengineering; Biomedical Instrumentation",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Python Programming Applied to Biomedical Engineering"
+    },
+    "SEMINÁRIOS EM ENGENHARIA BIOMÉDICA": {
+        "sigla": "SEB",
+        "creditos": 4,
+        "ementa": "This course aims to engage students of the Graduate Program in Biomedical Engineering with the various research topics developed in the program and with the most relevant scientific output for the program's research areas. Throughout the semester, seminars and article discussions will be used to address recent advances in prominent topics in Biomedical Engineering, ranging from the understanding of biological systems to the development and application of new technological solutions in healthcare. The seminars may be given by the responsible faculty member, by invited guests and by the students themselves. Readings and discussions will focus primarily on the seminar topics and will be guided by the faculty member to highlight not only the innovative aspects but also the critical analysis of the works, addressing the relationship among methods, results and conclusions.",
+        "bibliografia": "Artigos em revistas científicas indexadas de maior relevância para as áreas de pesquisa do programa",
+        "area_concentracao": "Bioengineering; Biomedical Instrumentation",
+        "carga_horaria": "60",
+        "tipo": "obrigatoria",
+        "nome": "Seminars in Biomedical Engineering"
+    },
+    "SISTEMAS CRÍTICOS": {
+        "sigla": "SC",
+        "creditos": 4,
+        "ementa": "History. Concepts of critical systems. Development processes and life cycle of critical systems. Standards and regulations for critical systems. Techniques and processes for risk, hazard and accident analysis. Requirements and safety specification.",
+        "bibliografia": "• Leveson, N. G. Engineering a Safer World: Systems Thinking Applied to Safety. The MIT Press, 2011. * Sommerville, I. Engenharia de Software, Pearson Education do Brasil, 10a edição, 2019. * Smith, D. J. and Simpson, K. G. L. The Safety Critical Systems Handbook. Elsevier B",
+        "area_concentracao": "Biomedical Instrumentation",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Critical Systems"
+    },
+    "SISTEMAS DE CONTROLE APLICADOS EM ENGENHARIA BIOMÉDICA": {
+        "sigla": "SCEB",
+        "creditos": 4,
+        "ementa": "Introduction and basic concepts of control systems. Fundamentals of mathematical modeling of dynamic systems. Transfer function and impulse response. Transient and steady-state response analysis. Stability analysis: Routh-Hurwitz stability criterion. Bode diagram. Magnitude versus phase-angle diagram. Proportional, integral and derivative (PID) controller. Design and analysis of control systems using root locus and frequency response methods. Applications to Biomedical Engineering: control of biomedical instruments, ventilators, infusion pumps and electronic cribs; control of prostheses with feedback from tactile sensors; control of ventilators by thoracic pressure; biofeedback equipment; biological systems with electrostimulation.",
+        "bibliografia": "1 – Ogata, Katsuhiko. Engenharia de Controle Moderno. 5a ed. São Paulo: Pearson Education, 2011. 809 p. ISBN 9788576058106. 2. – Nise, Norman S. Engenharia de Sistemas de Controle. 3a ed. Rio de Janeiro: LTC, 2002. 695 p. ISBN 8521613016. 3. – Dorf, Richard C.; Bishop, Robert H. Sistemas de Controle Moderno. 13a ed. Rio de Janeiro: LTC, 2018. 796 p. ISBN 8521635125. 4. – Artigos científicos atualizados acerca dos temas da ementa, publicados em revistas como Biomedical Signal Processing and Control e Biomedical Applications of Control Engineering.",
+        "area_concentracao": "Biomedical Instrumentation",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Control Systems Applied to Biomedical Engineering"
+    },
+    "TECNOLOGIAS APLICADAS À BIOMECÂNICA DA REABILITAÇÃO": {
+        "sigla": "TABR",
+        "creditos": 4,
+        "ementa": "Principles of biomechanics and clinical aspects of various disorders that affect human movement. Main signal recording and processing techniques applied to rehabilitation biomechanics. Electromyography. Force Platform and Pressure Platform. Dynamometry. Respiratory Biomechanics. Topics in Ergonomics",
+        "bibliografia": "WINTER, David. Biomechanics and Motor Control of Human Movement, John Wiley & Sons, 4ª ed, 2009. JAY, D; HUMPREY, S. S. An Introduction to Biomechanics: Solids ans Fluids, Analysis and Design. Editora: Springer, 2004. DONALD, L. B.; DWIGHT, T. D.; TONY, M. K. Orthopaedic Biomechanics. Editora Prentice Hall, 2006. Ethier, DR.; Simmons, CA. Introductory biomechanics: from cells to organisms. Cambridge University Press, 2007. Oomens, C.; Brekelmans, M.; Baaijens, F. Biomechanics: Concepts and Computation. Cambrigde University Press, 2009. DirSci, M. N.; Frankel, V. H. Basic Biomechanics of the Musculoskeletal System. Lippincott Willians & Wilkins, a Wolters Kluwer, 2012.",
+        "area_concentracao": "Bioengineering",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Technologies Applied to Rehabilitation Biomechanics"
+    },
+    "TÓPICOS AVANÇADOS EM ANÁLISE DE SINAIS E IMAGENS": {
+        "sigla": "TASI",
+        "creditos": 4,
+        "ementa": "Time-frequency analysis: Continuous and Discrete Wavelet Transform, concept, implementation and 1D and 2D applications. Hilbert transform, instantaneous phase and Empirical Mode Decomposition. Information theory applied to biomedical signals and images. Nonlinear methods in Biomedical Signals: introduction to deterministic dynamical systems, embedding and state-space methods, recurrence quantification analysis, dimension estimation, causality measures between signals and connectivity analysis, complexity measures. Advanced methods in image segmentation: edge-based and region-based segmentation; segmentation using active contours, GVF; Fuzzy Connectedness; K-Means, Fuzzy C-Means.",
+        "bibliografia": "1. Oppenheim, A. Verghese-Signals, G., “Signals, Systems and Inference” Pearson, 2016. 2. Boashash, A., “Time Frequency Signal Analysis and Processing - a comprehensive reference” Elsevier, 2003. 3. Kantz, H. and Schreiber, T. , “Nonlinear Time Series Analysis”, 2nd edition, Cambridge, 2003. 4. Galka, A. “Topics in Nonlinear Time Series Analysis”, Advanced Series in Nonlinear Dynamics, 14, World Scientific, 2000. 5. Dougherty, G. “Digital Image Processing for Medical Applications”, Cambridge University Press, 2009. 6. Najarian, K., Splinter, R., “Biomedical Signal and Image Processing”, 2ª Ed, Taylor & Francis Group, LLC, 2012. 7. Parker, J.R. “Algorithms for image processing and computer vision”. Wiley Computer Publishing, 1996. 8. Artigos científicos atualizados acerca dos temas da ementa.",
+        "area_concentracao": "Bioengineering; Biomedical Instrumentation",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Advanced Topics in Signal and Image Analysis"
+    },
+    "TÓPICOS AVANÇADOS EM BIOENGENHARIA": {
+        "sigla": "PPG",
+        "creditos": 4,
+        "ementa": "Introduction to Bioengineering. Laboratory methods that revolutionized cellular and biomolecular research (ELISA, PCR, Western Blot, immunohistochemistry, immunofluorescence, flow cytometry). Relevance of experimental models in research. Biomolecular Engineering: laboratory cell culture and its applications; cell signaling maps; concepts and definitions of stem cells and applications in tissue engineering; basic concepts of pharmacology and mechanism of drug action; notions of nanobiotechnology and drug delivery. Immunological Engineering: basic concepts of immunology; antibodies as research tools; immunotherapy; concepts of vaccine production; and biocompatibility.",
+        "bibliografia": "1. ALBERTS, B.; JOHNSON, A.; LEWIS, J.; RAFF, M.; ROBERTS, K.; WALTER, P. Biologia Molecular da Célula, 5ª ed.; Porto Alegre:Artmed (2010). 2. RANG, H.; DALE, M. Farmacologia, 7ª ed., Elsevier (2011). 3. ABBAS, A.K, Imunologia Celular e Molecular. Editora Elsevier (2015). 4. BRONZINO, J.; PETERSON, D. Tissue Engineering and Artificial Organs (The Biomedical Engineering Handbook Series). 3rd ed. CRC Press (2006). Complementar: 1. FERREIRA, L. M.; HOCHMAN, B.; BARBOSA, M. V. J. Modelos experimentais em pesquisa. Acta Cir. Bras., São Paulo, v. 20, supl. 2, p. 28-34, 2005.",
+        "area_concentracao": "-----; No data to display.",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Advanced Topics in Bioengineering"
+    },
+    "TÓPICOS AVANÇADOS EM CIRCUITOS E ELETRÔNICA": {
+        "sigla": "TACE",
+        "creditos": 4,
+        "ementa": "Review of topics: analysis techniques (mesh current method, node voltage method, superposition, source transformation), Thévenin and Norton theorems; analysis of first- and second-order circuits in the time domain (RC, RL, RLC), sinusoidal steady-state analysis, impedance, phasor analysis; magnetically coupled circuits (mutual inductance, transformers), semiconductors (diodes and transistors). The following topics will be directed at themes relevant to Biomedical Engineering (i.e. instrumentation and analysis of physiological signals): applications of instrumentation amplifiers, Laplace transform, passive and active filters (frequency domain - high-pass, low-pass, band-pass, band-stop), noise analysis (emphasis on filters used in biomedical devices, i.e. electroencephalogram, electrocardiogram, electromyography..), electrophysiology and biomedical instrumentation, introduction to modeling and the H-H (Hodgkin-Huxley) model.",
+        "bibliografia": "1. Nilson, J. W.; Riedel, S. A; Circuitos elétricos, 8ª Edição; Editora: Pearson; 2008. 2. Alexander, C.K., Sadiku, M. Fundamentos de Circuitos Elétricos, 5ª. Edição; Editora: Mc Graw Hill – Bookman, 2013. 3. Boylestad, Robert L.; Introdução à Análise de Circuitos, 10ª Edição; Editora: Prentice Hall/2004. 4. Robert B. Northrop, Analysis and Application of Analog Electronic Circuits to Biomedical Instrumentation, 2 Edicao, Editora: CRC Press, 2012. 5. R. J. Beerends, Fourier and Laplace Transforms, Editora: Cambridge University Press, 2003. 6. Oppenheim, A. V.; willsky, A. S.; Hamid, S.; Nawab, s. H. – Sinais e Sistemas, 2ª Edição; Editora: Pearson, 2010.",
+        "area_concentracao": "Biomedical Instrumentation",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Advanced Topics in Circuits and Electronics"
+    },
+    "TÓPICOS AVANÇADOS EM ENGENHARIA BIOMÉDICA": {
+        "sigla": "TAEB",
+        "creditos": 4,
+        "ementa": "Definition and importance of biomedical engineering and its subareas; national and international presence of the main representative bodies in the field; job market and research/development from the institutions' point of view; general concepts, typical applications and updates on biomedical instrumentation, medical engineering, bioengineering, clinical/hospital engineering, medical imaging and rehabilitation engineering. Presentation, discussion and implementation of projects and technological advances related to the role of biomedical engineering in the medical and biological fields.",
+        "bibliografia": "1- Enderle, J.; Blanchard, S. & Bronzino, J.D. “Introduction to Biomedical Engineering”, Academic Press, A Harcourt Science and Technology Company, San Diego, CA, USA; 2000. 2. Bronzino, J.D. “The Biomedical Engineering Handbook”, CRC Press (IEEE press) Trinity College; Hartford, Connecticut, USA, 1995. 3. Saltzman, W. M.. “Biomedical engineering: bridging medicine and technology”. New York: Cambridge University Press, 2009. 4. Webster, John G (Ed.). “Medical instrumentation: application and design”. 4th ed. Hoboken, NJ: John Wiley & Sons, 2009. 5. Artigos científicos atualizados acerca dos temas da ementa.",
+        "area_concentracao": "Biomedical Instrumentation; Bioengineering",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Advanced Topics in Biomedical Engineering"
+    },
+    "TÓPICOS AVANÇADOS EM ÓTICA BIOMÉDICA": {
+        "sigla": "OP",
+        "creditos": 4,
+        "ementa": "Optical properties of biological tissues - reflection; scattering; transmission; absorption. Properties of light: lasers, LEDs and diodes. Electromagnetic spectrum; applications of ultraviolet, visible and infrared (near, mid and far IR) radiation in the life sciences. Introduction to phototherapy: laser-biological tissue interaction. Main medical lasers; technical standards for protection when using lasers. High-intensity lasers: operating principles; interactions with biological tissues; dosimetry; applications in medicine and dentistry. Low-intensity lasers: operating principles; interactions with biological tissues; dosimetry; applications in medicine, dentistry and physiotherapy. Photodynamic therapy: principles and main medical applications. Photobiostimulation: principles and main medical applications. Thermotherapies: principles and main medical applications. Basic concepts and applications of absorption spectroscopy, fluorescence, vibrational spectroscopy (FTIR and Raman) and their applications in diagnosis",
+        "bibliografia": "Básica: 1. NIEMZ, M. H.; Laser-Tissue interaction. Fundamentals and Applications.1. ed., New York:Springer-Verlag, 1996. 2. CHAVANTES, M. C.; (Ed.). Laser em Biomedicina ¿ Princípios e Prática, São Paulo: Atheneu, 1ª. Ed., 2008. 3. BAGNATO, V. S.; Laser e suas aplicações em ciência e tecnologia. Editora Livraria da Física, 2008 Complementar: 1. KISHEN, A.; ASUNDI, A.; Fundamentals and applications of Biophotonics in Dentistry. Series on Biomaterials and Bioengeneering; vol. 4. Imperial College Press, 2007. 2. MISERENDINO, L. J.; Pick, R. M.; Lasers in Dentistry. Chicago: Quintessence, 1995. 3. KARU, T.; The science of low-power laser therapy. Amsterdam-Holanda, Gordon and Breach Science Publishers, 1998. 299p. 4. GOLDMAN, L.; The Biomedical Lasers: technology and clinical applications. New York:Springer Verlag, 1981. 5. GRAHAM-SMITH, Francis; KING, Terry A.; WILKINS, Dan; Optics and photonics: an introduction. 2 ed. Chichester, England: John Wiley & Sons, 2007. x, 506 p.",
+        "area_concentracao": "-----; No data to display.",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Advanced Topics in Biomedical Optics"
+    },
+    "TÓPICOS EM SISTEMAS ESPECIALISTAS E EMBARCADOS": {
+        "sigla": "TSEE",
+        "creditos": 4,
+        "ementa": "Definition of embedded software and embedded systems. Programming languages for embedded systems. Introduction to microcontrollers and reprogrammable processors. Architectures of microcontrollers and reprogrammable processors. Timing and real-time applications. Interfacing with peripherals. Analog-to-digital conversion. Real-time systems. Prototyping. Development of an embedded system project.",
+        "bibliografia": "1. Peckol, James K.. Embedded systems: a contemporary design tool. Hoboken, N.J.: John Willey & Sons, 2008. 810 p. ISBN 978-0-471-72180-2. 2. Ganssle, Jack. The art of designing embedded systems. Burlington, MA: Elsevier, 2008. 298 p. ISBN 978-0-7506-8644-0. 3. WILMSHURST, Tim. Designing embedded systems with PIC microcontrollers: principles and applications. 2.ed. Inglaterra: newnes, 2010. 661 p. ISBN 978-1-85617-750-4. 4. LEE, Insup; LEUNG, Joseph Y-T; SON, Sang H. Handbook of real-time and embedded systems. \\[s.l.\\]: \\[s.n.\\], 2007. \\[p. irr.\\]. ISBN 978-1-584-88678-5. 5. ZANCO, Wagner da Silva. Microcontroladores PIC: técnicas de software e hardware para projetos de circuitos eletrônicos com base no PIC 16F877A. 2 ed. São Paulo - SP: Érica, 2008. 390 p p. ISBN 978-85-365-0103-1 6. WILMSHURST, Tim. Designing embedded systems with PIC microcontrollers: principles and applications. 2.ed. Inglaterra: newnes, 2010. 661 p. ISBN 978-1-85617-750-4. 7. COSTA, Cesar da. Projeto de circuitos digitais com FPGA. São Paulo: Érica, 2009. 206 p. ISBN 978-85-365-0239-7.",
+        "area_concentracao": "Biomedical Instrumentation",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Topics in Expert and Embedded Systems"
+    },
+    "NEUROCIÊNCIA E COMPORTAMENTO": {
+        "sigla": "NCO",
+        "creditos": 4,
+        "ementa": "This theoretical-practical course explores the application of neuroscience to improve essential skills for both personal development and professional success. Based on neuroscience principles, the course offers practical strategies to optimize learning, including techniques to improve studying, memory and attention, as well as to promote well-being and the development of emotional intelligence. In the professional sphere, the course focuses on developing competencies highly valued by the job market, such as teamwork, effective communication, emotional intelligence and conflict resolution. Participants will learn and practice emotional management and regulation strategies, with the goal of developing and following individual projects for improving socio-emotional skills (soft skills), integrating the acquired knowledge for application in social and professional contexts. Topics: Concepts and Fundamentals of Neuroscience; Neuroplasticity; Types of Mindset and Their Implications; Learning and Memory; Neuroscience and Well-Being; Emotions and Emotional Regulation; Neuroscience and Technologies; Socio-Emotional Competencies Required Today; Fundamentals of Neuroscience for the Development of Soft Skills; Soft Skills: Personal/Individual Characteristics and Interpersonal Skills; Neuroscience of Decision-Making/Cognitive Skills; Competencies of a Leader; Neuroscience of Change.",
+        "bibliografia": "1. COSENZA, R. M. Fundamentos de Neuroanatomia. Rio de Janeiro: Guanabara Koogan, 2013. 2. BEAR, M. F.; CONNORS, B. W.; PARADISO, M. A. Neurociências: desvendando o sistema nervoso. Porto Alegre: Artmed, 2006. 3. DWECK, C. S. Mindset: a nova psicologia do sucesso. Rio de Janeiro: Objetiva, 2017. 4. GOLEMAN, D. Inteligência Emocional. 82. ed. Rio de Janeiro: Objetiva, 1995. 5. KAHNEMAN, D. Rápido e devagar: duas formas de pensar. São Paulo: Objetiva, 2012. 6. KANDEL, E. R.; SCHWARTZ, J. H.; JESSELL, T. M. Principles of Neural Science. New York: McGraw-Hill, 2000. 7. OAKLEY, B. Aprendendo a Aprender. Ponta Grossa: Ed. Athena, 2017. 8. FIRMINO, L. C. S.; BRAZ, M. N. S. Neurociência: Uma Revisão Bibliográfica de como o Cérebro Aprende. Id on Line Rev. Mult. Psic., v.14, n.53, p. 999-1009, 2020. 9. DRAGANSKI, B. et al. Neuroplasticity: changes in grey matter induced by training. Nature, 427(6972):311-2, 2004.",
+        "area_concentracao": "Bioengineering",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Neuroscience and Behavior"
+    },
+    "TÓPICOS AVANÇADOS EM BIOSSENSORES": {
+        "sigla": "TAB",
+        "creditos": 4,
+        "ementa": "Introduction to biosensors, bioreceptors and bioaffinity, immobilization methods, physical and chemical properties of the analytical medium, transduction systems, microfabrication techniques, nanotechnology: advantages and disadvantages of the nano world, introduction to signal analysis in biosensors, techniques for the physicochemical characterization of surfaces, integration with electronics and embedded systems, analytical validation and regulatory standards, machine learning applied to biosensor data analysis, innovation in biosensors: patents and technology transfer.",
+        "bibliografia": "1. EGGINS, Brian R. Chemical sensors and biosensors. John Wiley & Sons, 2002. 2. EGGINS, Brian R. Biosensors: an introduction. Springer-Verlag, 2013. 3. BANICA, Florinel-Gabriel. Chemical sensors and biosensors: fundamentals and applications. John Wiley & Sons, 2012. 4. KARUNAKARAN, Chandran; RAJKUMAR, Raju; BHARGAVA, Kalpana. Introduction to biosensors. In: Biosensors and bioelectronics. Elsevier, 2015. p. 1-68. 5. MATHEW, Ribu; AJAYAN, J. (Ed.). Biosensors: Developments, Challenges and Perspectives. Springer, 2024. 6. VASHIST, Sandeep K.; LUONG, John HT (Ed.). Handbook of immunoassay technologies: approaches, performances, and applications. Elsevier, 2025.",
+        "area_concentracao": "Bioengineering",
+        "carga_horaria": "60",
+        "tipo": "eletiva",
+        "nome": "Advanced Topics in Biosensors"
+    },
+    "TRANSDUÇÃO DE GRANDEZAS BIOMÉDICAS": {
+        "sigla": "TGB",
+        "creditos": 4,
+        "ementa": "Introduction: basic concepts of measurement methods. Basic structure of sensors: analog electrical devices and measurements. Noise and coherent interference in signal transduction. Measurements with DC and AC devices. Biomedical quantities. Mechanisms and sensors for the acquisition of biomedical signals: measurements of electric potential, temperature, flow, pressure and tension. Sensors and their applications in biomedicine. Biomagnetic sensors and their applications. Digital interface and measurement systems. Introduction to digital signal conditioning. Examples of measurement system design.",
+        "bibliografia": "1. NORTHROP, R.B. Introduction to Instrumentation and Measurments. 2ed., Taylor & Francis, p.743, 2005. 2. HARSÁNYI, G. Sensor in Biomedical Apllications: Fundamentals, Technology and Applications. CRC Press, p.349, 2000. 3. ANANTHI, S. A text book of medical instruments. New Age International Ltd., p.561, 2005. 4. PLACKO, D. Fundamentals of Instrumentation and Measurement. ISTE Ltd., p.531, 2007. 5. FIGLIOLA, R.S. & BEASLEY, D.E. Theory and Design for Mechanical Measurements. 5ed., John Wiley & Sons, Inc., p.593, 2011. 6. HERMAN, I.P. Physics of the Human Body: Biological and Medical Physics, Biomedical Engineering. Springer, p.845, 2007. 7. ANDRÄ, W. & NOWAK, H. Magnetism in Medicine. 2ed., WILEY-VCH Verlag BmbH & Co. KGaA, p.617, 2007. 8. CLARKE, J. & BRAGINSKI, A.L. The SQUID Handbook: Fundamentals and Technology of SQUIDS and SQUID Systems (vol.1). WILEY-VCH Verlag BmbH & Co. KGaA, p.383, 2004.",
+        "area_concentracao": "Biomedical Instrumentation; Bioengineering",
+        "carga_horaria": "60",
+        "tipo": "niveladora",
+        "nome": "Transduction of Biomedical Quantities"
+    }
+}

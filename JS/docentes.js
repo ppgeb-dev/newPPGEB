@@ -4,8 +4,8 @@ let docentesData = {};
 document.addEventListener('DOMContentLoaded', function () {
     
     // Carrega dados do JSON
-    fetch("JSON/docentes.json")
-        .then(response => response.json())
+    i18n.ready
+        .then(() => i18n.fetchJSON("JSON/docentes.json"))
         .then(data => {
             docentesData = data;
             renderDocentes();
@@ -50,9 +50,9 @@ function createDocenteCard(docente) {
     // Determina o badge baseado no status
     let badgeHTML = '';
     if (docente.status === 'coordenador') {
-        badgeHTML = '<div class="status-badge coordenador">Coordenador</div>';
+        badgeHTML = `<div class="status-badge coordenador">${i18n.t('docentes.coordenador', 'Coordenador')}</div>`;
     } else if (docente.status === 'vice-coordenador') {
-        badgeHTML = '<div class="status-badge vice-coordenador">Vice-coordenador</div>';
+        badgeHTML = `<div class="status-badge vice-coordenador">${i18n.t('docentes.vice_coordenador', 'Vice-coordenador')}</div>`;
     }
     
     card.innerHTML = `
@@ -63,7 +63,7 @@ function createDocenteCard(docente) {
             </div>
             <div class="docente-conteudo">
                 <h3 class="docente-nome-modern">${docente.nome}</h3>
-                <a href="${docente.lattes}" target="_blank" class="botao-cv-outline">Ver Currículo Lattes</a>
+                <a href="${docente.lattes}" target="_blank" class="botao-cv-outline">${i18n.t('docentes.lattes', 'Ver Currículo Lattes')}</a>
             </div>
         </div>
         <div class="docente-email-inferior">

@@ -14,50 +14,61 @@ function toTitleCase(str) {
 
 async function loadEmentas() {
     try {
-        const response = await fetch('JSON/ementas.json');
-        ementasData = await response.json();
+        await i18n.ready;
+        ementasData = await i18n.fetchJSON('JSON/ementas.json');
         buildDisciplinas();
     } catch (e) {
         console.error('Erro ao carregar ementas:', e);
     }
 }
 
+// Em EN o JSON traz o campo opcional "nome"; em PT usa a chave do JSON
+function nomeDisciplina(key) {
+    const d = ementasData[key];
+    return (d && d.nome) ? d.nome : toTitleCase(key);
+}
+
 function buildDisciplinas() {
     const container = document.getElementById('disciplinas-container');
     if (!container || !ementasData) return;
+
+    const badge = i18n.t('disciplinas.badge_creditos', '60 horas aula - 4 créditos por disciplina');
+    const tituloEletivas = i18n.t('disciplinas.eletivas_area', 'Disciplinas Eletivas - Área:');
+    const nomeBioeng = i18n.t('disciplinas.area_bioengenharia', 'Bioengenharia');
+    const nomeInstr = i18n.t('disciplinas.area_instrumentacao', 'Instrumentação Biomédica');
 
     const sections = [
         {
             tipo: 'obrigatoria',
             area: null,
-            title: 'Disciplinas Obrigatórias',
+            title: i18n.t('disciplinas.obrigatorias', 'Disciplinas Obrigatórias'),
             cssClasses: 'disciplina-category obligatory',
             headerExtra: 'category-header-orange',
-            badge: '60 horas aula - 4 créditos por disciplina'
+            badge: badge
         },
         {
             tipo: 'niveladora',
             area: null,
-            title: 'Disciplinas Niveladoras',
+            title: i18n.t('disciplinas.niveladoras', 'Disciplinas Niveladoras'),
             cssClasses: 'disciplina-category leveling',
             headerExtra: '',
-            badge: '60 horas aula - 4 créditos por disciplina'
+            badge: badge
         },
         {
             tipo: 'eletiva',
-            area: 'Bioengenharia',
-            title: 'Disciplinas Eletivas - Área: Bioengenharia',
+            area: ['Bioengenharia', 'Bioengineering'],
+            title: `${tituloEletivas} ${nomeBioeng}`,
             cssClasses: 'disciplina-category elective bioengenharia',
             headerExtra: 'category-header-green',
-            badge: '60 horas aula - 4 créditos por disciplina'
+            badge: badge
         },
         {
             tipo: 'eletiva',
-            area: 'Instrumentação Biomédica',
-            title: 'Disciplinas Eletivas - Área: Instrumentação Biomédica',
+            area: ['Instrumentação Biomédica', 'Biomedical Instrumentation'],
+            title: `${tituloEletivas} ${nomeInstr}`,
             cssClasses: 'disciplina-category elective instrumentacao',
             headerExtra: '',
-            badge: '60 horas aula - 4 créditos por disciplina'
+            badge: badge
         }
     ];
 
@@ -67,20 +78,24 @@ function buildDisciplinas() {
         // Filtrar disciplinas desta seção
         const disciplines = Object.entries(ementasData).filter(([, d]) => {
             if (d.tipo !== sec.tipo) return false;
-            if (sec.area) return (d.area_concentracao || '').includes(sec.area);
+            if (sec.area) return sec.area.some(a => (d.area_concentracao || '').includes(a));
             return true;
         });
 
         if (disciplines.length === 0) continue;
 
-        // Ordenar alfabeticamente pelo nome
-        disciplines.sort((a, b) => a[0].localeCompare(b[0], 'pt-BR'));
+        // Ordenar alfabeticamente (PT pela chave; EN pelo nome em inglês)
+        if (i18n.lang === 'en') {
+            disciplines.sort((a, b) => nomeDisciplina(a[0]).localeCompare(nomeDisciplina(b[0]), 'en'));
+        } else {
+            disciplines.sort((a, b) => a[0].localeCompare(b[0], 'pt-BR'));
+        }
 
         const headerClass = `category-header${sec.headerExtra ? ' ' + sec.headerExtra : ''}`;
 
         const items = disciplines.map(([key]) => `
                             <li data-disciplina="${key}">
-                                <div class="disciplina-row"><span>${toTitleCase(key)}</span><button class="ementa-btn" type="button">Ementa</button></div>
+                                <div class="disciplina-row"><span>${nomeDisciplina(key)}</span><button class="ementa-btn" type="button">${i18n.t('disciplinas.ementa', 'Ementa')}</button></div>
                                 <div class="ementa-details"></div>
                             </li>`).join('');
 
@@ -123,23 +138,28 @@ function toggleEmenta(btn) {
 
     if (ementasData && ementasData[key]) {
         const d = ementasData[key];
-        details.innerHTML = `
-            <div class="ementa-content">
+        const tituloOriginal = d.nome ? `
                 <div class="ementa-section">
-                    <span class="ementa-section-label">Área de Concentração</span>
+                    <span class="ementa-section-label">${i18n.t('disciplinas.titulo_original', 'Título original')}</span>
+                    <p>${toTitleCase(key)}</p>
+                </div>` : '';
+        details.innerHTML = `
+            <div class="ementa-content">${tituloOriginal}
+                <div class="ementa-section">
+                    <span class="ementa-section-label">${i18n.t('disciplinas.area_concentracao', 'Área de Concentração')}</span>
                     <p>${d.area_concentracao}</p>
                 </div>
                 <div class="ementa-section">
-                    <span class="ementa-section-label">Ementa</span>
+                    <span class="ementa-section-label">${i18n.t('disciplinas.ementa', 'Ementa')}</span>
                     <p>${d.ementa}</p>
                 </div>
                 <div class="ementa-section">
-                    <span class="ementa-section-label">Bibliografia</span>
+                    <span class="ementa-section-label">${i18n.t('disciplinas.bibliografia', 'Bibliografia')}</span>
                     <p>${d.bibliografia}</p>
                 </div>
             </div>`;
     } else {
-        details.innerHTML = '<p class="ementa-unavailable">Informações não disponíveis.</p>';
+        details.innerHTML = `<p class="ementa-unavailable">${i18n.t('disciplinas.indisponivel', 'Informações não disponíveis.')}</p>`;
     }
 
     details.classList.add('open');

@@ -56,26 +56,27 @@ function toggleEmentaOferta(btn) {
 
     // Preencher conteúdo se ainda vazio
     if (!details.dataset.loaded) {
-        const nome = item.querySelector('h4').textContent;
+        // O nome exibido pode estar traduzido; a busca usa sempre o nome em PT
+        const nome = item.dataset.nome || item.querySelector('h4').textContent;
         const d = buscarEmenta(nome);
         if (d) {
             details.innerHTML = `
                 <div class="ementa-content-oferta">
                     <div class="ementa-section">
-                        <span class="ementa-section-label">Área de Concentração</span>
+                        <span class="ementa-section-label">${i18n.t('disciplinas.area_concentracao', 'Área de Concentração')}</span>
                         <p>${d.area_concentracao || '—'}</p>
                     </div>
                     <div class="ementa-section">
-                        <span class="ementa-section-label">Ementa</span>
+                        <span class="ementa-section-label">${i18n.t('disciplinas.ementa', 'Ementa')}</span>
                         <p>${d.ementa || '—'}</p>
                     </div>
                     <div class="ementa-section">
-                        <span class="ementa-section-label">Bibliografia</span>
+                        <span class="ementa-section-label">${i18n.t('disciplinas.bibliografia', 'Bibliografia')}</span>
                         <p>${d.bibliografia || '—'}</p>
                     </div>
                 </div>`;
         } else {
-            details.innerHTML = '<p class="ementa-unavailable">Informações da ementa não disponíveis.</p>';
+            details.innerHTML = `<p class="ementa-unavailable">${i18n.t('oferta.ementa_indisponivel', 'Informações da ementa não disponíveis.')}</p>`;
         }
         details.dataset.loaded = '1';
     }
@@ -87,10 +88,10 @@ function toggleEmentaOferta(btn) {
 document.addEventListener('DOMContentLoaded', function () {
 
     // Carregar ementas.json e oferta_disciplinas.json em paralelo
-    Promise.all([
-        fetch('JSON/oferta_disciplinas.json').then(r => r.json()),
-        fetch('JSON/ementas.json').then(r => r.json())
-    ]).then(([oferta, ementas]) => {
+    i18n.ready.then(() => Promise.all([
+        i18n.fetchJSON('JSON/oferta_disciplinas.json'),
+        i18n.fetchJSON('JSON/ementas.json')
+    ])).then(([oferta, ementas]) => {
         disciplinasData = oferta;
         ementasOferta = ementas;
 
@@ -122,10 +123,21 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
+// Monta "Segundo Semestre de 2024" (PT) / "Second Semester of 2024" (EN)
+function tituloSemestre(ano, semestre) {
+    const nomes = {
+        '1': i18n.t('oferta.primeiro', 'Primeiro'),
+        '2': i18n.t('oferta.segundo', 'Segundo')
+    };
+    const ordinal = nomes[semestre] || semestre + 'º';
+    return i18n.t('oferta.semestre_de', '{n} Semestre de {ano}')
+        .replace('{n}', ordinal)
+        .replace('{ano}', ano);
+}
+
 function formatSemester(key) {
     const [ano, semestre] = key.split('-');
-    const nomes = { '1': 'Primeiro', '2': 'Segundo' };
-    return `${ano}/${semestre} - ${nomes[semestre] || semestre + 'º'} Semestre de ${ano}`;
+    return `${ano}/${semestre} - ${tituloSemestre(ano, semestre)}`;
 }
 
 function updateContent(selectedSemester) {
@@ -133,9 +145,7 @@ function updateContent(selectedSemester) {
     if (!dados) return;
 
     const [ano, semestre] = selectedSemester.split('-');
-    const nomes = { '1': 'Primeiro', '2': 'Segundo' };
-    document.getElementById('semesterTitle').textContent =
-        `${nomes[semestre] || semestre + 'º'} Semestre de ${ano}`;
+    document.getElementById('semesterTitle').textContent = tituloSemestre(ano, semestre);
 
     const listaDisciplinas = document.querySelector('.disciplines-list');
     listaDisciplinas.innerHTML = '';
@@ -156,12 +166,18 @@ function updateContent(selectedSemester) {
             nameRow.className = 'discipline-name-row';
 
             const disciplineName = document.createElement('h4');
-            disciplineName.textContent = disciplina.nome;
+            disciplineItem.dataset.nome = disciplina.nome;
 
             // Badge de tipo
             const emDados = buscarEmenta(disciplina.nome);
+            // Em EN, o ementas.json traz o nome traduzido no campo opcional "nome"
+            disciplineName.textContent = (emDados && emDados.nome) ? emDados.nome : disciplina.nome;
             if (emDados && emDados.tipo) {
-                const tipoLabels = { obrigatoria: 'Obrigatória', niveladora: 'Niveladora', eletiva: 'Eletiva' };
+                const tipoLabels = {
+                    obrigatoria: i18n.t('oferta.tipo_obrigatoria', 'Obrigatória'),
+                    niveladora: i18n.t('oferta.tipo_niveladora', 'Niveladora'),
+                    eletiva: i18n.t('oferta.tipo_eletiva', 'Eletiva')
+                };
                 const tipoBadge = document.createElement('span');
                 tipoBadge.className = `tipo-badge tipo-${emDados.tipo}`;
                 tipoBadge.textContent = tipoLabels[emDados.tipo] || emDados.tipo;
@@ -176,15 +192,15 @@ function updateContent(selectedSemester) {
 
             const docente = document.createElement('p');
             docente.className = 'docente';
-            docente.textContent = `Docente: ${disciplina.docente}`;
+            docente.textContent = `${i18n.t('oferta.docente', 'Docente')}: ${disciplina.docente}`;
 
             const unidade = document.createElement('p');
             unidade.className = 'unidade';
-            unidade.textContent = `Unidade: ${disciplina.unidade}`;
+            unidade.textContent = `${i18n.t('oferta.unidade', 'Unidade')}: ${disciplina.unidade}`;
 
             const horario = document.createElement('p');
             horario.className = 'horario';
-            horario.textContent = `Horário: ${disciplina.horario}`;
+            horario.textContent = `${i18n.t('oferta.horario', 'Horário')}: ${disciplina.horario}`;
 
             disciplineInfo.appendChild(docente);
             disciplineInfo.appendChild(unidade);
@@ -192,7 +208,7 @@ function updateContent(selectedSemester) {
             if (disciplina.local && disciplina.local.trim() !== '') {
                 const local = document.createElement('p');
                 local.className = 'local';
-                local.textContent = `Local: ${disciplina.local}`;
+                local.textContent = `${i18n.t('oferta.local', 'Local')}: ${disciplina.local}`;
                 disciplineInfo.appendChild(local);
             }
 
@@ -203,7 +219,7 @@ function updateContent(selectedSemester) {
             const ementaBtn = document.createElement('button');
             ementaBtn.className = 'ementa-link';
             ementaBtn.type = 'button';
-            ementaBtn.textContent = 'Ementa';
+            ementaBtn.textContent = i18n.t('disciplinas.ementa', 'Ementa');
 
             row.appendChild(disciplineContent);
             row.appendChild(ementaBtn);
@@ -217,6 +233,6 @@ function updateContent(selectedSemester) {
             listaDisciplinas.appendChild(disciplineItem);
         });
     } else {
-        listaDisciplinas.innerHTML = '<div class="no-disciplines"><p>Não há disciplinas disponíveis para este período.</p></div>';
+        listaDisciplinas.innerHTML = `<div class="no-disciplines"><p>${i18n.t('oferta.sem_disciplinas', 'Não há disciplinas disponíveis para este período.')}</p></div>`;
     }
 }
