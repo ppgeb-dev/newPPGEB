@@ -87,14 +87,14 @@
         "children": [
           {
             "text": "Ementas",
-            "text_en": "Course Details",
+            "text_en": "Details",
             "link": "disciplinas.html",
             "class": "",
             "target": ""
           },
           {
             "text": "Oferta de Disciplinas",
-            "text_en": "Course Offerings",
+            "text_en": "Offerings",
             "link": "oferta_disciplinas.html",
             "class": "",
             "target": ""
