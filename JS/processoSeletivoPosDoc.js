@@ -4,20 +4,27 @@ let semesterData = {};
 
 document.addEventListener('DOMContentLoaded', function () {
 
+    // "Segundo Semestre de 2025" (PT) / "Second Semester of 2025" (EN)
+    function tituloSemestre(ano, semestre) {
+        const nomes = {
+            "1": i18n.t('comum.primeiro', 'Primeiro'),
+            "2": i18n.t('comum.segundo', 'Segundo'),
+            "3": i18n.t('comum.terceiro', 'Terceiro')
+        };
+        return i18n.t('posdoc.semestre_de', '{n} Semestre de {ano}')
+            .replace('{n}', nomes[semestre] || semestre + "º")
+            .replace('{ano}', ano);
+    }
+
     function formatSemester(key) {
         const [ano, semestre] = key.split("-");
-        const nomes = {
-            "1": "Primeiro",
-            "2": "Segundo",
-            "3": "Terceiro"
-        };
-        return `${ano}/${semestre} - ${nomes[semestre] || semestre + "º"} Semestre de ${ano}`;
+        return `${ano}/${semestre} - ${tituloSemestre(ano, semestre)}`;
     }
 
     const select = document.getElementById("semesterSelect");
 
-    fetch("JSON/processo_seletivo_pos_doc.json")
-        .then(response => response.json())
+    i18n.ready
+        .then(() => i18n.fetchJSON("JSON/processo_seletivo_pos_doc.json"))
         .then(data => {
             semesterData = data;
             select.innerHTML = "";
@@ -49,12 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (!dados) return;
 
         const [ano, semestre] = selectedSemester.split("-");
-        const nomes = {
-            "1": "Primeiro",
-            "2": "Segundo",
-            "3": "Terceiro"
-        };
-        const titulo = `${nomes[semestre] || semestre + "º"} Semestre de ${ano}`;
+        const titulo = tituloSemestre(ano, semestre);
         document.getElementById("semesterTitle").textContent = titulo;
 
         const listaRegulares = document.querySelector(".document-category .documents-list");
@@ -85,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 listaRegulares.appendChild(link);
             });
         } else {
-            listaRegulares.innerHTML = `<div class="no-documents"><p>Não há documentos disponíveis para alunos regulares neste período.</p></div>`;
+            listaRegulares.innerHTML = `<div class="no-documents"><p>${i18n.t('posdoc.sem_documentos', 'Não há documentos disponíveis para alunos regulares neste período.')}</p></div>`;
         }        
     }
 });

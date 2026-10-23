@@ -199,6 +199,21 @@
     opacity: 0.5;
 }
 
+/* Aviso de tradução informativa: aparece só em inglês */
+.aviso-traducao {
+    display: none;
+}
+
+html[lang="en"] .aviso-traducao {
+    display: block;
+    max-width: 900px;
+    margin: 0 auto 1rem;
+    text-align: center;
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--medium-text);
+}
+
 /* Evita o "flash" de português ao abrir em inglês */
 html.i18n-loading main,
 html.i18n-loading body > section {

@@ -1,0 +1,625 @@
+{
+  "folder": "processos_seletivos",
+  "2017-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Results - Regular Students",
+        "texto": "Final results of the selection process for Regular Students"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Call for Applications - Special (non-degree) Students",
+        "texto": "Official document with all the information about the selection process for Special (non-degree) Students"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Results - Special (non-degree) Students",
+        "texto": "Final results of the selection process for Special (non-degree) Students"
+      }
+    ]
+  },
+  "2017-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Results - Regular Students",
+        "texto": "Final results of the selection process for Regular Students"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Call for Applications - Special (non-degree) Students",
+        "texto": "Official document with all the information about the selection process for Special (non-degree) Students"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Results - Special (non-degree) Students",
+        "texto": "Final results of the selection process for Special (non-degree) Students"
+      }
+    ]
+  },
+  "2018-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Results - Regular Students",
+        "texto": "Final results of the selection process for Regular Students"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Call for Applications - Special (non-degree) Students",
+        "texto": "Official document with all the information about the selection process for Special (non-degree) Students"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Results - Special (non-degree) Students",
+        "texto": "Final results of the selection process for Special (non-degree) Students"
+      }
+    ]
+  },
+  "2018-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Results - Regular Students",
+        "texto": "Final results of the selection process for Regular Students"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Call for Applications - Special (non-degree) Students",
+        "texto": "Official document with all the information about the selection process for Special (non-degree) Students"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Results - Special (non-degree) Students",
+        "texto": "Final results of the selection process for Special (non-degree) Students"
+      }
+    ]
+  },
+  "2019-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Results - Regular Students",
+        "texto": "Final results of the selection process for Regular Students"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Call for Applications - Special (non-degree) Students",
+        "texto": "Official document with all the information about the selection process for Special (non-degree) Students"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Results - Special (non-degree) Students",
+        "texto": "Final results of the selection process for Special (non-degree) Students"
+      }
+    ]
+  },
+  "2019-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Results - Regular Students",
+        "texto": "Final results of the selection process for Regular Students"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Call for Applications - Special (non-degree) Students",
+        "texto": "Official document with all the information about the selection process for Special (non-degree) Students"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Results - Special (non-degree) Students",
+        "texto": "Final results of the selection process for Special (non-degree) Students"
+      }
+    ]
+  },
+  "2020-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Results - Regular Students",
+        "texto": "Final results of the selection process for Regular Students"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Call for Applications - Special (non-degree) Students",
+        "texto": "Official document with all the information about the selection process for Special (non-degree) Students"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Results - Special (non-degree) Students",
+        "texto": "Final results of the selection process for Special (non-degree) Students"
+      }
+    ]
+  },
+  "2020-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Results - Regular Students",
+        "texto": "Final results of the selection process for Regular Students"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Call for Applications - Special (non-degree) Students",
+        "texto": "Official document with all the information about the selection process for Special (non-degree) Students"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Results - Special (non-degree) Students",
+        "texto": "Final results of the selection process for Special (non-degree) Students"
+      }
+    ]
+  },
+  "2021-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Call for Applications Annexes",
+        "texto": "Annex to the call for applications for Regular Students"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Results - Regular Students",
+        "texto": "Final results of the selection process for Regular Students"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Call for Applications - Special (non-degree) Students",
+        "texto": "Official document with all the information about the selection process for Special (non-degree) Students"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Results - Special (non-degree) Students",
+        "texto": "Final results of the selection process for Special (non-degree) Students"
+      }
+    ]
+  },
+  "2021-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Call for Applications Annexes",
+        "texto": "Annex to the call for applications for Regular Students"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Results - Regular Students",
+        "texto": "Final results of the selection process for Regular Students"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Call for Applications - Special (non-degree) Students",
+        "texto": "Official document with all the information about the selection process for Special (non-degree) Students"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Results - Special (non-degree) Students",
+        "texto": "Final results of the selection process for Special (non-degree) Students"
+      }
+    ]
+  },
+  "2022-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Call for Applications Annexes",
+        "texto": "Annex to the call for applications for Regular Students"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Results - Regular Students",
+        "texto": "Final results of the selection process for Regular Students"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Call for Applications - Special (non-degree) Students",
+        "texto": "Official document with all the information about the selection process for Special (non-degree) Students"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Results - Special (non-degree) Students",
+        "texto": "Final results of the selection process for Special (non-degree) Students"
+      }
+    ]
+  },
+  "2022-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Call for Applications Annexes",
+        "texto": "Annex to the call for applications for Regular Students"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Results - Regular Students",
+        "texto": "Final results of the selection process for Regular Students"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Call for Applications - Special (non-degree) Students",
+        "texto": "Official document with all the information about the selection process for Special (non-degree) Students"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Results - Special (non-degree) Students",
+        "texto": "Final results of the selection process for Special (non-degree) Students"
+      }
+    ]
+  },
+  "2023-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Call for Applications Annexes",
+        "texto": "Annex to the call for applications for Regular Students"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Results - Regular Students",
+        "texto": "Final results of the selection process for Regular Students"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Call for Applications - Special (non-degree) Students",
+        "texto": "Official document with all the information about the selection process for Special (non-degree) Students"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Results - Special (non-degree) Students",
+        "texto": "Final results of the selection process for Special (non-degree) Students"
+      }
+    ]
+  },
+  "2023-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Call for Applications Annexes",
+        "texto": "Annex to the call for applications for Regular Students"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Results - Regular Students",
+        "texto": "Final results of the selection process for Regular Students"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Call for Applications - Special (non-degree) Students",
+        "texto": "Official document with all the information about the selection process for Special (non-degree) Students"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Results - Special (non-degree) Students",
+        "texto": "Final results of the selection process for Special (non-degree) Students"
+      }
+    ]
+  },
+  "2023-3": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Call for Applications Annexes",
+        "texto": "Annex to the call for applications for Regular Students"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Results - Regular Students",
+        "texto": "Final results of the selection process for Regular Students"
+      }
+    ],
+    "especiais": []
+  },
+  "2024-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Call for Applications Annexes",
+        "texto": "Annex to the call for applications for Regular Students"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Results - Regular Students",
+        "texto": "Final results of the selection process for Regular Students"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Call for Applications - Special (non-degree) Students",
+        "texto": "Official document with all the information about the selection process for Special (non-degree) Students"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Results - Special (non-degree) Students",
+        "texto": "Final results of the selection process for Special (non-degree) Students"
+      }
+    ]
+  },
+  "2024-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Call for Applications Annexes",
+        "texto": "Annex to the call for applications for Regular Students"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Results - Regular Students",
+        "texto": "Final results of the selection process for Regular Students"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais_1.pdf",
+        "titulo": "Call for Applications - Special (non-degree) Students (1)",
+        "texto": "Official document with all the information about the selection process for Special (non-degree) Students (1)"
+      },
+      {
+        "arquivo": "edital_especiais_2.pdf",
+        "titulo": "Call for Applications - Special (non-degree) Students (2)",
+        "texto": "Official document with all the information about the selection process for Special (non-degree) Students (2)"
+      },
+      {
+        "arquivo": "resultado_especiais_1.pdf",
+        "titulo": "Results - Special (non-degree) Students (1)",
+        "texto": "Final results of the selection process for Special (non-degree) Students (1)"
+      },
+      {
+        "arquivo": "resultado_especiais_2.pdf",
+        "titulo": "Results - Special (non-degree) Students (2)",
+        "texto": "Final results of the selection process for Special (non-degree) Students (2)"
+      }
+    ]
+  },
+  "2025-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Call for Applications Annexes",
+        "texto": "Annex to the call for applications for Regular Students"
+      },
+      {
+        "arquivo": "resultado_regulares.pdf",
+        "titulo": "Results - Regular Students",
+        "texto": "Final results of the selection process for Regular Students"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais.pdf",
+        "titulo": "Call for Applications - Special (non-degree) Students",
+        "texto": "Official document with all the information about the selection process for Special (non-degree) Students"
+      },
+      {
+        "arquivo": "resultado_especiais.pdf",
+        "titulo": "Results - Special (non-degree) Students",
+        "texto": "Final results of the selection process for Special (non-degree) Students"
+      }
+    ]
+  },
+  "2025-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "anexo_regulares.pdf",
+        "titulo": "Call for Applications Annexes",
+        "texto": "Annex to the call for applications for Regular Students"
+      },
+      {
+        "arquivo": "lista de aprovados_final_2025-02.pdf",
+        "titulo": "Final Results",
+        "texto": "Document containing the final results of the selection process"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_alunos_especiais_02_2025.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "lista de aprovados_alunos_especiais_2025-02.pdf",
+        "titulo": "Final Results",
+        "texto": "Document containing the final results of the selection process"
+      }
+    ]
+  },
+  "2025-3": {
+    "regulares": [
+      {
+        "arquivo": "edital_vgs_remanecentes.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "anexos_edital_2025_03.pdf",
+        "titulo": "Call for Applications Annexes",
+        "texto": "Annex to the call for applications for Regular Students"
+      },
+      {
+        "arquivo": "aprovados_final_2025-03.pdf",
+        "titulo": "Final Results",
+        "texto": "Document containing the final results of the selection process"
+      }
+    ]
+  },
+  "2026-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares_2026_01.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "anexos_edital_2026-01.pdf",
+        "titulo": "Call for Applications Annexes",
+        "texto": "Annex to the call for applications for Regular Students"
+      },
+      {
+        "arquivo": "aprovados_final_2026-01.pdf",
+        "titulo": "Final Results",
+        "texto": "Document containing the final results of the selection process"
+      }
+    ]
+  },
+  "2026-2": {
+    "regulares": [
+      {
+        "arquivo": "edital_regulares_2026_02.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      },
+      {
+        "arquivo": "anexos_edital_2026-01.pdf",
+        "titulo": "Call for Applications Annexes",
+        "texto": "Annex to the call for applications for Regular Students"
+      },
+      {
+        "arquivo": "lista_deferidos_regulares_2026_02.pdf",
+        "titulo": "List of Approved Applications",
+        "texto": "List of applicants whose applications were approved in the selection process"
+      },
+      {
+        "arquivo": "Lista_aprovados_1_fase.pdf",
+        "titulo": "List of Students Approved in Phase 1",
+        "texto": "List of students approved in phase 1 of the selection process"
+      },
+      {
+        "arquivo": "Lista_aprovados_final.pdf",
+        "titulo": "Final List of Students Approved in the 2026-02 Selection Process",
+        "texto": "List of students approved in the selection process"
+      }
+    ],
+    "especiais": [
+      {
+        "arquivo": "edital_especiais_2026_02.pdf",
+        "titulo": "Selection Process Call for Applications",
+        "texto": "Official document with all the information about the selection process for Regular Students"
+      }
+    ]
+  }
+}

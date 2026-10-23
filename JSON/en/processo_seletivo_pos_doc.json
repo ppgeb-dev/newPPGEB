@@ -1,0 +1,46 @@
+{
+  "folder": "pos_doc",
+  "2022-2": {
+    "regulares": [
+      {
+        "arquivo": "prorrogacao_edital_pos_doc_sei_unifesp_1346376_edital.pdf",
+        "titulo": "Call for Applications Extension",
+        "texto": "Extension of the call for applications for the selection of a Capes Postdoctoral fellow - PDPG_PDO"
+      },
+      {
+        "arquivo": "resultado_primeira_fase_1346376_edital.pdf",
+        "titulo": "First-Phase Results",
+        "texto": "Candidates approved for the second phase"
+      },
+      {
+        "arquivo": "agenda_segunda_fase_1346376_edital.pdf",
+        "titulo": "Second-Phase Schedule",
+        "texto": "Schedule for candidates approved for the second phase"
+      },
+      {
+        "arquivo": "resultado_1346376_edital.pdf",
+        "titulo": "Final Results",
+        "texto": "Candidate approved in the selection process"
+      }
+    ]
+  },
+  "2024-1": {
+    "regulares": [
+      {
+        "arquivo": "edital_posdoc_2024-01_sei_unifesp_1346376_retificado.pdf",
+        "titulo": "Amended Call for Applications",
+        "texto": "Amendment to the opening call for applications for the selection of a Capes Postdoctoral fellow - PDPG_PDO"
+      },
+      {
+        "arquivo": "edital_137_2024_resultado_primeira_fase.pdf",
+        "titulo": "First-Phase Results",
+        "texto": "Candidates approved for the second phase"
+      },
+      {
+        "arquivo": "edital_137_2024_posdoc_pdpg_2024_resultado_final.pdf",
+        "titulo": "Final Results",
+        "texto": "Candidate approved in the selection process"
+      }
+    ]
+  }
+}
