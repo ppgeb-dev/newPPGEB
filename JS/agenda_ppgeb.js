@@ -3,8 +3,8 @@ let calendarData = {};
 document.addEventListener('DOMContentLoaded', function () {
 
     // Carrega diretamente os dados do calendário 2026
-    fetch("JSON/agenda_academica.json")
-        .then(response => response.json())
+    i18n.ready
+        .then(() => i18n.fetchJSON("JSON/agenda_academica.json"))
         .then(data => {
             calendarData = data;
             // Carrega diretamente o calendário de 2026
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Atualiza o título baseado no título do JSON
         const titleElement = document.getElementById("semesterTitle");
         if (titleElement) {
-            titleElement.textContent = dados.titulo || "Calendário Acadêmico - 2025";
+            titleElement.textContent = dados.titulo || i18n.t('agenda.titulo_padrao', 'Calendário Acadêmico - 2025');
         }
 
         const monthsList = document.querySelector(".months-list");
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     // Mês sem eventos
                     const emptyMonth = document.createElement("div");
                     emptyMonth.className = "empty-month";
-                    emptyMonth.innerHTML = "<p>Nenhum evento programado para este mês</p>";
+                    emptyMonth.innerHTML = `<p>${i18n.t('agenda.mes_vazio', 'Nenhum evento programado para este mês')}</p>`;
                     monthContent.appendChild(emptyMonth);
                 }
 
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 monthsList.appendChild(monthItem);
             });
         } else {
-            monthsList.innerHTML = `<div class="no-events"><p>Não há eventos programados para este período.</p></div>`;
+            monthsList.innerHTML = `<div class="no-events"><p>${i18n.t('agenda.sem_eventos', 'Não há eventos programados para este período.')}</p></div>`;
         }        
     }
 

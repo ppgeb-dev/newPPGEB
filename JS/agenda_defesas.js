@@ -2,13 +2,50 @@ let defensesData = {};
 
 document.addEventListener('DOMContentLoaded', function () {
 
+    // "Segundo Semestre de 2024" (PT) / "Second Semester of 2024" (EN)
+    function tituloSemestre(ano, semestre) {
+        const nomes = {
+            "1": i18n.t('comum.primeiro', 'Primeiro'),
+            "2": i18n.t('comum.segundo', 'Segundo')
+        };
+        return i18n.t('defesas.semestre_de', '{n} Semestre de {ano}')
+            .replace('{n}', nomes[semestre] || semestre + "º")
+            .replace('{ano}', ano);
+    }
+
     function formatSemester(key) {
         const [ano, semestre] = key.split("-");
-        const nomes = {
-            "1": "Primeiro",
-            "2": "Segundo"
-        };
-        return `${ano}/${semestre} - ${nomes[semestre] || semestre + "º"} Semestre de ${ano}`;
+        return `${ano}/${semestre} - ${tituloSemestre(ano, semestre)}`;
+    }
+
+    const MESES_PT = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho',
+        'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
+
+    // Converte "01 de dezembro de 2025" para a data no idioma ativo; fora do padrão, mantém o texto
+    function formatarData(texto) {
+        if (i18n.lang !== 'en' || typeof texto !== 'string') return texto;
+        const m = texto.trim().match(/^(\d{1,2}) de ([a-zç]+) de (\d{4})$/i);
+        const mes = m ? MESES_PT.indexOf(m[2].toLowerCase()) : -1;
+        if (mes < 0) return texto;
+        const data = new Date(Number(m[3]), mes, Number(m[1]));
+        return data.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    }
+
+    // Converte "09h00" para "9:00 AM" em EN; fora do padrão, mantém o texto
+    function formatarHorario(texto) {
+        if (i18n.lang !== 'en' || typeof texto !== 'string') return texto;
+        const m = texto.trim().match(/^(\d{1,2})h(\d{2})$/);
+        if (!m) return texto;
+        const hora = new Date(2000, 0, 1, Number(m[1]), Number(m[2]));
+        return hora.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+    }
+
+    // O JSON traz a modalidade em PT; a classe CSS continua baseada nele
+    function rotuloModalidade(modalidade) {
+        const tipo = modalidade.trim().toLowerCase();
+        if (tipo === 'presencial') return i18n.t('defesas.presencial', modalidade);
+        if (tipo === 'videoconferência' || tipo === 'videoconferencia') return i18n.t('defesas.videoconferencia', modalidade);
+        return modalidade;
     }
 
     function getModalityClass(modality) {
@@ -22,8 +59,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const select = document.getElementById("semesterSelect");
 
-    fetch("JSON/agenda_defesas.json")
-        .then(response => response.json())
+    i18n.ready
+        .then(() => i18n.fetchJSON("JSON/agenda_defesas.json"))
         .then(data => {
             defensesData = data;
             select.innerHTML = "";
@@ -52,11 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (!dados) return;
 
         const [ano, semestre] = selectedSemester.split("-");
-        const nomes = {
-            "1": "Primeiro",
-            "2": "Segundo"
-        };
-        const titulo = `${nomes[semestre] || semestre + "º"} Semestre de ${ano}`;
+        const titulo = tituloSemestre(ano, semestre);
         document.getElementById("semesterTitle").textContent = titulo;
 
         const listaDefesas = document.querySelector(".defenses-list");
@@ -77,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Data da defesa
                 const defenseDate = document.createElement("div");
                 defenseDate.className = "defense-date";
-                defenseDate.textContent = defesa.data;
+                defenseDate.textContent = formatarData(defesa.data);
 
                 defenseHeader.appendChild(defenseDate);
 
@@ -85,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (defesa.horario !== null && defesa.horario !== undefined) {
                     const defenseTime = document.createElement("div");
                     defenseTime.className = "defense-time";
-                    defenseTime.textContent = defesa.horario;
+                    defenseTime.textContent = formatarHorario(defesa.horario);
                     defenseHeader.appendChild(defenseTime);
                 }
 
@@ -97,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Nome do aluno
                 const defenseStudent = document.createElement("div");
                 defenseStudent.className = "defense-student";
-                defenseStudent.textContent = `Aluno(a): ${defesa.aluno}`;
+                defenseStudent.textContent = `${i18n.t('defesas.aluno', 'Aluno(a)')}: ${defesa.aluno}`;
 
                 // Informações da defesa
                 const defenseInfo = document.createElement("div");
@@ -106,7 +139,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Modalidade
                 const defenseModality = document.createElement("span");
                 defenseModality.className = `defense-modality ${getModalityClass(defesa.modalidade)}`;
-                defenseModality.textContent = defesa.modalidade;
+                defenseModality.textContent = rotuloModalidade(defesa.modalidade);
                 
                 // Se for videoconferência e tiver link, torna a modalidade clicável
                 if (getModalityClass(defesa.modalidade) === 'videoconferencia' && defesa.link) {
@@ -115,7 +148,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     modalityLink.target = "_blank";
                     modalityLink.rel = "noopener noreferrer";
                     modalityLink.className = `defense-modality ${getModalityClass(defesa.modalidade)}`;
-                    modalityLink.textContent = defesa.modalidade;
+                    modalityLink.textContent = rotuloModalidade(defesa.modalidade);
                     modalityLink.style.textDecoration = "none";
                     modalityLink.style.cursor = "pointer";
                     
@@ -151,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 listaDefesas.appendChild(defenseItem);
             });
         } else {
-            listaDefesas.innerHTML = `<div class="no-defenses"><p>Não há defesas programadas para este período.</p></div>`;
+            listaDefesas.innerHTML = `<div class="no-defenses"><p>${i18n.t('defesas.sem_defesas', 'Não há defesas programadas para este período.')}</p></div>`;
         }        
     }
 

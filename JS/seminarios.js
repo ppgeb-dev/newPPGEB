@@ -7,14 +7,33 @@ document.addEventListener('DOMContentLoaded', function () {
         if (key.includes('-')) {
             const [ano, semestre] = key.split("-");
             const nomes = {
-                "1": "Primeiro",
-                "2": "Segundo"
+                "1": i18n.t('comum.primeiro', 'Primeiro'),
+                "2": i18n.t('comum.segundo', 'Segundo')
             }
 
-    // Função para mostrar o modal do cover;
-            return `${ano}/${semestre} - ${nomes[semestre] || semestre + "º"} Semestre de ${ano}`;
+            const semestreTexto = i18n.t('seminarios.semestre_de', '{n} Semestre de {ano}')
+                .replace('{n}', nomes[semestre] || semestre + "º")
+                .replace('{ano}', ano);
+            return `${ano}/${semestre} - ${semestreTexto}`;
         }
         return key; // Retorna a chave original se não seguir o padrão
+    }
+
+    // Data no idioma ativo; em PT mantém o texto do JSON
+    function formatarData(texto) {
+        if (i18n.lang !== 'en') return texto;
+        const data = parseDataBrasileira(texto);
+        if (data.getTime() === 0) return texto;
+        return data.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    }
+
+    // "15:00" vira "3:00 PM" em EN; fora do padrão, mantém o texto
+    function formatarHorario(texto) {
+        if (i18n.lang !== 'en' || typeof texto !== 'string') return texto;
+        const m = texto.trim().match(/^(\d{1,2})[:h](\d{2})$/);
+        if (!m) return texto;
+        const hora = new Date(2000, 0, 1, Number(m[1]), Number(m[2]));
+        return hora.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
     }
 
     const select = document.getElementById("semesterSelect");
@@ -22,14 +41,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // Verificação inicial
     console.log("Iniciando carregamento do JSON de seminários...");
     
-    fetch("JSON/seminarios.json")
-        .then(response => {
-            console.log("Response status:", response.status);
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return response.json();
-        })
+    i18n.ready
+        .then(() => i18n.fetchJSON("JSON/seminarios.json"))
         .then(data => {
             console.log("Dados carregados:", data); // Debug
             seminariosData = data;
@@ -41,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (keys.length === 0) {
                 const option = document.createElement("option");
                 option.value = "";
-                option.textContent = "Nenhum período disponível";
+                option.textContent = i18n.t('seminarios.nenhum_periodo', 'Nenhum período disponível');
                 option.disabled = true;
                 select.appendChild(option);
                 return;
@@ -62,12 +75,12 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .catch(error => {
             console.error("Erro ao carregar JSON:", error);
-            select.innerHTML = '<option disabled>Erro ao carregar dados</option>';
+            select.innerHTML = `<option disabled>${i18n.t('seminarios.erro_dados', 'Erro ao carregar dados')}</option>`;
             
             // Mostra mensagem de erro na lista
             const listaSeminarios = document.querySelector(".seminars-list");
             if (listaSeminarios) {
-                listaSeminarios.innerHTML = `<div class="no-seminars"><p>Erro ao carregar seminários. Verifique o console para mais detalhes.</p></div>`;
+                listaSeminarios.innerHTML = `<div class="no-seminars"><p>${i18n.t('seminarios.erro_lista', 'Erro ao carregar seminários. Verifique o console para mais detalhes.')}</p></div>`;
             }
         });
 
@@ -89,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Atualiza o título
         const titleElement = document.getElementById("semesterTitle");
         if (titleElement) {
-            titleElement.textContent = dados.titulo || `Seminários - ${selectedSemester}`;
+            titleElement.textContent = dados.titulo || `${i18n.t('seminarios.titulo_padrao', 'Seminários')} - ${selectedSemester}`;
         }
 
         const listaSeminarios = document.querySelector(".seminars-list");
@@ -125,11 +138,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 const seminarDate = document.createElement("div");
                 seminarDate.className = "seminar-date";
-                seminarDate.textContent = seminario.data;
+                seminarDate.textContent = formatarData(seminario.data);
 
                 const seminarTime = document.createElement("div");
                 seminarTime.className = "seminar-time";
-                seminarTime.textContent = seminario.horario;
+                seminarTime.textContent = formatarHorario(seminario.horario);
 
                 seminarDateTime.appendChild(seminarDate);
                 seminarDateTime.appendChild(seminarTime);
@@ -153,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const coverLink = document.createElement("a");
                 coverLink.className = "seminar-link cover";
                 coverLink.href = "#";
-                coverLink.textContent = "Folder Divulgação";
+                coverLink.textContent = i18n.t('seminarios.folder', 'Folder Divulgação');
                 coverLink.addEventListener('click', function(e) {
                     e.preventDefault();
                     showCoverModal(seminario);
@@ -167,7 +180,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     eventLink.href = seminario.link;
                     eventLink.target = "_blank";
                     eventLink.rel = "noopener noreferrer";
-                    eventLink.textContent = seminario.linktipo || "Acessar Evento";
+                    eventLink.textContent = seminario.linktipo || i18n.t('seminarios.acessar_evento', 'Acessar Evento');
                     seminarActions.appendChild(eventLink);
                 }
 
@@ -178,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     videoLink.href = seminario.video;
                     videoLink.target = "_blank";
                     videoLink.rel = "noopener noreferrer";
-                    videoLink.textContent = "Assistir Vídeo";
+                    videoLink.textContent = i18n.t('seminarios.video', 'Assistir Vídeo');
                     seminarActions.appendChild(videoLink);
                 }
 
@@ -189,7 +202,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     bioLink.href = seminario.bio;
                     bioLink.target = "_blank";
                     bioLink.rel = "noopener noreferrer";
-                    bioLink.textContent = "Bio e Resumo";
+                    bioLink.textContent = i18n.t('seminarios.bio', 'Bio e Resumo');
                     seminarActions.appendChild(bioLink);
                 }
 
@@ -200,7 +213,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     inscricoesLink.href = seminario.inscricoes;
                     inscricoesLink.target = "_blank";
                     inscricoesLink.rel = "noopener noreferrer";
-                    inscricoesLink.textContent = "Inscrições";
+                    inscricoesLink.textContent = i18n.t('seminarios.inscricoes', 'Inscrições');
                     seminarActions.appendChild(inscricoesLink);
                 }
 
@@ -213,7 +226,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 listaSeminarios.appendChild(seminarItem);
             });
         } else {
-            listaSeminarios.innerHTML = `<div class="no-seminars"><p>Não há seminários disponíveis para este período.</p></div>`;
+            listaSeminarios.innerHTML = `<div class="no-seminars"><p>${i18n.t('seminarios.sem_seminarios', 'Não há seminários disponíveis para este período.')}</p></div>`;
         }        
     }
 
@@ -274,7 +287,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const modalSpeaker = document.getElementById('modalCoverSpeaker');
 
         modalImage.src = seminario.cover;
-        modalImage.alt = `Cover - ${seminario.titulo}`;
+        modalImage.alt = `${i18n.t('seminarios.cover', 'Cover')} - ${seminario.titulo}`;
         modalTitle.textContent = seminario.titulo;
         modalSpeaker.textContent = seminario.palestrante;
 
