@@ -87,7 +87,7 @@
         "children": [
           {
             "text": "Ementas",
-            "text_en": "Course Syllabi",
+            "text_en": "Course Details",
             "link": "disciplinas.html",
             "class": "",
             "target": ""
