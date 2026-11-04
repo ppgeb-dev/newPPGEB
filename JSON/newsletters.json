@@ -59,6 +59,16 @@
       "edition": 6,
       "active": true,
       "imageFolder": "img/2026-10"
+    },
+    {
+      "id": "Novembro",
+      "title": "Novembro de 2026",
+      "month": "novembro",
+      "year": 2026,
+      "file": "2026_11_newsletter.md",
+      "edition": 7,
+      "active": true,
+      "imageFolder": "img/2026-11"
     }
   ],
   "usefulLinks": [
