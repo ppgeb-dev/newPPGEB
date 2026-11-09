@@ -1,4 +1,27 @@
 {
+  "2026-1": {
+    "titulo": "Defesas do Primeiro Semestre de 2026",
+    "defesas": [
+      {
+        "data": "19 de fevereiro de 2026",
+        "aluno": "Freud Attilio Santos Felix",
+        "titulo": "GERENCIAMENTO DE OBJETOS HOSPITALARES BASEADO EM RFID E IOT: DESENVOLVIMENTO DE UM SISTEMA DE LOCALIZAÇÃO E MONITORAMENTO",
+        "modalidade": "Videoconferência",
+        "horario": null,
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "05 de março de 2026",
+        "aluno": "Anna Rackel Pinheiro Valerio",
+        "titulo": "AVALIAÇÃO DA INCORPORAÇÃO DE ZN(II) NO MONOCRISTAL [CU(PHEN)2CL]·X(H2O) E SEU POTENCIAL NA AÇÃO ANTITUMORAL USANDO MODELO MURINO DE MELANOMA",
+        "modalidade": "Videoconferência",
+        "horario": null,
+        "local": "Google Meet",
+        "link": null
+      }
+    ]
+  },
   "2025-2": {
     "titulo": "Defesas do Segundo Semestre de 2025",
     "defesas": [
@@ -6,6 +29,24 @@
         "data": "01 de dezembro de 2025",
         "aluno": "Thaís Cerqueira Reis Nakamura",
         "titulo": "ANÁLISE COMPARATIVA DA PERFORMANCE DE SETE ARQUITETURAS DE REDES NEURAIS CONVOLUCIONAIS PARA CLASSIFICAÇÃO DE TUMORES DE GLÂNDULAS SALIVARES EM PATOLOGIA DIGITAL",
+        "modalidade": "Videoconferência",
+        "horario": null,
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "09 de dezembro de 2025",
+        "aluno": "Paloma Gonçalves",
+        "titulo": "EFEITOS DA VENTILAÇÃO LENTA SOBRE A MODULAÇÃO AUTONÔMICA, ESTRESSE E DESEMPENHO COGNITIVO EM CRIANÇAS E ADOLESCENTES",
+        "modalidade": "Videoconferência",
+        "horario": null,
+        "local": "Google Meet",
+        "link": null
+      },
+      {
+        "data": "11 de dezembro de 2025",
+        "aluno": "Bruno do Amarante Augusto",
+        "titulo": "REDUÇÃO DE DIMENSIONALIDADE PARA SEGMENTAÇÃO DE IMAGENS MICRO-FTIR: COMPARAÇÃO ENTRE PCA E SVD EM AMOSTRAS DE CÓLON HUMANO",
         "modalidade": "Videoconferência",
         "horario": null,
         "local": "Google Meet",
