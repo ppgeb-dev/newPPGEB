@@ -1,4 +1,41 @@
 {
+  "2026": {
+    "titulo": "Comissão de Autoavaliação (2026)",
+    "membros": [
+      {
+        "nome": "Prof. Dr. Thiago Martini Pereira",
+        "cargo": "Docente permanente do PPG-EB"
+      },
+      {
+        "nome": "Prof. Dr. Vinicius Guzzoni",
+        "cargo": "Docente permanente do PPG-EB"
+      },
+      {
+        "nome": "Prof. Dr. Matheus Cardoso Moraes",
+        "cargo": "Docente permanente do PPG-EB"
+      },
+      {
+        "nome": "Profa. Dra. Patricia Aparecida da Ana",
+        "cargo": "Docente externa (Universidade Federal do ABC)"
+      },
+      {
+        "nome": "Isadora Sequalini",
+        "cargo": "Discente regular do PPG-EB"
+      },
+      {
+        "nome": "Bruno Andry Nascimento Couto",
+        "cargo": "Egresso do PPG-EB"
+      }
+    ],
+    "documentos": [
+      {
+        "titulo": "Portaria de nomeação",
+        "descricao": "Ofício nº 22/2026 – Documento oficial de nomeação da Comissão de Autoavaliação (aprovada na reunião ordinária de 13/10/2026)",
+        "arquivo": "docs/autoavaliacao/portaria_de_auto_avaliacao_2026.pdf",
+        "ano": "2026"
+      }
+    ]
+  },
   "2025": {
     "titulo": "Comissão de Autoavaliação (2025-2028)",
     "membros": [
@@ -36,7 +73,6 @@
         "arquivo": "docs/autoavaliacao/relatorio_autoavaliacao_2025.pdf",
         "ano": "2025"
       }
-
     ]
   },
   "2021-2024": {
