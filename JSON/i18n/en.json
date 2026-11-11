@@ -177,6 +177,8 @@
   "agenda.titulo": "Academic Calendar",
   "agenda.subtitulo": "Schedule of the program's academic events and activities<br><spna class=\"text-bold\">The calendar will be updated throughout the year</spna>",
   "agenda.carregando": "Loading academic calendar...",
+  "agenda.selecione_ano": "Select the year:",
+  "agenda.carregando_anos": "Loading years...",
   "agenda.titulo_padrao": "Academic Calendar - 2025",
   "agenda.mes_vazio": "No events scheduled for this month",
   "agenda.sem_eventos": "There are no events scheduled for this period.",

@@ -207,5 +207,79 @@
         ]
       }
     ]
+  },
+  "2027-1": {
+    "titulo": "Calendário Acadêmico - 2027",
+    "semestre": "2027-01",
+    "eventos": [
+      {
+        "mes": "Janeiro",
+        "eventos": [
+          {
+            "periodo": "Até 09",
+            "evento": "Divulgação da lista de disciplinas oferecidas (1° período de 2027)"
+          },
+          {
+            "periodo": "11 a 15",
+            "evento": "Criação do cronograma do semestre e dos eventos no SIIU"
+          },
+          {
+            "periodo": "25 a 29",
+            "evento": "Cadastro e oferta de disciplinas no SIIU (docentes)"
+          },
+          {
+            "periodo": "18/01 a 05/02",
+            "evento": "Inscrição no processo seletivo de alunos especiais (1° período de 2027)"
+          }
+        ]
+      },
+      {
+        "mes": "Fevereiro",
+        "eventos": [
+          {
+            "periodo": "01 a 05",
+            "evento": "Matrícula de alunos regulares novos - Mestrado, Doutorado (1ª matrícula)"
+          },
+          {
+            "periodo": "10 a 15",
+            "evento": "Inscrição em disciplinas via SIIU (alunos novos e em curso)"
+          },
+          {
+            "periodo": "Até 18",
+            "evento": "Divulgação da lista de alunos especiais aprovados em disciplinas (1° período de 2027)"
+          },
+          {
+            "periodo": "26",
+            "evento": "Data-limite para apresentação de documentos pendentes para efetivação da matrícula"
+          }
+        ]
+      },
+      {
+        "mes": "Março",
+        "eventos": [
+          {
+            "periodo": "01 a 14",
+            "evento": "Censo (rematrícula) dos alunos regulares e recadastramento anual de pesquisadores (Pós-doutorado)"
+          },
+          {
+            "periodo": "01",
+            "evento": "Início das aulas"
+          }
+        ]
+      },
+      {
+        "mes": "Abril",
+        "eventos": []
+      },
+      {
+        "mes": "Maio",
+        "eventos": [
+          {
+            "periodo": "15",
+            "evento": "Último dia para trancamento de disciplinas"
+          }
+        ]
+      }
+    ]
   }
 }
