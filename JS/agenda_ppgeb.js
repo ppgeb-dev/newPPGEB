@@ -2,17 +2,32 @@ let calendarData = {};
 
 document.addEventListener('DOMContentLoaded', function () {
 
-    // Carrega diretamente os dados do calendário 2026
+    const select = document.getElementById("semesterSelect");
+
+    // Carrega o calendário e preenche o seletor (o ano mais recente fica como padrão)
     i18n.ready
         .then(() => i18n.fetchJSON("JSON/agenda_academica.json"))
         .then(data => {
             calendarData = data;
-            // Carrega diretamente o calendário de 2026
-            updateContent("2026-1");
+            select.innerHTML = "";
+
+            const keys = Object.keys(data).sort().reverse();
+            keys.forEach(key => {
+                const option = document.createElement("option");
+                option.value = key;
+                option.textContent = key.split("-")[0];
+                select.appendChild(option);
+            });
+
+            updateContent(select.value);
         })
         .catch(error => {
             console.error("Erro ao carregar JSON:", error);
         });
+
+    select.addEventListener("change", () => {
+        updateContent(select.value);
+    });
 
     function updateContent(selectedSemester) {
         const dados = calendarData[selectedSemester];
