@@ -84,6 +84,18 @@
     border-radius: 50%;
 }
 
+/* Avatar com iniciais (docente sem foto) */
+.docente-card.moderno-com-email .docente-foto-iniciais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-blue);
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
 /* Badge de status sobre a foto */
 .status-badge {
     position: absolute;

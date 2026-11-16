@@ -20,6 +20,19 @@ document.addEventListener('DOMContentLoaded', function () {
         
         // Renderizar Docentes Colaboradores
         renderDocentesByCategory('colaboradores', 'docentes-colaboradores-grid');
+
+        // Renderizar Jovens Doutores Apadrinhados (JDP)
+        renderDocentesByCategory('jdp', 'docentes-jdp-grid');
+    }
+
+    // Iniciais para quem ainda não tem foto (ignora "Dr."/"Dra." e preposições)
+    function iniciais(nome) {
+        const partes = nome.replace(/^Dra?\.\s*/, '').split(/\s+/)
+            .filter(p => !/^(de|da|do|dos|das|e)$/i.test(p));
+        if (partes.length === 0) return '';
+        const primeira = partes[0][0];
+        const ultima = partes.length > 1 ? partes[partes.length - 1][0] : '';
+        return (primeira + ultima).toUpperCase();
     }
 
     function renderDocentesByCategory(category, gridId) {
@@ -33,8 +46,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Ordenar docentes (coordenadores primeiro)
         const sortedDocentes = [...docentes].sort((a, b) => {
-            const order = { 'coordenador': 1, 'vice-coordenador': 2, 'docente': 3, 'colaborador': 4 };
-            return order[a.status] - order[b.status];
+            const order = { 'coordenador': 1, 'vice-coordenador': 2, 'docente': 3, 'colaborador': 4, 'jdp': 5 };
+            return (order[a.status] || 9) - (order[b.status] || 9);
         });
 
         sortedDocentes.forEach(docente => {
@@ -55,10 +68,22 @@ function createDocenteCard(docente) {
         badgeHTML = `<div class="status-badge vice-coordenador">${i18n.t('docentes.vice_coordenador', 'Vice-coordenador')}</div>`;
     }
     
+    const fotoHTML = docente.foto
+        ? `<img src="${docente.foto}" alt="${docente.nome}" class="docente-foto-modern">`
+        : `<div class="docente-foto-modern docente-foto-iniciais" role="img" aria-label="${docente.nome}">${iniciais(docente.nome)}</div>`;
+
+    const emailHTML = docente.email
+        ? `<div class="docente-email-inferior">
+            <p class="botao-email-completo-inferior">
+                ${docente.email}
+            </p>
+        </div>`
+        : '';
+
     card.innerHTML = `
         <div class="docente-card-superior">
             <div class="docente-foto-wrapper">
-                <img src="${docente.foto}" alt="${docente.nome}" class="docente-foto-modern">
+                ${fotoHTML}
                 ${badgeHTML}
             </div>
             <div class="docente-conteudo">
@@ -66,11 +91,7 @@ function createDocenteCard(docente) {
                 <a href="${docente.lattes}" target="_blank" class="botao-cv-outline">${i18n.t('docentes.lattes', 'Ver Currículo Lattes')}</a>
             </div>
         </div>
-        <div class="docente-email-inferior">
-            <p class="botao-email-completo-inferior">
-                ${docente.email}
-            </p>
-        </div>
+        ${emailHTML}
     `;
     
     return card;

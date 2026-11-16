@@ -81,14 +81,6 @@
       "status": "docente"
     },
     {
-      "id": "regiane_carvalho",
-      "nome": "Dra. Regiane Albertini",
-      "foto": "imgs/docentes/avatares_docentes/regiane_albertini.png",
-      "lattes": "http://lattes.cnpq.br/2515657728339113",
-      "email": "regiane.albertini@unifesp.br",
-      "status": "docente"
-    },
-    {
       "id": "roberson_polli",
       "nome": "Dr. Roberson Saraiva Polli",
       "foto": "imgs/docentes/avatares_docentes/roberson_saraiva_polli.png",
@@ -115,12 +107,46 @@
       "status": "colaborador"
     },
     {
+      "id": "jean_faber",
+      "nome": "Dr. Jean Faber Ferreira de Abreu",
+      "foto": "imgs/docentes/avatares_docentes/jean_faber_ferreira_abreu.png",
+      "lattes": "https://lattes.cnpq.br/7024428296425939",
+      "email": "jean.faber@unifesp.br",
+      "status": "colaborador"
+    },
+    {
+      "id": "rossano_lang",
+      "nome": "Dr. Rossano Lang Carvalho",
+      "foto": "imgs/docentes/avatares_docentes/rossano_lang_carvalho.png",
+      "lattes": "http://lattes.cnpq.br/3854991783141605",
+      "email": "rossano.lang@unifesp.br",
+      "status": "colaborador"
+    },
+    {
+      "id": "vinicius_guzzoni",
+      "nome": "Dr. Vinicius Guzzoni",
+      "foto": "imgs/docentes/avatares_docentes/vinicius_guzzoni.png",
+      "lattes": "http://lattes.cnpq.br/5203492561212860",
+      "email": "",
+      "status": "colaborador"
+    }
+  ],
+  "jdp": [
+    {
+      "id": "fernanda_tenorio",
+      "nome": "Dra. Fernanda Silva Tenório",
+      "foto": "imgs/docentes/avatares_docentes/fernanda_silva_tenorio.png",
+      "lattes": "https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4373720J5",
+      "email": "fernanda.tenorio@unifesp.br",
+      "status": "jdp"
+    },
+    {
       "id": "fernando_porto",
       "nome": "Dr. Fernando Garcez Porto",
       "foto": "imgs/docentes/avatares_docentes/fernando_garcez_porto.png",
       "lattes": "http://lattes.cnpq.br/5180210894075071",
       "email": "fporto@unifesp.br",
-      "status": "colaborador"
+      "status": "jdp"
     }
   ]
 }
