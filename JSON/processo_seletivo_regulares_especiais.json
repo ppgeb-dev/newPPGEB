@@ -637,6 +637,11 @@
         "arquivo": "carta_recomendacao_ICT.doc",
         "titulo": "Carta de Recomendação (ICT)",
         "texto": "Modelo de carta de recomendação para candidatos ao processo seletivo"
+      },
+      {
+        "arquivo": "lista_inscritos_vagas_remanescentes_2026-3.pdf",
+        "titulo": "Lista de candidatos inscritos",
+        "texto": "Lista dos candidatos inscritos e situação de habilitação no processo seletivo de vagas remanescentes"
       }
     ]
   }
