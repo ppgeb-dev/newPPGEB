@@ -1,0 +1,6 @@
+.env
+.DS_Store
+__pycache__/
+conferencia_openalex.csv
+perfis_extras_openalex.csv
+candidatos_openalex.csv
