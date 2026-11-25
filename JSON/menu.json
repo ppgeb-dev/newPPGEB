@@ -154,6 +154,13 @@
         "target": ""
       },
       {
+        "text": "Publicações",
+        "text_en": "Publications",
+        "link": "publicacoes.html",
+        "class": "",
+        "target": ""
+      },
+      {
         "text": "Repositório de Dissertações",
         "text_en": "Dissertation Repository",
         "link": "https://hdl.handle.net/11600/61100",
