@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="robots" content="noindex">
+
+    <title data-i18n="publicacoes.titulo_pagina">Publicações - PPGEB UNIFESP - Programa de Pós-Graduação em Engenharia Biomédica</title>
+
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/publicacoes.css">
+    <!-- i18n (deve vir antes dos demais scripts) -->
+    <script src="JS/i18n.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img alt="Logo PPGEB" class="logo-img" src="imgs/logo.png" data-i18n-attr="alt:comum.logo_ppgeb" />
+            </div>
+
+            <nav class="nav" id="nav"></nav>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <span>☰</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="features-2">
+        <div class="publicacoes-container">
+
+            <div class="titles mt-0">
+                <h1 data-i18n="publicacoes.titulo">Publicações</h1>
+                <p data-i18n="publicacoes.subtitulo">Artigos publicados em periódicos pelos docentes do Programa desde 2020</p>
+            </div>
+
+            <!-- Filtro por ano -->
+            <div class="ano-filtro" id="ano-filtro" role="group" data-i18n-attr="aria-label:publicacoes.filtro_ano"
+                aria-label="Filtrar por ano"></div>
+
+            <!-- Resumo -->
+            <div class="pub-resumo" id="pub-resumo" aria-live="polite"></div>
+
+            <!-- Lista -->
+            <section class="pub-secao" aria-labelledby="titulo-lista">
+                <div class="pub-secao-cabecalho">
+                    <h2 class="pub-secao-titulo" id="titulo-lista" data-i18n="publicacoes.lista_titulo">Artigos</h2>
+                    <p class="pub-atualizado" id="pub-atualizado" hidden></p>
+                </div>
+                <div id="pub-lista" class="pub-lista">
+                    <p class="pub-mensagem" data-i18n="publicacoes.carregando">Carregando publicações...</p>
+                </div>
+                <div class="pub-mais-wrapper">
+                    <button type="button" class="pub-mais" id="pub-mais" hidden></button>
+                </div>
+            </section>
+
+            <!-- Mapa de colaborações -->
+            <section class="pub-secao" aria-labelledby="titulo-mapa">
+                <h2 class="pub-secao-titulo" id="titulo-mapa" data-i18n="publicacoes.mapa_titulo">Colaborações internacionais</h2>
+                <p class="pub-secao-sub" id="mapa-sub"></p>
+
+                <div class="mapa-card">
+                    <div class="mapa-wrapper" id="mapa-wrapper">
+                        <svg id="mapa" class="mapa" role="img" aria-labelledby="titulo-mapa mapa-sub"></svg>
+                        <div class="mapa-tooltip" id="mapa-tooltip" role="tooltip" hidden></div>
+                    </div>
+                    <div class="mapa-legenda" id="mapa-legenda" aria-hidden="true"></div>
+                </div>
+
+                <h3 class="paises-titulo" data-i18n="publicacoes.paises_titulo">Países com coautores</h3>
+                <ol class="paises-lista" id="paises-lista"></ol>
+            </section>
+
+            <p class="pub-fonte" id="pub-fonte"></p>
+        </div>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="JS/publicacoes.js"></script>
+    <script src="JS/menu.js"></script>
+    <script src="JS/script.js"></script>
+
+    <script>
+        carregarMenu("S");
+    </script>
+
+</body>
+
+</html>

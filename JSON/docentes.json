@@ -6,7 +6,11 @@
       "foto": "imgs/docentes/avatares_docentes/thiago_martini_pereira.png",
       "lattes": "https://lattes.cnpq.br/3291751276972553",
       "email": "t.pereira@unifesp.br",
-      "status": "coordenador"
+      "status": "coordenador",
+      "orcid": "0009-0007-1101-5354",
+      "openalex_ids": [
+        "A5032445632"
+      ]
     },
     {
       "id": "matheus_cardoso",
@@ -14,7 +18,11 @@
       "foto": "imgs/docentes/avatares_docentes/matheus_cardoso_moraes.png",
       "lattes": "https://lattes.cnpq.br/1854451408004051",
       "email": "matheus.moraes@unifesp.br",
-      "status": "vice-coordenador"
+      "status": "vice-coordenador",
+      "orcid": "0000-0002-6019-6653",
+      "openalex_ids": [
+        "A5061149152"
+      ]
     },
     {
       "id": "adenauer_casali",
@@ -22,7 +30,11 @@
       "foto": "imgs/docentes/avatares_docentes/adenauer_girardi_casali.png",
       "lattes": "https://lattes.cnpq.br/1928873015717140",
       "email": "casali@unifesp.br",
-      "status": "docente"
+      "status": "docente",
+      "orcid": "0000-0001-7024-9029",
+      "openalex_ids": [
+        "A5084068558"
+      ]
     },
     {
       "id": "fabio_aoki",
@@ -30,7 +42,11 @@
       "foto": "imgs/docentes/avatares_docentes/fabio_gava_aoki.png",
       "lattes": "https://lattes.cnpq.br/6236265885750159",
       "email": "fgaoki@unifesp.br",
-      "status": "docente"
+      "status": "docente",
+      "orcid": "0000-0003-3387-5121",
+      "openalex_ids": [
+        "A5020628819"
+      ]
     },
     {
       "id": "federico_aletti",
@@ -38,7 +54,11 @@
       "foto": "imgs/docentes/avatares_docentes/federico_aletti.png",
       "lattes": "https://lattes.cnpq.br/6713455294008529",
       "email": "faletti@unifesp.br",
-      "status": "docente"
+      "status": "docente",
+      "orcid": "0000-0003-1472-837X",
+      "openalex_ids": [
+        "A5031141438"
+      ]
     },
     {
       "id": "henrique_amorim",
@@ -46,7 +66,11 @@
       "foto": "imgs/docentes/avatares_docentes/henrique_alves_amorim.png",
       "lattes": "https://lattes.cnpq.br/2867784853735791",
       "email": "henrique.amorim@unifesp.br",
-      "status": "docente"
+      "status": "docente",
+      "orcid": "0000-0003-0611-1118",
+      "openalex_ids": [
+        "A5054974117"
+      ]
     },
     {
       "id": "henrique_paiva",
@@ -54,7 +78,11 @@
       "foto": "imgs/docentes/avatares_docentes/henrique_mohallem_paiva.png",
       "lattes": "https://lattes.cnpq.br/6901974057937430",
       "email": "hmpaiva@unifesp.br",
-      "status": "docente"
+      "status": "docente",
+      "orcid": "0000-0001-7081-8383",
+      "openalex_ids": [
+        "A5039231137"
+      ]
     },
     {
       "id": "karina_casali",
@@ -62,7 +90,11 @@
       "foto": "imgs/docentes/avatares_docentes/karina_rabello_casali.png",
       "lattes": "https://lattes.cnpq.br/2188710413184266",
       "email": "rabello.casali@unifesp.br",
-      "status": "docente"
+      "status": "docente",
+      "orcid": "0000-0001-8281-0135",
+      "openalex_ids": [
+        "A5054294207"
+      ]
     },
     {
       "id": "luiz_martins",
@@ -70,7 +102,11 @@
       "foto": "imgs/docentes/avatares_docentes/luiz_eduardo_galvao_martins.png",
       "lattes": "https://lattes.cnpq.br/0203910403476737",
       "email": "legmartins@unifesp.br",
-      "status": "docente"
+      "status": "docente",
+      "orcid": "0000-0002-7266-5840",
+      "openalex_ids": [
+        "A5078838133"
+      ]
     },
     {
       "id": "nirton_cristi",
@@ -78,7 +114,11 @@
       "foto": "imgs/docentes/avatares_docentes/nirton_cristi_Silva_Vieira.jpg",
       "lattes": "http://lattes.cnpq.br/9497699863290144",
       "email": "ncsvieira@unifesp.br",
-      "status": "docente"
+      "status": "docente",
+      "orcid": "0000-0003-2095-674X",
+      "openalex_ids": [
+        "A5064000208"
+      ]
     },
     {
       "id": "roberson_polli",
@@ -86,7 +126,11 @@
       "foto": "imgs/docentes/avatares_docentes/roberson_saraiva_polli.png",
       "lattes": "http://lattes.cnpq.br/6933632737044678",
       "email": "rpolli@unifesp.br",
-      "status": "docente"
+      "status": "docente",
+      "orcid": "0000-0002-5046-1732",
+      "openalex_ids": [
+        "A5066469410"
+      ]
     },
     {
       "id": "tatiana_cunha",
@@ -94,7 +138,11 @@
       "foto": "imgs/docentes/avatares_docentes/tatiana_sousa_cunha_uchiyama.png",
       "lattes": "https://lattes.cnpq.br/6737487161341934",
       "email": "ts.cunha@unifesp.br",
-      "status": "docente"
+      "status": "docente",
+      "orcid": "0000-0001-9070-1414",
+      "openalex_ids": [
+        "A5009056832"
+      ]
     }
   ],
   "colaboradores": [
@@ -112,7 +160,11 @@
       "foto": "imgs/docentes/avatares_docentes/jean_faber_ferreira_abreu.png",
       "lattes": "https://lattes.cnpq.br/7024428296425939",
       "email": "jean.faber@unifesp.br",
-      "status": "colaborador"
+      "status": "colaborador",
+      "orcid": "0000-0002-2129-8251",
+      "openalex_ids": [
+        "A5051223992"
+      ]
     },
     {
       "id": "rossano_lang",
@@ -120,7 +172,11 @@
       "foto": "imgs/docentes/avatares_docentes/rossano_lang_carvalho.png",
       "lattes": "http://lattes.cnpq.br/3854991783141605",
       "email": "rossano.lang@unifesp.br",
-      "status": "colaborador"
+      "status": "colaborador",
+      "orcid": "0000-0001-6499-4700",
+      "openalex_ids": [
+        "A5050656686"
+      ]
     },
     {
       "id": "vinicius_guzzoni",
@@ -128,7 +184,11 @@
       "foto": "imgs/docentes/avatares_docentes/vinicius_guzzoni.png",
       "lattes": "http://lattes.cnpq.br/5203492561212860",
       "email": "",
-      "status": "colaborador"
+      "status": "colaborador",
+      "orcid": "0000-0003-1024-5952",
+      "openalex_ids": [
+        "A5075727375"
+      ]
     }
   ],
   "jdp": [
@@ -138,7 +198,11 @@
       "foto": "imgs/docentes/avatares_docentes/fernanda_silva_tenorio.png",
       "lattes": "https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4373720J5",
       "email": "fernanda.tenorio@unifesp.br",
-      "status": "jdp"
+      "status": "jdp",
+      "orcid": "0000-0003-1966-3384",
+      "openalex_ids": [
+        "A5048464345"
+      ]
     },
     {
       "id": "fernando_porto",

@@ -1,0 +1,19 @@
+﻿docente_id,docente_nome,orcid,openalex_id,nome_openalex,instituicao_atual,trabalhos_total,artigos_2020_em_diante,situacao
+thiago_martini,Thiago Martini Pereira,0009-0007-1101-5354,A5032445632,Thiago Martini Pereira,Universidade Federal de São Paulo,37,7,ok
+matheus_cardoso,Matheus Cardoso Moraes,0000-0002-6019-6653,A5061149152,Matheus Cardoso Moraes,Universidade de São Paulo; Universidade Federal de São Paulo,89,41,ok
+adenauer_casali,Adenauer Girardi Casali,0000-0001-7024-9029,A5084068558,Adenauer Girardi Casali,Universidade Federal de São Paulo,103,26,ok
+fabio_aoki,Fabio Gava Aoki,0000-0003-3387-5121,A5020628819,Fabio Gava Aoki,Universidade Federal de São Paulo,26,4,ok
+federico_aletti,Federico Aletti,0000-0003-1472-837X,A5031141438,Federico Mario Aletti,The University of Texas MD Anderson Cancer Center; Hospital Israelita Albert Einstein; IRCCS Ospedale San Raffaele; IRCCS San Raffaele Roma,125,19,ok
+henrique_amorim,Henrique Alves de Amorim,0000-0003-0611-1118,A5054974117,Henrique Alves de Amorim,Universidade Federal de São Paulo,36,8,ok
+henrique_paiva,Henrique Mohallem Paiva,0000-0001-7081-8383,A5039231137,Henrique Mohallem Paiva,Instituto de Tecnologia e Liderança; Universidade Federal de São Paulo,68,12,ok
+karina_casali,Karina Rabello Casali,0000-0001-8281-0135,A5054294207,Karina Rabello Casali,Universidade Federal de São Paulo,109,18,ok
+luiz_martins,Luiz Eduardo Galvão Martins,0000-0002-7266-5840,A5078838133,Luiz Eduardo Galvão Martins,Universidade Federal de São Paulo,117,34,ok
+nirton_cristi,Nirton Cristi Silva Vieira,0000-0003-2095-674X,A5064000208,Nirton Cristi Silva Vieira,Universidade Federal de São Paulo,47,21,ok
+roberson_polli,Roberson Saraiva Polli,0000-0002-5046-1732,A5066469410,Roberson Saraiva Polli,Universidade Federal de São Paulo,24,4,ok
+tatiana_cunha,Tatiana de Sousa da Cunha Uchiyama,0000-0001-9070-1414,A5009056832,Tatiana Sousa Cunha,Universidade Federal de São Paulo,107,31,ok
+eugenia_mattos,Eugenia Casella Tavares de Mattos,0009-0007-3349-9310,,,,,,ORCID não encontrado no OpenAlex
+jean_faber,Jean Faber Ferreira de Abreu,0000-0002-2129-8251,A5051223992,Jean Faber,Universidade de São Paulo; Universidade Federal de São Paulo,98,39,ok
+rossano_lang,Rossano Lang Carvalho,0000-0001-6499-4700,A5050656686,Rossano Lang,Universidade Federal do Maranhão; Universidade Federal de São Paulo,91,39,ok
+vinicius_guzzoni,Vinicius Guzzoni,0000-0003-1024-5952,A5075727375,Vinícius Guzzoni,Universidade Federal de São Paulo,41,15,ok
+fernanda_tenorio,Fernanda Silva Tenório,0000-0003-1966-3384,A5048464345,Fernanda Silva Tenório,Universidade Federal de São Paulo,16,10,ok
+fernando_porto,Fernando Garcez Porto,0000-0002-4744-7454,,,,,,ORCID não encontrado no OpenAlex
